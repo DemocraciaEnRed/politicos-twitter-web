@@ -1,5 +1,5 @@
 <script>
-	import "./_global.pcss";
+	import '../style.css';
 </script>
 
-<slot />
+<slot/>

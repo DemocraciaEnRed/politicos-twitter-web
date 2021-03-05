@@ -6,45 +6,43 @@
 	<h1>Hello world!</h1>
 
 	<Counter/>
-	<p>Visit the <a class="text-blue-600 underline" href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte apps.</p>
+	<p>Visit the <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte apps.</p>
 </main>
 
-<style lang="postcss">
+<style>
 	:root {
-		/* Tailwind's creator recommends against @apply.
-		This is all just proof that it works in your Svelte style blocks. */
-		@apply font-sans;
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	}
 
 	main {
-		@apply text-center;
-		@apply p-4;
-		@apply mx-auto;
+		text-align: center;
+		padding: 1em;
+		margin: 0 auto;
 	}
 
 	h1 {
-		@apply text-red-600;
-		@apply uppercase;
-		@apply text-6xl;
-		@apply font-thin;
-		@apply leading-tight;
-		@apply my-16 mx-auto;
-		@apply max-w-xs;
+		color: #ff3e00;
+		text-transform: uppercase;
+		font-size: 4rem;
+		font-weight: 100;
+		line-height: 1.1;
+		margin: 4rem auto;
+		max-width: 14rem;
 	}
 
 	p {
-		@apply max-w-xs;
-		@apply my-8 mx-auto;
-		@apply leading-snug;
+		max-width: 14rem;
+		margin: 2rem auto;
+		line-height: 1.35;
 	}
 
-	@screen sm {
+	@media (min-width: 480px) {
 		h1 {
-			@apply max-w-none;
+			max-width: none;
 		}
 
 		p {
-			@apply max-w-none;
+			max-width: none;
 		}
 	}
 </style>
