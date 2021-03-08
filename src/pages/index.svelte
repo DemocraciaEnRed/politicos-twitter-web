@@ -52,8 +52,8 @@
 	</div>
 </div>
 
-<div class="w-full flex py-24 px-48 bg-pet-black">
-	<div class="flex flex-col gap-12 justify-center">
+<div class="w-full flex py-24 px-48 items-center bg-pet-black">
+	<div class="max-w-3xl flex flex-col gap-12 justify-center">
 		<h2 class="text-5xl text-pet-blue font-free font-bold flex -ml-16">
 			<img class="w-auto h-16" src="images/emoji/hand.png" alt=":hand:">
 			Te invitamos a sumergirte en el mundo del análisis de redes.
@@ -69,7 +69,7 @@
 			</button>
 		</div>
 	</div>
-	<img src="images/gif/circle.gif" alt="Fuciones del repositorio">
+	<img class="w-auto h-96" src="images/gif/circle.gif" alt="Fuciones del repositorio">
 </div>
 
 <div class="w-full flex flex-col gap-12 py-24 px-48 bg-pet-gray">
