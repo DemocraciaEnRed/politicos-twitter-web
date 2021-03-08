@@ -1,5 +1,4 @@
 <script>
-    import RoutifyIntro from './example/_components/RoutifyIntro.svelte'
     import { metatags } from '@roxi/routify'
     metatags.title = 'Políticos en Twitter'
     metatags.description = 'Observatorio de redes sociales'
