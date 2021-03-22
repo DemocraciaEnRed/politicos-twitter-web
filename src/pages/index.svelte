@@ -4,7 +4,7 @@
     metatags.description = 'Observatorio de redes sociales'
 </script>
 
-<div class="w-full h-screen flex flex-col-reverse lg:flex-col bg-pet-gray">
+<div class="w-full h-screen flex flex-col-reverse lg:flex-col bg-pet-gray texture-gray">
 	<nav>
 		<ul class="header w-full p-8 lg:pl-12 flex gap-4 sm:gap-24 lg:justify-around flex-wrap lg:flex-nowrap
 			text-base 2xl:text-xl lg:text-sm font-bowlby text-pet-black uppercase">
@@ -36,7 +36,7 @@
 	</div>
 </div>
 
-<div id="que" class="w-full py-48 px-48 bg-pet-blue">
+<div id="que" class="w-full py-48 px-48 bg-pet-blue texture-blue">
 	<div class="flex flex-col justify-center gap-12">
 		<h1 class="w-full text-6xl text-bold text-white font-free font-bold">
 			<span class="text-pet-black">Políticxs en Twitter</span> es un repositorio
@@ -52,7 +52,7 @@
 	</div>
 </div>
 
-<div class="w-full flex py-24 px-48 items-center bg-pet-black">
+<div class="w-full flex py-24 px-48 items-center bg-pet-black texture-black">
 	<div class="max-w-3xl flex flex-col gap-12 justify-center">
 		<h2 class="text-5xl text-pet-blue font-free font-bold flex -ml-16">
 			<img class="w-auto h-16" src="images/emoji/hand.png" alt=":hand:">
@@ -72,7 +72,7 @@
 	<img class="w-auto h-96" src="images/gif/circle.gif" alt="Fuciones del repositorio">
 </div>
 
-<div id="convocatoria" class="w-full flex flex-col gap-12 py-24 px-48 bg-pet-gray">
+<div id="convocatoria" class="w-full flex flex-col gap-12 py-24 px-48 bg-pet-gray texture-gray">
 	<div class="flex justify-between">
 		<h1 class="leading-tight text-6xl text-pet-blue font-bowlby font-bold uppercase">
 			¡Queremos tu<br> colaboración!
@@ -109,7 +109,7 @@
 	</div>
 </div>
 
-<div id="como" class="w-full flex flex-col gap-12 py-24 px-48 bg-pet-blue">
+<div id="como" class="w-full flex flex-col gap-12 py-24 px-48 bg-pet-blue texture-blue">
 	<div class="flex justify-between">
 		<h1 class="leading-tight text-6xl text-white font-bowlby font-bold uppercase">¿Cómo funciona?</h1>
 		<img class="w-auto h-24" src="images/emoji/how.png" alt=":how:">
@@ -119,7 +119,7 @@
 	</div>
 </div>
 
-<div id="quienes" class="w-full flex flex-col gap-12 py-24 px-48 bg-pet-black">
+<div id="quienes" class="w-full flex flex-col gap-12 py-24 px-48 bg-pet-black texture-black">
 	<div class="flex justify-between">
 		<h1 class="leading-tight text-6xl text-pet-blue font-bowlby font-bold uppercase">¿Quiénes somos?</h1>
 		<img class="w-auto h-24" src="images/emoji/aha.png" alt=":how:">
@@ -160,7 +160,7 @@
 	</div>
 </div>
 
-<div class="w-full py-24 px-36 flex gap-14 items-center bg-pet-blue">
+<div class="w-full py-24 px-36 flex gap-14 items-center bg-pet-blue texture-blue">
 	<h3 class="w-48 text-xl text-pet-gray font-bowlby font-bold uppercase">
 		Nos apoyan:
 	</h3>
@@ -170,7 +170,7 @@
 	</div>
 </div>
 
-<div class="w-full flex flex-col gap-12 py-24 px-48 bg-pet-black">
+<div class="w-full flex flex-col gap-12 py-24 px-48 bg-pet-black texture-black">
 	<div class="flex justify-between">
 		<h1 class="leading-tight text-6xl text-pet-blue font-bowlby font-bold uppercase">¿Por qué nos interesa?</h1>
 		<img class="w-auto h-24" src="images/emoji/nerd.png" alt=":nerd:">
@@ -192,7 +192,7 @@
 	</div>
 </div>
 
-<div class="w-full flex gap-12 py-16 px-24 bg-pet-gray">
+<div class="w-full flex gap-12 py-16 px-24 bg-pet-gray texture-gray">
 	<img src="images/logo/pet.png" alt="Logo de Políticos en Twitter"
 	class="m-8 sm:w-2/12">
 	<div class="w-full p-8 lg:pl-12 flex sm:gap-24
