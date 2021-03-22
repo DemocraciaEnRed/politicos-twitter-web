@@ -72,7 +72,7 @@
 	<img class="w-auto h-96" src="images/gif/circle.gif" alt="Fuciones del repositorio">
 </div>
 
-<div id="convocatoria" class="w-full flex flex-col gap-12 py-24 px-48 bg-pet-gray" id="tres">
+<div id="convocatoria" class="w-full flex flex-col gap-12 py-24 px-48 bg-pet-gray">
 	<div class="flex justify-between">
 		<h1 class="leading-tight text-6xl text-pet-blue font-bowlby font-bold uppercase">
 			¡Queremos tu<br> colaboración!
@@ -92,7 +92,8 @@
 	<div class="flex justify-between">
 		<div class="h-14 flex gap-x-8">
 			<button class="bg-pet-blue">
-				<a href="#git" class="px-4 flex gap-2 items-center text-pet-gray font-free font-bold uppercase">
+				<a href="https://preguntarparaacordar.typeform.com/to/gVqxiRR6" target="_blank"
+				class="px-4 flex gap-2 items-center text-pet-gray font-free font-bold uppercase">
 					<img class="w-auto h-8" src="images/emoji/here.png" alt=":here:">
 					¡Quiero participar!
 				</a>
@@ -151,21 +152,9 @@
 				<img class="w-64 h-auto" src="images/logo/odr.png" alt="Observatorio de redes">
 			</div>
 			<p class="max-w-md">
-				Democracia en Red diseña e implementa innovaciones que transparentan, facilitan y fortaleccen
-				la participación de la ciudadanía en la toma de decisiones.
-			</p>
-			<br>
-			<p class="max-w-md">
-				En ese camino, crearion la tecnología DemocracyOS: un espacio online 
-				verstátil diseñado para que el derecho a participar sea puesto en
-				práctica masivamente, en distintas escalas de gobierno.
-			</p>
-			<br>
-			<p class="max-w-md">
-				Democracia en Red desarrolla tecnología al servicio de la ciudadanía
-				para acercar las políticas públicas a la factibilidad y hacer posible
-				la cooperación entre distintos segmentos sociales, estimulando el
-				pensamiento colectivo.
+				El Observatorio de Redes es una iniciativa multidisciplinaria de investigación aplicada,
+				con el fin de experimentar y desarrollar metodologías innovadoras para la comprensión
+				y el estudio de los fenómenos públicos a través del análisis de redes.
 			</p>
 		</div>
 	</div>
@@ -187,13 +176,14 @@
 		<img class="w-auto h-24" src="images/emoji/nerd.png" alt=":nerd:">
 	</div>
 	<div>
-		<p class="text-white">
+		<p class="max-w-4xl text-white">
 			La política es compleja. Es un cúmulo de actores, interacciones, procesos, sinegias, causas
 			y consecuencias que producen distintos resultados y generan acciones y reacciones. El análisis
 			de redes ayuda a simplificar esa complejidad: identifica los actores, los convierte en elementos
 			y establece relaciones entre ellos.
 		</p>
-		<p class="text-white">
+		<br>
+		<p class="max-w-md text-white">
 			Queremos observar las relaciones entre los actores políticos en distintos ambientes de interacción institucional
 			(el congreso; una elección; dentro de una coalición) y mediática (Facebook, Twitte, Youtube) paa evaluar cómo actúan:
 			qué hacen, qué dicen, con quiénes se vinculan, a quíenes se acercan, con quiénes se enfrentan, 
