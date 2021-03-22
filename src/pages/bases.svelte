@@ -65,21 +65,21 @@ font-bowlby text-pet-blue">
 		uppercase">
 		<div class="flex flex-col gap-4 self-start">
 			<li>
-				<a href="#uno">¿Qué es?</a>
+				<a href="#que">¿Qué es?</a>
 			</li>
 			<li>
-				<a href="#dos">¿Cómo funciona?</a>
+				<a href="#como">¿Cómo funciona?</a>
 			</li>
 			<li>
-				<a href="#cuatro">Quiénes somos</a>
+				<a href="#quienes">Quiénes somos</a>
 			</li>
 		</div>
 		<div class="flex flex-col gap-4 self-start">
 			<li>
-				<a href="#tres" class="text-pet-blue">Convocatoria</a>
+				<a href="#convocatoria" class="text-pet-blue">Convocatoria</a>
 			</li>
 			<li>
-				<a href="#cinco">Contacto</a>
+				<a href="#contacto">Contacto</a>
 			</li>
 		</div>
 		<li>

@@ -9,19 +9,19 @@
 		<ul class="header w-full p-8 lg:pl-12 flex gap-4 sm:gap-24 lg:justify-around flex-wrap lg:flex-nowrap
 			text-base 2xl:text-xl lg:text-sm font-bowlby text-pet-black uppercase">
 			<li>
-				<a href="#uno">¿Qué es?</a>
+				<a href="#que">¿Qué es?</a>
 			</li>
 			<li>
-				<a href="#dos">¿Cómo funciona?</a>
+				<a href="#como">¿Cómo funciona?</a>
 			</li>
 			<li>
-				<a href="#tres">Convocatoria</a>
+				<a href="#convocatoria">Convocatoria</a>
 			</li>
 			<li>
-				<a href="#cuatro">Quiénes somos</a>
+				<a href="#quienes">Quiénes somos</a>
 			</li>
 			<li>
-				<a href="#cinco">Contacto</a>
+				<a href="#contacto">Contacto</a>
 			</li>
 			<li class="lg:ml-auto">
 				<button>
@@ -36,9 +36,9 @@
 	</div>
 </div>
 
-<div class="w-full py-48 px-48 bg-pet-blue">
+<div id="que" class="w-full py-48 px-48 bg-pet-blue">
 	<div class="flex flex-col justify-center gap-12">
-		<h1 id="uno" class="w-full text-6xl text-bold text-white font-free font-bold">
+		<h1 class="w-full text-6xl text-bold text-white font-free font-bold">
 			<span class="text-pet-black">Políticxs en Twitter</span> es un repositorio
 			con todas las interraciones de 400 personas con cargos políticos en la Argentina.
 		</h1>
@@ -72,7 +72,7 @@
 	<img class="w-auto h-96" src="images/gif/circle.gif" alt="Fuciones del repositorio">
 </div>
 
-<div class="w-full flex flex-col gap-12 py-24 px-48 bg-pet-gray">
+<div id="convocatoria" class="w-full flex flex-col gap-12 py-24 px-48 bg-pet-gray" id="tres">
 	<div class="flex justify-between">
 		<h1 class="leading-tight text-6xl text-pet-blue font-bowlby font-bold uppercase">
 			¡Queremos tu<br> colaboración!
@@ -108,7 +108,7 @@
 	</div>
 </div>
 
-<div class="w-full flex flex-col gap-12 py-24 px-48 bg-pet-blue">
+<div id="como" class="w-full flex flex-col gap-12 py-24 px-48 bg-pet-blue">
 	<div class="flex justify-between">
 		<h1 class="leading-tight text-6xl text-white font-bowlby font-bold uppercase">¿Cómo funciona?</h1>
 		<img class="w-auto h-24" src="images/emoji/how.png" alt=":how:">
@@ -118,7 +118,7 @@
 	</div>
 </div>
 
-<div class="w-full flex flex-col gap-12 py-24 px-48 bg-pet-black">
+<div id="quienes" class="w-full flex flex-col gap-12 py-24 px-48 bg-pet-black">
 	<div class="flex justify-between">
 		<h1 class="leading-tight text-6xl text-pet-blue font-bowlby font-bold uppercase">¿Quiénes somos?</h1>
 		<img class="w-auto h-24" src="images/emoji/aha.png" alt=":how:">
@@ -211,21 +211,21 @@
 		uppercase">
 		<div class="flex flex-col gap-4 self-start">
 			<li>
-				<a href="#uno">¿Qué es?</a>
+				<a href="#que">¿Qué es?</a>
 			</li>
 			<li>
-				<a href="#dos">¿Cómo funciona?</a>
+				<a href="#como">¿Cómo funciona?</a>
 			</li>
 			<li>
-				<a href="#cuatro">Quiénes somos</a>
+				<a href="#quienes">Quiénes somos</a>
 			</li>
 		</div>
 		<div class="flex flex-col gap-4 self-start">
 			<li>
-				<a href="#tres" class="text-pet-blue">Convocatoria</a>
+				<a href="#convocatoria" class="text-pet-blue">Convocatoria</a>
 			</li>
 			<li>
-				<a href="#cinco">Contacto</a>
+				<a href="#contacto">Contacto</a>
 			</li>
 		</div>
 		<li>
@@ -259,15 +259,5 @@
 
 	li > button:hover {
 		@apply bg-pet-blue text-pet-gray;
-	}
-
-	#uno:after {
-		content: "";
-    height: 2px;
-    background: var(--black);
-		transform: translateY(0);
-		box-sizing: border-box;
-    -webkit-text-decoration-skip: ink;
-    text-decoration-skip-ink: auto;
 	}
 </style>
