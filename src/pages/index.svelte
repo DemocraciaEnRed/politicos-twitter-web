@@ -6,8 +6,8 @@
 
 <div class="w-full h-screen flex flex-col-reverse lg:flex-col bg-pet-gray">
 	<nav>
-		<ul class="w-full p-8 flex gap-4 justify-around flex-wrap lg:flex-nowrap
-			text-base 2xl:text-2xl lg:text-lg font-bowlby text-pet-black uppercase">
+		<ul class="header w-full p-8 lg:pl-12 flex gap-4 sm:gap-24 lg:justify-around flex-wrap lg:flex-nowrap
+			text-base 2xl:text-xl lg:text-sm font-bowlby text-pet-black uppercase">
 			<li>
 				<a href="#uno">¿Qué es?</a>
 			</li>
@@ -23,20 +23,20 @@
 			<li>
 				<a href="#cinco">Contacto</a>
 			</li>
-			<li>
+			<li class="lg:ml-auto">
 				<button>
-					<a href="#git">Repositorio</a>
+					<a href="https://oderedes.shinyapps.io/politicosentwitter/" target="_blank">Repositorio</a>
 				</button>
 			</li>
 		</ul>
 	</nav>
 	<div class="h-full flex">
 		<img src="images/logo/pet.png" alt="Logo de Políticos en Twitter"
-		class="sm:w-3/6 m-auto">
+		class="m-auto sm:w-4/12">
 	</div>
 </div>
 
-<div class="w-full py-24 px-48 bg-pet-blue">
+<div class="w-full py-48 px-48 bg-pet-blue">
 	<div class="flex flex-col justify-center gap-12">
 		<h1 id="uno" class="w-full text-6xl text-bold text-white font-free font-bold">
 			<span class="text-pet-black">Políticxs en Twitter</span> es un repositorio
@@ -65,7 +65,7 @@
 		</h2>
 		<div>
 			<button class="bg-pet-blue">
-				<a href="#git" class="text-pet-gray font-free font-bold uppercase">Acceder al repositorio</a>
+				<a href="https://oderedes.shinyapps.io/politicosentwitter/" target="_blank" class="text-pet-gray font-free font-bold uppercase">Acceder al repositorio</a>
 			</button>
 		</div>
 	</div>
@@ -74,7 +74,9 @@
 
 <div class="w-full flex flex-col gap-12 py-24 px-48 bg-pet-gray">
 	<div class="flex justify-between">
-		<h1 class="leading-tight text-6xl text-pet-blue font-bowlby font-bold uppercase">¡Queremos tu colaboración!</h1>
+		<h1 class="leading-tight text-6xl text-pet-blue font-bowlby font-bold uppercase">
+			¡Queremos tu<br> colaboración!
+		</h1>
 		<img class="w-auto h-24" src="images/emoji/write.png" alt=":write:">
 	</div>
 	<div class="flex flex-col gap-8">
@@ -88,12 +90,16 @@
 		<p class="text-2xl font-free font-bold">Participá AHORA de la convocatoria abierta sobre desinformación.</p>
 	</div>
 	<div class="flex justify-between">
-		<div class="flex gap-x-8">
+		<div class="h-14 flex gap-x-8">
 			<button class="bg-pet-blue">
-				<a href="#git" class="text-pet-gray font-free font-bold uppercase">¡Quiero participar!</a>
+				<a href="#git" class="px-4 flex gap-2 items-center text-pet-gray font-free font-bold uppercase">
+					<img class="w-auto h-8" src="images/emoji/here.png" alt=":here:">
+					¡Quiero participar!
+				</a>
 			</button>
 			<button>
-				<a href="#tos" class="font-bold">
+				<a href="bases" class="px-4 flex gap-2 items-center font-bold">
+					<img class="w-auto h-8" src="images/emoji/tos.png" alt=":tos:">
 					Bases y condiciones
 				</a>
 			</button>
@@ -117,19 +123,23 @@
 		<h1 class="leading-tight text-6xl text-pet-blue font-bowlby font-bold uppercase">¿Quiénes somos?</h1>
 		<img class="w-auto h-24" src="images/emoji/aha.png" alt=":how:">
 	</div>
-	<div class="flex text-white">
-		<div class="">
-			<img class="m-auto w-auto h-48" src="images/logo/der.png" alt="Democracia en Red">
-			<p>
+	<div class="flex flex-col 2xl:flex-row justify-around text-white">
+		<div>
+			<div class="h-36 pt-5">
+				<img class="w-64 h-auto" src="images/logo/der.png" alt="Democracia en Red">
+			</div>
+			<p class="max-w-md">
 				Democracia en Red diseña e implementa innovaciones que transparentan, facilitan y fortaleccen
 				la participación de la ciudadanía en la toma de decisiones.
 			</p>
-			<p>
+			<br>
+			<p class="max-w-md">
 				En ese camino, crearion la tecnología DemocracyOS: un espacio online 
 				verstátil diseñado para que el derecho a participar sea puesto en
 				práctica masivamente, en distintas escalas de gobierno.
 			</p>
-			<p>
+			<br>
+			<p class="max-w-md">
 				Democracia en Red desarrolla tecnología al servicio de la ciudadanía
 				para acercar las políticas públicas a la factibilidad y hacer posible
 				la cooperación entre distintos segmentos sociales, estimulando el
@@ -137,17 +147,21 @@
 			</p>
 		</div>
 		<div>
-			<img class="m-auto w-auto h-48" src="images/logo/odr.png" alt="Observatorio de redes">
-			<p>
+			<div class="h-36">
+				<img class="w-64 h-auto" src="images/logo/odr.png" alt="Observatorio de redes">
+			</div>
+			<p class="max-w-md">
 				Democracia en Red diseña e implementa innovaciones que transparentan, facilitan y fortaleccen
 				la participación de la ciudadanía en la toma de decisiones.
 			</p>
-			<p>
+			<br>
+			<p class="max-w-md">
 				En ese camino, crearion la tecnología DemocracyOS: un espacio online 
 				verstátil diseñado para que el derecho a participar sea puesto en
 				práctica masivamente, en distintas escalas de gobierno.
 			</p>
-			<p>
+			<br>
+			<p class="max-w-md">
 				Democracia en Red desarrolla tecnología al servicio de la ciudadanía
 				para acercar las políticas públicas a la factibilidad y hacer posible
 				la cooperación entre distintos segmentos sociales, estimulando el
@@ -157,10 +171,14 @@
 	</div>
 </div>
 
-<div class="w-full py-24 px-32 bg-pet-blue">
-	<h3 class="text-xl text-pet-gray font-bowlby font-bold uppercase">
+<div class="w-full py-24 px-36 flex gap-14 items-center bg-pet-blue">
+	<h3 class="w-48 text-xl text-pet-gray font-bowlby font-bold uppercase">
 		Nos apoyan:
 	</h3>
+	<div class="w-full flex gap-24">
+		<img class="w-auto h-24" src="images/logo/uba.png" alt="Universidad Buenos Aires">
+		<img class="w-auto h-24" src="images/logo/ndi.png" alt="Instituto Nacional Demócrata">
+	</div>
 </div>
 
 <div class="w-full flex flex-col gap-12 py-24 px-48 bg-pet-black">
@@ -184,8 +202,38 @@
 	</div>
 </div>
 
-<div class="w-full flex gap-12 py-24 px-24 bg-pet-gray">
-
+<div class="w-full flex gap-12 py-16 px-24 bg-pet-gray">
+	<img src="images/logo/pet.png" alt="Logo de Políticos en Twitter"
+	class="m-8 sm:w-2/12">
+	<div class="w-full p-8 lg:pl-12 flex sm:gap-24
+		lg:justify-around flex-wrap lg:flex-nowrap text-base
+		2xl:text-xl lg:text-sm font-bowlby text-pet-black
+		uppercase">
+		<div class="flex flex-col gap-4 self-start">
+			<li>
+				<a href="#uno">¿Qué es?</a>
+			</li>
+			<li>
+				<a href="#dos">¿Cómo funciona?</a>
+			</li>
+			<li>
+				<a href="#cuatro">Quiénes somos</a>
+			</li>
+		</div>
+		<div class="flex flex-col gap-4 self-start">
+			<li>
+				<a href="#tres" class="text-pet-blue">Convocatoria</a>
+			</li>
+			<li>
+				<a href="#cinco">Contacto</a>
+			</li>
+		</div>
+		<li>
+			<button>
+				<a href="https://oderedes.shinyapps.io/politicosentwitter/" target="_blank">Repositorio</a>
+			</button>
+		</li>
+	</div>
 </div>
 
 <style>
@@ -194,6 +242,10 @@
 	}
 	
 	li {
+		list-style: none;
+	}
+	
+	.header li {
 		@apply self-center;
 	}
 
