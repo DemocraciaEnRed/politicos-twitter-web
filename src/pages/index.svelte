@@ -64,8 +64,11 @@
 			¿Qué hacen?
 		</h2>
 		<div>
-			<button class="bg-pet-blue">
-				<a href="https://oderedes.shinyapps.io/politicosentwitter/" target="_blank" class="text-pet-gray font-free font-bold uppercase">Acceder al repositorio</a>
+			<button class="h-14 bg-pet-blue">
+				<a href="https://oderedes.shinyapps.io/politicosentwitter/" target="_blank"
+				class="px-2 text-pet-gray font-free font-bold uppercase">
+					Acceder al repositorio
+				</a>
 			</button>
 		</div>
 	</div>
@@ -129,18 +132,18 @@
 			<div class="h-36 pt-5">
 				<img class="w-64 h-auto" src="images/logo/der.png" alt="Democracia en Red">
 			</div>
-			<p class="max-w-md">
+			<p class="max-w-md text-xl">
 				Democracia en Red diseña e implementa innovaciones que transparentan, facilitan y fortaleccen
 				la participación de la ciudadanía en la toma de decisiones.
 			</p>
 			<br>
-			<p class="max-w-md">
+			<p class="max-w-md text-xl">
 				En ese camino, crearion la tecnología DemocracyOS: un espacio online 
 				verstátil diseñado para que el derecho a participar sea puesto en
 				práctica masivamente, en distintas escalas de gobierno.
 			</p>
 			<br>
-			<p class="max-w-md">
+			<p class="max-w-md text-xl">
 				Democracia en Red desarrolla tecnología al servicio de la ciudadanía
 				para acercar las políticas públicas a la factibilidad y hacer posible
 				la cooperación entre distintos segmentos sociales, estimulando el
@@ -151,7 +154,7 @@
 			<div class="h-36">
 				<img class="w-64 h-auto" src="images/logo/odr.png" alt="Observatorio de redes">
 			</div>
-			<p class="max-w-md">
+			<p class="max-w-md text-xl">
 				El Observatorio de Redes es una iniciativa multidisciplinaria de investigación aplicada,
 				con el fin de experimentar y desarrollar metodologías innovadoras para la comprensión
 				y el estudio de los fenómenos públicos a través del análisis de redes.
@@ -176,14 +179,14 @@
 		<img class="w-auto h-24" src="images/emoji/nerd.png" alt=":nerd:">
 	</div>
 	<div>
-		<p class="max-w-4xl text-white">
+		<p class="max-w-4xl text-xl text-white">
 			La política es compleja. Es un cúmulo de actores, interacciones, procesos, sinegias, causas
 			y consecuencias que producen distintos resultados y generan acciones y reacciones. El análisis
 			de redes ayuda a simplificar esa complejidad: identifica los actores, los convierte en elementos
 			y establece relaciones entre ellos.
 		</p>
 		<br>
-		<p class="max-w-md text-white">
+		<p class="max-w-4xl text-xl text-white">
 			Queremos observar las relaciones entre los actores políticos en distintos ambientes de interacción institucional
 			(el congreso; una elección; dentro de una coalición) y mediática (Facebook, Twitte, Youtube) paa evaluar cómo actúan:
 			qué hacen, qué dicen, con quiénes se vinculan, a quíenes se acercan, con quiénes se enfrentan, 

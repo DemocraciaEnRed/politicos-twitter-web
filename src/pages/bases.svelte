@@ -372,11 +372,11 @@ text-center text-base 2xl:text-5xl lg:text-sm font-bowlby text-pet-blue texture-
 	button {
 		@apply p-2 rounded-3xl border-2 border-pet-blue text-pet-blue uppercase;
 	}
-	/*
+
 	li {
 		list-style: none;
 	}
-	*/
+
 	li > a:hover {
 		@apply text-pet-blue border-pet-blue border-b-4;
 	}
