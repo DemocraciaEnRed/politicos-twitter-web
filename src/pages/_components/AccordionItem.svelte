@@ -43,14 +43,19 @@
 </li>
 
 <style>
+	li {
+		padding-top: 1em;
+	}
+
 	[data-accordion] {
 		list-style: none;
+		margin: 1em auto;
 	}
 
 	[data-accordion-item] button {
 		outline: none;
 		border: 0;
-		border-bottom: 1px solid #e0e0e0;
+		border-bottom: 3px solid #0c4fec;
 		background: none;
 		font: inherit;
 		line-height: inherit;
@@ -62,8 +67,11 @@
 	}
 
 	[data-accordion-item] [role="region"] {
-		padding: 1rem;
-		font-size: 10em;
-		font-color: black;
+		font-family: Free Sans, sans-serif;
+		max-width: 56rem;
+		font-size: 1.5rem;
+		color: black;
+    margin: 1em auto;
+		text-align: left;
 	}
 </style>
