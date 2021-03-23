@@ -163,7 +163,7 @@
 	</div>
 </div>
 
-<div class="w-full py-24 px-36 flex gap-14 items-center bg-pet-blue texture-blue">
+<div class="w-full py-24 px-56 flex gap-24 items-center bg-pet-blue texture-blue">
 	<h3 class="w-48 text-xl text-pet-gray font-bowlby font-bold uppercase">
 		Nos apoyan:
 	</h3>
