@@ -15,7 +15,7 @@
 				<a href="#como">¿Cómo funciona?</a>
 			</li>
 			<li>
-				<a href="#convocatoria">Convocatoria</a>
+				<a href="#convocatoria" class="text-pet-blue">Convocatoria</a>
 			</li>
 			<li>
 				<a href="#quienes">¿Quiénes somos?</a>
