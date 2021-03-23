@@ -17,7 +17,7 @@
 				<a href="/#convocatoria">Convocatoria</a>
 			</li>
 			<li>
-				<a href="/#quienes">Quiénes somos</a>
+				<a href="/#quienes">¿Quiénes somos?</a>
 			</li>
 			<li>
 				<a href="/#contacto">Contacto</a>
@@ -349,7 +349,7 @@ text-center text-base 2xl:text-5xl lg:text-sm font-bowlby text-pet-blue texture-
 				<a href="#como">¿Cómo funciona?</a>
 			</li>
 			<li>
-				<a href="#quienes">Quiénes somos</a>
+				<a href="#quienes">¿Quiénes somos?</a>
 			</li>
 		</div>
 		<div class="flex flex-col gap-4 self-start">
