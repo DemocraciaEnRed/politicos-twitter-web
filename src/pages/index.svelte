@@ -127,7 +127,7 @@
 		<h1 class="leading-tight text-6xl text-pet-blue font-bowlby font-bold uppercase">¿Quiénes somos?</h1>
 		<img class="w-auto h-24" src="images/emoji/aha.png" alt=":how:">
 	</div>
-	<div class="flex flex-col 2xl:flex-row justify-around text-white">
+	<div class="flex flex-col xl:flex-row justify-around text-white">
 		<div>
 			<div class="h-36 pt-5">
 				<img class="w-64 h-auto" src="images/logo/der.png" alt="Democracia en Red">
@@ -168,8 +168,8 @@
 		Nos apoyan:
 	</h3>
 	<div class="w-full flex gap-24">
-		<img class="w-auto h-24" src="images/logo/uba.png" alt="Universidad Buenos Aires">
-		<img class="w-auto h-24" src="images/logo/ndi.png" alt="Instituto Nacional Demócrata">
+		<img class="w-auto 3xl:h-24 xl:h-20" src="images/logo/uba.png" alt="Universidad Buenos Aires">
+		<img class="w-auto 3xl:h-24 xl:h-20" src="images/logo/ndi.png" alt="Instituto Nacional Demócrata">
 	</div>
 </div>
 
@@ -195,12 +195,12 @@
 	</div>
 </div>
 
-<div class="w-full flex gap-12 py-16 px-24 bg-pet-gray texture-gray">
+<div class="w-full flex flex-col lg:flex-row gap-12 py-16 px-24 bg-pet-gray texture-gray">
 	<img src="images/logo/pet.png" alt="Logo de Políticos en Twitter"
-	class="m-8 sm:w-2/12 h-auto">
-	<div class="w-full p-8 lg:pl-12 flex sm:gap-24
-		lg:justify-around flex-wrap lg:flex-nowrap text-base
-		2xl:text-xl lg:text-lg font-bowlby text-pet-black
+	class="m-auto w-auto h-24 2xl:h-36 xl:h-28">
+	<div class="w-full p-8 lg:pl-12 flex flex-col lg:flex-row gap-16 sm:gap-20 md:gap-24
+		content-center lg:content-start lg:justify-around flex-wrap lg:flex-nowrap text-base
+		2xl:text-xl xl:text-lg md:text-base font-bowlby text-pet-black
 		uppercase">
 		<div class="flex flex-col gap-4 self-start">
 			<li>
