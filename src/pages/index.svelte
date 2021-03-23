@@ -52,11 +52,11 @@
 	</div>
 </div>
 
-<div class="w-full flex py-24 px-48 items-center bg-pet-black texture-black">
+<div class="w-full flex py-24 px-48 justify-between items-center bg-pet-black texture-black">
 	<div class="max-w-3xl flex flex-col gap-12 justify-center">
 		<h2 class="text-5xl text-pet-blue font-free font-bold flex -ml-16">
 			<img class="w-auto h-16" src="images/emoji/hand.png" alt=":hand:">
-			Te invitamos a sumergirte en el mundo del análisis de redes.
+			Te invitamos a<br> sumergirte en el<br> mundo del análisis<br> de redes.
 		</h2>
 		<h2 class="text-5xl text-white font-free font-bold">
 			¿Qué dicen lxs<br> políticxs en Twitter?
