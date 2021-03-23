@@ -1,8 +1,3 @@
-<script>
-	import Accordion from "./_components/Accordion.svelte";
-	import AccordionItem from "./_components/AccordionItem.svelte";
-</script>
-
 <div class="w-full h-screen flex flex-col-reverse lg:flex-col bg-pet-gray texture-gray">
 	<nav>
 		<ul class="w-full p-8 lg:pl-12 flex gap-4 sm:gap-24 lg:justify-around flex-wrap lg:flex-nowrap
@@ -39,10 +34,10 @@
 	</div>
 </div>
 
-<div class="w-full py-8 flex flex-col-reverse items-center lg:flex-col bg-pet-gray
-text-center text-base 2xl:text-5xl lg:text-sm font-bowlby text-pet-blue texture-gray">
-	<Accordion>
-		<AccordionItem title="1. PRESENTACIÓN">
+<div class="w-full py-16 px-48 flex flex-col-reverse lg:flex-col bg-pet-gray text-base texture-gray">
+	<div>
+		<h1 class="2xl:text-5xl lg:text-sm font-bowlby text-pet-blue">1. PRESENTACIÓN</h1>
+		<div class="py-8 max-w-3xl text-lg font-free">
 			<p>
 				Desde Democracia en Red y el Observatorio de Redes,
 				con el apoyo del Instituto Nacional Demócrata (NDI)
@@ -58,9 +53,12 @@ text-center text-base 2xl:text-5xl lg:text-sm font-bowlby text-pet-blue texture-
 				A través de esta iniciativa, buscamos generar un espacio de difusión del conocimiento
 				y la investigación en relación a los comportamientos de los políticos
 				y políticas del país en la red social Twitter.
-			</p>
-		</AccordionItem>
-		<AccordionItem title="2. CONVOCATORIA #DigamosTodo">
+			</p>	
+		</div>
+	</div>
+	<div>
+		<h1 class="2xl:text-5xl lg:text-sm font-bowlby text-pet-blue">2. CONVOCATORIA #DigamosTodo</h1>
+		<div class="py-8 max-w-3xl text-lg font-free">
 			<p>
 				La presente convocatoria busca incentivar la investigación basada en datos,
 				enfocada en la temática de desinformación en la Argentina. Buscamos propuestas
@@ -91,8 +89,11 @@ text-center text-base 2xl:text-5xl lg:text-sm font-bowlby text-pet-blue texture-
 				¿lo hacen de manera sistemática? ¿incurren por error? ¿a qué partidos pertenecen?
 				¿hay politicxs que se comportan como “trolls”? ¿quiénes son?
 			</p>
-		</AccordionItem>
-		<AccordionItem title="3. CONDICIONES DE PARTICIPACIÓN">
+		</div>
+	</div>
+	<div>
+		<h1 class="2xl:text-5xl lg:text-sm font-bowlby text-pet-blue">3. CONDICIONES DE PARTICIPACIÓN</h1>
+		<div class="py-8 max-w-3xl text-lg font-free">
 			<p>
 				La convocatoria está abierta para cualquier persona mayor de 18 años, de cualquier lugar del país.
 				La participación podrá ser a título de autor individual o de coautores.
@@ -240,9 +241,12 @@ text-center text-base 2xl:text-5xl lg:text-sm font-bowlby text-pet-blue texture-
 						</li>
 					</ul>
 				</li>		
-			</ol>
-		</AccordionItem>
-		<AccordionItem title="4. PREMIOS">
+			</ol>		
+		</div>
+	</div>
+	<div>
+		<h1 class="2xl:text-5xl lg:text-sm font-bowlby text-pet-blue">4. PREMIOS</h1>
+		<div class="py-8 max-w-3xl text-lg font-free">
 			<p>
 				Buscamos premiar la idea más original y completa, que se alinee con estas bases mencionadas en el punto 2.
 				El <b>premio</b> consta de la <b>entrega monetaria de 140.000 (ciento cuarenta mil pesos)</b>.
@@ -255,8 +259,11 @@ text-center text-base 2xl:text-5xl lg:text-sm font-bowlby text-pet-blue texture-
 				Asimismo, cualquier costo y / o gasto en el que el o la ganadora
 				deba incurrir para adjudicarse su premio quedará a su cargo de forma exclusiva. 
 			</p>
-		</AccordionItem>
-		<AccordionItem title="5. PLAZOS">
+		</div>
+	</div>
+	<div>
+		<h1 class="2xl:text-5xl lg:text-sm font-bowlby text-pet-blue">5. PLAZOS</h1>
+		<div class="py-8 max-w-3xl text-lg font-free">
 			<p>
 				La convocatoria estará abierta desde el 30 de marzo hasta el 24 de abril de 2021 a las 23:59 horas de Argentina.
 				No se aceptarán trabajos enviados luego de esta fecha.
@@ -264,8 +271,11 @@ text-center text-base 2xl:text-5xl lg:text-sm font-bowlby text-pet-blue texture-
 				<a href="https://preguntarparaacordar.typeform.com/to/gVqxiRR6" target="_blank">siguiente formulario</a>,
 				con indicaciones claras sobre los campos requeridos. 
 			</p>
-		</AccordionItem>
-		<AccordionItem title="6. DERECHOS Y PUBLICACIONES">
+		</div>
+	</div>
+	<div>
+		<h1 class="2xl:text-5xl lg:text-sm font-bowlby text-pet-blue">6. DERECHOS Y PUBLICACIONES</h1>
+		<div class="py-8 max-w-3xl text-lg font-free">
 			<p>
 				Esta convocatoria no tiene ningún tipo de fin de lucro o rédito económico
 				sino que sus únicos fines son la generación de conocimiento colectivo
@@ -292,9 +302,12 @@ text-center text-base 2xl:text-5xl lg:text-sm font-bowlby text-pet-blue texture-
 			<p>
 				Todos las propuestas recolectadas para la convocatoria son propiedad exclusiva de sus autores
 				y participar de la misma no requiere la cesión total o parcial de éstas. 
-			</p>
-		</AccordionItem>
-		<AccordionItem title="7. DESCARGO DE RESPONSABILIDAD">
+			</p>		
+		</div>
+	</div>
+	<div>
+		<h1 class="2xl:text-5xl lg:text-sm font-bowlby text-pet-blue">7. DESCARGO DE RESPONSABILIDAD</h1>
+		<div class="py-8 max-w-3xl text-lg font-free">
 			<p>
 				La participación en la convocatoria implica conocimiento y aceptación sin reservas de estas bases y condiciones
 				las cuales regirán la totalidad de las relaciones entre cada participante y las organizaciones en relación a la convocatoria. 
@@ -325,13 +338,16 @@ text-center text-base 2xl:text-5xl lg:text-sm font-bowlby text-pet-blue texture-
 				cualquiera sea la causa de la acción o el reclamos, con renuncia expresa por parte suya a cualquier otra jurisdicción
 				que pudiera corresponderle. 
 			</p>
-		</AccordionItem>
-		<AccordionItem title="8. CONSULTAS">
+		</div>
+	</div>
+	<div>
+		<h1 class="2xl:text-5xl lg:text-sm font-bowlby text-pet-blue">8. CONSULTAS</h1>
+		<div class="py-8 max-w-3xl text-lg font-free">
 			<p>
 				En caso de consultas escribir a XX, con copia a XX.
 			</p>
-		</AccordionItem>
-	</Accordion>
+		</div>
+	</div>
 </div>
 
 <div class="w-full flex gap-12 py-16 px-24 bg-pet-gray">
