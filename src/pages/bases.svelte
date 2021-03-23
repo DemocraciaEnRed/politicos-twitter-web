@@ -343,21 +343,21 @@ text-center text-base 2xl:text-5xl lg:text-sm font-bowlby text-pet-blue texture-
 		uppercase">
 		<div class="flex flex-col gap-4 self-start">
 			<li>
-				<a href="#que">¿Qué es?</a>
+				<a href="/#que">¿Qué es?</a>
 			</li>
 			<li>
-				<a href="#como">¿Cómo funciona?</a>
+				<a href="/#como">¿Cómo funciona?</a>
 			</li>
 			<li>
-				<a href="#quienes">¿Quiénes somos?</a>
+				<a href="/#quienes">¿Quiénes somos?</a>
 			</li>
 		</div>
 		<div class="flex flex-col gap-4 self-start">
 			<li>
-				<a href="#convocatoria" class="text-pet-blue">Convocatoria</a>
+				<a href="/#convocatoria" class="text-pet-blue">Convocatoria</a>
 			</li>
 			<li>
-				<a href="#contacto">Contacto</a>
+				<a href="/#contacto">Contacto</a>
 			</li>
 		</div>
 		<li>
