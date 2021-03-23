@@ -75,7 +75,10 @@
 	<img class="w-auto h-96" src="images/gif/circle.gif" alt="Fuciones del repositorio">
 </div>
 
-<div id="convocatoria" class="w-full flex flex-col gap-12 py-24 px-48 bg-pet-gray texture-gray">
+<div id="convocatoria" class="w-full h-screen flex flex-col gap-12 py-24 px-48 justify-center bg-pet-gray texture-gray">
+	<p class="text-2xl font-free font-bold">
+		¿Trabajás con datos? ¿Te gusta la investigación aplicada?
+	</p>
 	<div class="flex justify-between">
 		<h1 class="leading-tight text-6xl text-pet-blue font-bowlby font-bold uppercase">
 			¡Queremos tu<br> colaboración!
@@ -84,13 +87,18 @@
 	</div>
 	<div class="flex flex-col gap-8">
 		<p class="text-2xl font-free">
-			Buscamos convertir estos datos en información que podamos divulgar<br>
-			para construir una comunidad de conocimiento colectivo.
+			Está abierta la
+			<span class="text-pet-blue font-bold uppercase">
+				convocatoria <u>#digamostodo</u>.
+			</span><br>
+			Nos interesa medir la relación entre nuestrxs políticos y la desinformación.
 		</p>
 		<p class="text-2xl font-free">
-			Sabemos que algunos políticos desinforman, pero ¿cómo se da ese fenómeno en Twitter?
+			<u>Presentá tu propuesta para trabajar con el repositorio de Políticxs en Twitter</u>
 		</p>
-		<p class="text-2xl font-free font-bold">Participá AHORA de la convocatoria abierta sobre desinformación.</p>
+		<p class="text-2xl font-free font-bold">
+			La propuesta más original e innovadora tendrá un PREMIO DE 140 mil<br> pesos para financiar tu proyecto de investigación.
+		</p>
 	</div>
 	<div class="flex justify-between">
 		<div class="h-14 flex gap-x-8">
@@ -108,7 +116,9 @@
 				</a>
 			</button>
 		</div>
-		<img class="w-auto h-16" src="images/misc/collaborate.png" alt="Colaborar">
+		<!--
+			<img class="w-auto h-16" src="images/misc/collaborate.png" alt="Colaborar">
+		-->
 	</div>
 </div>
 
