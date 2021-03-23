@@ -159,6 +159,17 @@
 				la cooperación entre distintos segmentos sociales, estimulando el
 				pensamiento colectivo.
 			</p>
+			<div class="pt-6 flex gap-8">
+				<a href="https://www.facebook.com/democraciaenred" target="_blank">
+					<img class="w-auto h-10" src="images/misc/social/facebook.png" alt="Facebook de Democracia en Red">
+				</a>
+				<a href="https://twitter.com/fundacionder" target="_blank">
+					<img class="w-auto h-10" src="images/misc/social/twitter.png" alt="Twitter de Democracia en Red">
+				</a>
+				<a href="https://www.instagram.com/democraciaenred/" target="_blank">
+					<img class="w-auto h-10" src="images/misc/social/instagram.png" alt="Instagram de Democracia en Red">
+				</a>
+			</div>
 		</div>
 		<div>
 			<div class="h-36">
@@ -169,6 +180,9 @@
 				con el fin de experimentar y desarrollar metodologías innovadoras para la comprensión
 				y el estudio de los fenómenos públicos a través del análisis de redes.
 			</p>
+			<div class="pt-6 flex gap-8">
+				<img class="w-auto h-12" src="images/misc/social/twitter.png" alt="Twitter del Observatorio de redes">
+			</div>
 		</div>
 	</div>
 </div>
