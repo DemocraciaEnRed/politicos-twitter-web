@@ -199,7 +199,7 @@
 
 <div class="w-full flex flex-col gap-12 py-24 px-48 bg-pet-black texture-black">
 	<div class="flex justify-between">
-		<h1 class="leading-tight text-6xl text-pet-blue font-bowlby font-bold uppercase">¿Por qué nos interesa?</h1>
+		<h1 class="leading-tight text-6xl text-pet-blue font-bowlby font-bold uppercase">¿Por qué<br> nos interesa?</h1>
 		<img class="w-auto h-24" src="images/emoji/nerd.png" alt=":nerd:">
 	</div>
 	<div>
@@ -219,7 +219,7 @@
 	</div>
 </div>
 
-<div class="w-full flex flex-col lg:flex-row gap-12 py-16 px-24 bg-pet-gray texture-gray">
+<div class="w-full flex flex-col lg:flex-row gap-12 py-16 px-48 bg-pet-gray texture-gray">
 	<img src="images/logo/pet.png" alt="Logo de Políticos en Twitter"
 	class="m-auto w-auto h-24 2xl:h-36 xl:h-28">
 	<div class="w-full p-8 lg:pl-12 flex flex-col lg:flex-row gap-16 sm:gap-20 md:gap-24
