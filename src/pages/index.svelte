@@ -7,7 +7,7 @@
 <div class="w-full h-screen flex flex-col-reverse lg:flex-col bg-pet-gray texture-gray">
 	<nav>
 		<ul class="header w-full p-8 lg:pl-12 flex gap-4 sm:gap-24 lg:justify-around flex-wrap lg:flex-nowrap
-			text-base 2xl:text-xl lg:text-sm font-bowlby text-pet-black uppercase">
+			text-base 2xl:text-xl lg:text-lg font-bowlby text-pet-black uppercase">
 			<li>
 				<a href="#que">¿Qué es?</a>
 			</li>
@@ -197,10 +197,10 @@
 
 <div class="w-full flex gap-12 py-16 px-24 bg-pet-gray texture-gray">
 	<img src="images/logo/pet.png" alt="Logo de Políticos en Twitter"
-	class="m-8 sm:w-2/12">
+	class="m-8 sm:w-2/12 h-auto">
 	<div class="w-full p-8 lg:pl-12 flex sm:gap-24
 		lg:justify-around flex-wrap lg:flex-nowrap text-base
-		2xl:text-xl lg:text-sm font-bowlby text-pet-black
+		2xl:text-xl lg:text-lg font-bowlby text-pet-black
 		uppercase">
 		<div class="flex flex-col gap-4 self-start">
 			<li>
