@@ -36,11 +36,12 @@
 	</div>
 </div>
 
-<div id="que" class="w-full py-48 px-48 bg-pet-blue texture-blue">
+<div id="que" class="w-full h-screen justify-center py-48 px-48 bg-pet-blue texture-blue">
 	<div class="flex flex-col justify-center gap-12">
 		<h1 class="w-full text-6xl text-bold text-white font-free font-bold">
-			<span class="text-pet-black">Políticxs en Twitter</span> es un repositorio
-			con todas las interraciones de 400 personas con cargos políticos en la Argentina.
+			<span class="text-pet-black">Políticxs en Twitter</span> es un<br>
+			repositorio con interacciones<br> de más de 500 usuarios relacionados<br>
+			con la política en Argentina.
 		</h1>
 		<h2 class="text-3xl text-white font-free">
 			Ponemos a disposición de la comunidad este ATLAS con datos libres
