@@ -6,7 +6,7 @@
 
 <div class="w-full h-screen flex flex-col-reverse lg:flex-col bg-pet-gray texture-gray">
 	<nav>
-		<ul class="header w-full p-8 lg:pl-12 flex gap-4 sm:gap-24 lg:justify-around flex-wrap lg:flex-nowrap
+		<ul class="header w-full p-8 lg:pl-12 flex gap-12 xl:gap-24 justify-center lg:justify-around flex-wrap lg:flex-nowrap
 			text-base 2xl:text-xl lg:text-lg font-bowlby text-pet-black uppercase">
 			<li>
 				<a href="#que">¿Qué es?</a>
@@ -32,18 +32,18 @@
 	</nav>
 	<div class="h-full flex">
 		<img src="images/logo/pet.png" alt="Logo de Políticos en Twitter"
-		class="m-auto sm:w-4/12">
+		class="m-auto w-7/12 md:w-6/12 lg:w-4/12">
 	</div>
 </div>
 
-<div id="que" class="w-full h-screen justify-center py-48 px-48 bg-pet-blue texture-blue">
+<div id="que" class="w-full h-screen flex align-center py-24 xl:py-48 px-24 xl:px-48 bg-pet-blue texture-blue">
 	<div class="flex flex-col justify-center gap-12">
-		<h1 class="w-full text-6xl text-bold text-white font-free font-bold">
+		<h1 class="w-full text-2xl sm:text-4xl md:text-5xl lg:text-6xl text-bold text-white font-free font-bold">
 			<span class="text-pet-black">Políticxs en Twitter</span> es un<br>
 			repositorio con interacciones<br> de más de 500 usuarios relacionados<br>
 			con la política en Argentina.
 		</h1>
-		<h2 class="text-3xl text-white font-free">
+		<h2 class="text-xl sm:text-3xl text-white font-free">
 			Ponemos a disposición de la comunidad este ATLAS con datos libres
 			<br> y reutilizables, para facilitar la producción de conocimiento.
 			<br><br>
@@ -53,18 +53,18 @@
 	</div>
 </div>
 
-<div class="w-full flex py-24 px-48 justify-between items-center bg-pet-black texture-black">
+<div class="w-full flex flex-col xl:flex-row gap-12 py-12 lg:py-24 px-24 lg:px-48 justify-between items-center bg-pet-black texture-black">
 	<div class="max-w-3xl flex flex-col gap-12 justify-center">
-		<h2 class="text-5xl text-pet-blue font-free font-bold flex -ml-16">
-			<img class="w-auto h-16" src="images/emoji/hand.png" alt=":hand:">
-			Te invitamos a<br> sumergirte en el<br> mundo del análisis<br> de redes.
+		<h2 class="flex text-2xl md:text-5xl text-pet-blue font-free font-bold">
+			<img class="w-auto h-12 lg:h-16" src="images/emoji/hand.png" alt=":hand:">
+			Te invitamos a sumergirte en el mundo del análisis de redes.
 		</h2>
-		<h2 class="text-5xl text-white font-free font-bold">
-			¿Qué dicen lxs<br> políticxs en Twitter?
+		<h2 class="text-2xl md:text-5xl text-white font-free font-bold">
+			¿Qué dicen lxs políticxs en Twitter?
 			<br><br>
 			¿Qué hacen?
 		</h2>
-		<div>
+		<div class="flex justify-center xl:justify-start">
 			<button class="h-14 bg-pet-blue">
 				<a href="https://oderedes.shinyapps.io/politicosentwitter/" target="_blank"
 				class="px-2 text-pet-gray font-free font-bold uppercase">
@@ -76,15 +76,20 @@
 	<img class="w-auto h-96" src="images/gif/circle.gif" alt="Fuciones del repositorio">
 </div>
 
-<div id="convocatoria" class="w-full h-screen flex flex-col gap-12 py-24 px-48 justify-center bg-pet-gray texture-gray">
-	<p class="text-2xl font-free font-bold">
-		¿Trabajás con datos? ¿Te gusta la investigación aplicada?
-	</p>
+<div id="convocatoria" class="w-full h-screen flex flex-col gap-12 py-24 px-24 lg:px-48 justify-center bg-pet-gray texture-gray">
+	<div class="flex flex-col xl:flex-row text-2xl font-free font-bold">
+		<p>
+			¿Trabajás con datos?
+		</p>
+		<p>
+			¿Te gusta la investigación aplicada?
+		</p>
+	</div>
 	<div class="flex justify-between">
-		<h1 class="leading-tight text-6xl text-pet-blue font-bowlby font-bold uppercase">
+		<h1 class="leading-tight text-4xl lg:text-5xl xl:text-6xl text-pet-blue font-bowlby font-bold uppercase">
 			¡Queremos tu<br> colaboración!
 		</h1>
-		<img class="w-auto h-24" src="images/emoji/write.png" alt=":write:">
+		<img class="w-auto h-20 lg:h-24" src="images/emoji/write.png" alt=":write:">
 	</div>
 	<div class="flex flex-col gap-8">
 		<p class="text-2xl font-free">
@@ -101,35 +106,30 @@
 			La propuesta más original e innovadora tendrá un PREMIO DE 140 mil<br> pesos para financiar tu proyecto de investigación.
 		</p>
 	</div>
-	<div class="flex justify-between">
-		<div class="h-14 flex gap-x-8">
-			<button class="bg-pet-blue">
-				<a href="https://preguntarparaacordar.typeform.com/to/gVqxiRR6" target="_blank"
-				class="px-4 flex gap-2 items-center text-pet-gray font-free font-bold uppercase">
-					<img class="w-auto h-8" src="images/emoji/here.png" alt=":here:">
-					¡Quiero participar!
-				</a>
-			</button>
-			<button>
-				<a href="bases" class="px-4 flex gap-2 items-center font-bold">
-					<img class="w-auto h-8" src="images/emoji/tos.png" alt=":tos:">
-					Bases y condiciones
-				</a>
-			</button>
-		</div>
-		<!--
-			<img class="w-auto h-16" src="images/misc/collaborate.png" alt="Colaborar">
-		-->
+	<div class="flex flex-column lg:flex-row gap-x-8">
+		<button class="h-16 lg:h-14 bg-pet-blue">
+			<a href="https://preguntarparaacordar.typeform.com/to/gVqxiRR6" target="_blank"
+			class="px-4 flex gap-2 items-center text-pet-gray font-free font-bold uppercase">
+				<img class="w-auto h-8" src="images/emoji/here.png" alt=":here:">
+				¡Quiero participar!
+			</a>
+		</button>
+		<button class="h-16 lg:h-14">
+			<a href="bases" class="px-4 flex gap-2 items-center font-bold">
+				<img class="w-auto h-8" src="images/emoji/tos.png" alt=":tos:">
+				Bases y condiciones
+			</a>
+		</button>
 	</div>
 </div>
 
-<div id="como" class="w-full flex flex-col gap-12 py-24 px-48 bg-pet-blue texture-blue">
-	<div class="flex justify-between">
-		<h1 class="leading-tight text-6xl text-white font-bowlby font-bold uppercase">¿Cómo funciona?</h1>
-		<img class="w-auto h-24" src="images/emoji/how.png" alt=":how:">
+<div id="como" class="w-full flex flex-col gap-12 py-12 lg:py-24 px-24 lg:px-48 bg-pet-blue texture-blue">
+	<div class="flex justify-between items-center">
+		<h1 class="leading-tight text-4xl lg:text-5xl xl:text-6xl text-white font-bowlby font-bold uppercase">¿Cómo funciona?</h1>
+		<img class="w-auto h-20 lg:h-24" src="images/emoji/how.png" alt=":how:">
 	</div>
-	<div class="flex flex-col xl:flex-row justify-between items-center flex-wrap-reverse xl:flex-wrap">
-		<div class="flex flex-col gap-8 2xl:gap-16 text-white font-free text-xl 2xl:text-2xl">
+	<div class="flex gap-8 flex-col md:flex-row justify-between items-center flex-wrap-reverse 2xl:flex-wrap">
+		<div class="flex flex-col gap-4 xl:gap-8 2xl:gap-16 text-white font-free text-xl 2xl:text-2xl">
 			<div class="flex gap-3 items-center">
 				<img class="w-auto h-16" src="images/misc/uno.png" alt="Primer paso">
 				<p>
@@ -154,16 +154,16 @@
 				</p>
 			</div>
 		</div>
-		<img class="w-auto h-auto xl:h-80 2xl:h-96" src="images/gif/how.gif" alt="¿Cómo funciona?">
+		<img class="w-auto h-auto 2xl:h-96 m-auto md:m-0" src="images/gif/how.gif" alt="¿Cómo funciona?">
 	</div>
 </div>
 
-<div id="quienes" class="w-full flex flex-col gap-12 py-24 px-48 bg-pet-black texture-black">
-	<div class="flex justify-between">
-		<h1 class="leading-tight text-6xl text-pet-blue font-bowlby font-bold uppercase">¿Quiénes somos?</h1>
-		<img class="w-auto h-24" src="images/emoji/aha.png" alt=":how:">
+<div id="quienes" class="w-full flex flex-col gap-12 py-12 lg:py-24 px-24 lg:px-48 bg-pet-black texture-black">
+	<div class="flex justify-between items-center">
+		<h1 class="leading-tight text-4xl lg:text-5xl xl:text-6xl text-pet-blue font-bowlby font-bold uppercase">¿Quiénes somos?</h1>
+		<img class="w-auto h-20 lg:h-24" src="images/emoji/aha.png" alt=":how:">
 	</div>
-	<div class="flex flex-col xl:flex-row justify-around text-white">
+	<div class="flex flex-col xl:flex-row gap-16 justify-around text-white">
 		<div>
 			<div class="h-36 pt-5">
 				<img class="w-64 h-auto" src="images/logo/der.png" alt="Democracia en Red">
@@ -213,20 +213,20 @@
 	</div>
 </div>
 
-<div class="w-full py-24 px-56 flex gap-24 items-center bg-pet-blue texture-blue">
+<div class="w-full py-12 2xl:py-24 px-36 2xl:px-56 flex flex-col lg:flex-row gap-12 2xl:gap-24 items-center bg-pet-blue texture-blue">
 	<h3 class="w-48 text-xl text-pet-gray font-bowlby font-bold uppercase">
 		Nos apoyan:
 	</h3>
-	<div class="w-full flex gap-24">
-		<img class="w-auto 3xl:h-24 xl:h-20" src="images/logo/uba.png" alt="Universidad Buenos Aires">
-		<img class="w-auto 3xl:h-24 xl:h-20" src="images/logo/ndi.png" alt="Instituto Nacional Demócrata">
+	<div class="w-full flex flex-col md:flex-row gap-24 items-center justify-center">
+		<img class="w-48 xl:w-auto h-auto 3xl:h-24 xl:h-20" src="images/logo/uba.png" alt="Universidad Buenos Aires">
+		<img class="w-48 xl:w-auto h-auto 3xl:h-24 xl:h-20" src="images/logo/ndi.png" alt="Instituto Nacional Demócrata">
 	</div>
 </div>
 
-<div class="w-full flex flex-col gap-12 py-24 px-48 bg-pet-black texture-black">
+<div class="w-full flex flex-col gap-12 py-12 lg:py-24 px-24 lg:px-48 bg-pet-black texture-black">
 	<div class="flex justify-between">
-		<h1 class="leading-tight text-6xl text-pet-blue font-bowlby font-bold uppercase">¿Por qué<br> nos interesa?</h1>
-		<img class="w-auto h-24" src="images/emoji/nerd.png" alt=":nerd:">
+		<h1 class="leading-tight text-4xl lg:text-5xl xl:text-6xl text-pet-blue font-bowlby font-bold uppercase">¿Por qué<br> nos interesa?</h1>
+		<img class="w-auto h-20 lg:h-24" src="images/emoji/nerd.png" alt=":nerd:">
 	</div>
 	<div>
 		<p class="max-w-4xl text-xl text-white">
@@ -245,7 +245,7 @@
 	</div>
 </div>
 
-<div class="w-full flex flex-col lg:flex-row gap-12 py-16 px-48 bg-pet-gray texture-gray">
+<div class="w-full flex flex-col md:flex-row gap-12 py-16 px-24 xl:px-48 bg-pet-gray texture-gray">
 	<img src="images/logo/pet.png" alt="Logo de Políticos en Twitter"
 	class="m-auto w-auto h-24 2xl:h-36 xl:h-28">
 	<div class="w-full p-8 lg:pl-12 flex flex-col lg:flex-row gap-16 sm:gap-20 md:gap-24
