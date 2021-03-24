@@ -128,8 +128,33 @@
 		<h1 class="leading-tight text-6xl text-white font-bowlby font-bold uppercase">¿Cómo funciona?</h1>
 		<img class="w-auto h-24" src="images/emoji/how.png" alt=":how:">
 	</div>
-	<div>
-
+	<div class="flex flex-col xl:flex-row justify-between items-center flex-wrap-reverse xl:flex-wrap">
+		<div class="flex flex-col gap-8 2xl:gap-16 text-white font-free text-xl 2xl:text-2xl">
+			<div class="flex gap-3 items-center">
+				<img class="w-auto h-16" src="images/misc/uno.png" alt="Primer paso">
+				<p>
+					Seleccioná la categoría que quieras analizar
+				</p>
+			</div>
+			<div class="flex flex-col">
+				<div class="flex gap-3 items-center">
+					<img class="w-auto h-16" src="images/misc/dos.png" alt="Segundo paso">
+					<p>
+						Elegí el usuario/a.
+					</p>
+				</div>
+				<p class="pl-20">
+					También podés seleccionar para <br> descargar una categoría completa
+				</p>
+			</div>
+			<div class="flex gap-3 items-center">
+				<img class="w-auto h-16" src="images/misc/tres.png" alt="Tercero paso">
+				<p>
+					Descargá la data en formato CSV o XLSX
+				</p>
+			</div>
+		</div>
+		<img class="w-auto h-auto xl:h-80 2xl:h-96" src="images/gif/how.gif" alt="¿Cómo funciona?">
 	</div>
 </div>
 
