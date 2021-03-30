@@ -36,7 +36,7 @@ bg-pet-gray texture-gray">
 			</li>
 		</ul>
   </nav>
-  <div class="flex flex-col lg:flex-row justify-between">
+  <div class="h-full flex flex-col lg:flex-row justify-between">
     <div class="video-wrapper lg:h-3/6">
       <iframe width="853" height="480" src="https://www.youtube.com/embed/z258VDvsQD4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
@@ -380,6 +380,10 @@ bg-pet-gray texture-gray">
   }
 
   .chat-wrapper {
+    height: 100%;
+  }
+
+  .chat-wrapper iframe {
     height: 100%;
   }
 
