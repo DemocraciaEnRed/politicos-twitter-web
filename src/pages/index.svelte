@@ -4,7 +4,7 @@
     metatags.description = 'Observatorio de redes sociales'
 </script>
 
-<div class="w-full h-full flex flex-col lg:flex-col
+<div class="w-full h-screen flex flex-col lg:flex-col
 bg-pet-gray texture-gray">
 	<nav>
 		<ul class="header w-full p-8 lg:pl-12 flex gap-12 xl:gap-24 justify-center
@@ -36,6 +36,7 @@ bg-pet-gray texture-gray">
 			</li>
 		</ul>
   </nav>
+  <!-- 
   <div class="h-full flex flex-col lg:flex-row justify-between">
     <div class="video-wrapper lg:h-3/6">
       <iframe width="853" height="480" src="https://www.youtube.com/embed/z258VDvsQD4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -44,13 +45,12 @@ bg-pet-gray texture-gray">
       <iframe src="https://www.youtube.com/live_chat?v=z258VDvsQD4&embed_domain=politicosentwitter.com" width="400" height="600"></iframe>
     </div>
   </div>
-  <!-- 
-            <div class="h-full flex justify-center items-center">
-			<img src="images/gif/pet.gif" alt="GIF de Políticos en Twitter">
-      <img src="images/logo/pet.png" alt="Logo de Políticos en Twitter"
-      class="m-auto w-7/12 md:w-6/12 lg:w-4/12">
-    </div>
-  -->
+  <img src="images/gif/pet.gif" alt="GIF de Políticos en Twitter">
+-->
+  <div class="h-full flex justify-center items-center">
+    <img src="images/logo/pet.png" alt="Logo de Políticos en Twitter"
+    class="m-auto w-7/12 md:w-6/12 lg:w-4/12">
+  </div>
 </div>
 
 <div id="que" class="w-full h-screen 2xl:h-auto flex justify-center align-center
