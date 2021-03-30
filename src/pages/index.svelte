@@ -4,7 +4,7 @@
     metatags.description = 'Observatorio de redes sociales'
 </script>
 
-<div class="w-full h-auto flex flex-col-reverse lg:flex-col
+<div class="w-full flex flex-col-reverse lg:flex-col
 bg-pet-gray texture-gray">
 	<nav>
 		<ul class="header w-full p-8 lg:pl-12 flex gap-12 xl:gap-24 justify-center
@@ -36,11 +36,13 @@ bg-pet-gray texture-gray">
 			</li>
 		</ul>
   </nav>
-  <div class="flex justify-between">
-    <div class="videoWrapper">
+  <div class="flex flex-col lg:flex-row justify-between">
+    <div class="video-wrapper lg:h-3/6">
       <iframe width="853" height="480" src="https://www.youtube.com/embed/z258VDvsQD4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-    <iframe src="https://www.youtube.com/live_chat?v=z258VDvsQD4&embed_domain=politicosentwitter.com" width="400" height="600"></iframe>
+    <div class="chat-wrapper">
+      <iframe src="https://www.youtube.com/live_chat?v=z258VDvsQD4&embed_domain=politicosentwitter.com" width="400" height="600"></iframe>
+    </div>
   </div>
   <!-- 
             <div class="h-full flex justify-center items-center">
@@ -361,7 +363,7 @@ bg-pet-gray texture-gray">
 </div>
 
 <style>
-  .videoWrapper {
+  .video-wrapper {
     height: 0;
     width: 100%;
     overflow: hidden;
@@ -369,11 +371,15 @@ bg-pet-gray texture-gray">
     padding-bottom: 56.25%; /* 16:9 */
   }
   
-  .videoWrapper iframe {
+  .video-wrapper iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
+    height: 100%;
+  }
+
+  .chat-wrapper {
     height: 100%;
   }
 
