@@ -4,7 +4,7 @@
     metatags.description = 'Observatorio de redes sociales'
 </script>
 
-<div class="w-full h-full flex flex-col-reverse lg:flex-col
+<div class="w-full h-full flex flex-col lg:flex-col
 bg-pet-gray texture-gray">
 	<nav>
 		<ul class="header w-full p-8 lg:pl-12 flex gap-12 xl:gap-24 justify-center
@@ -385,6 +385,16 @@ bg-pet-gray texture-gray">
 
   .chat-wrapper iframe {
     height: 100%;
+  }
+
+  @media only screen and (max-width : 1024px) {
+    .chat-wrapper {
+      height: 36em;
+    }
+
+    .chat-wrapper iframe {
+      width: 100%;
+    }
   }
 
   li {
