@@ -4,7 +4,8 @@
     metatags.description = 'Observatorio de redes sociales'
 </script>
 
-<div class="w-full h-screen flex flex-col-reverse lg:flex-col bg-pet-gray texture-gray">
+<div class="w-full h-screen flex flex-col-reverse lg:flex-col
+bg-pet-gray texture-gray">
 	<nav>
 		<ul class="header w-full p-8 lg:pl-12 flex gap-12 xl:gap-24 justify-center
 		lg:justify-around flex-wrap lg:flex-nowrap text-base 2xl:text-xl lg:text-lg
@@ -25,8 +26,10 @@
 				<a href="#contacto">Contacto</a>
 			</li>
 			<li class="lg:ml-auto">
-				<button class="p-2 rounded-3xl border-2 border-pet-blue bg-pet-blue text-white uppercase">
-					<a href="https://oderedes.shinyapps.io/politicosentwitter/" target="_blank">
+				<button class="p-2 rounded-3xl border-2 border-pet-blue bg-pet-blue
+				text-white uppercase">
+					<a href="https://oderedes.shinyapps.io/politicosentwitter/"
+					target="_blank">
 						Repositorio
 					</a>
 				</button>
@@ -42,8 +45,8 @@
 	</div>
 </div>
 
-<div id="que" class="w-full h-screen flex justify-center align-center py-24 xl:py-48
-px-12 md:px-24 xl:px-36 bg-pet-blue texture-blue">
+<div id="que" class="w-full h-screen flex justify-center align-center
+py-24 xl:py-48 px-12 md:px-24 xl:px-36 bg-pet-blue texture-blue">
 	<div class="flex flex-col justify-center gap-12">
 		<h1 class="max-w-5xl  w-full text-2xl sm:text-4xl md:text-5xl lg:text-6xl
 		text-bold text-white font-free font-bold text-justify">
@@ -55,18 +58,21 @@ px-12 md:px-24 xl:px-36 bg-pet-blue texture-blue">
 			Ponemos a disposición de la comunidad este ATLAS con datos libres
 			<br> y reutilizables, para facilitar la producción de conocimiento.
 			<br><br>
-			Porque es ese conocimiento el que nos permitirá observar e interpelar<br>
-			a la clase política a partir de evidencia, una que convierta sus dichos en hechos.
+			Porque es ese conocimiento el que nos permitirá observar e interpelar
+			<br> a la clase política a partir de evidencia, una que convierta
+			sus dichos en hechos.
 		</h2>
 	</div>
 </div>
 
-<div class="w-full flex flex-col xl:flex-row gap-12 py-12 lg:py-24 px-12 md:px-24 lg:px-48
-justify-between items-center bg-pet-black texture-black">
+<div class="w-full flex flex-col xl:flex-row gap-12 py-12 lg:py-24 px-12
+md:px-24 lg:px-48 justify-between items-center bg-pet-black texture-black">
 <div class="max-w-lg flex flex-col gap-10 md:gap-12 justify-center">
 		<div class="flex -ml-8 md:-ml-16">
-			<img class="w-auto h-12 lg:h-16" src="images/emoji/hand.png" alt=":hand:">
-			<h2 class="max-w-md flex text-2xl md:text-5xl text-pet-blue font-free font-bold">
+			<img class="w-auto h-12 lg:h-16"
+			src="images/emoji/hand.png" alt=":hand:">
+			<h2 class="max-w-md flex text-2xl md:text-5xl
+			text-pet-blue font-free font-bold">
 				Te invitamos a sumergirte en el mundo del análisis de redes.
 			</h2>
 		</div>
@@ -76,9 +82,10 @@ justify-between items-center bg-pet-black texture-black">
 			¿Qué hacen?
 		</h2>
 		<div class="flex justify-center xl:justify-start">
-			<button class="h-20 md:h-14 p-2 rounded-xl border-2 border-pet-blue bg-pet-blue
-			text-pet-blue uppercase">
-				<a href="https://oderedes.shinyapps.io/politicosentwitter/" target="_blank"
+			<button class="h-20 md:h-14 p-2 rounded-xl border-2
+			border-pet-blue bg-pet-blue text-pet-blue uppercase">
+				<a href="https://oderedes.shinyapps.io/politicosentwitter/"
+				target="_blank"
 				class="px-2 text-pet-gray font-free font-bold uppercase">
 					Acceder al repositorio
 				</a>
@@ -91,7 +98,8 @@ justify-between items-center bg-pet-black texture-black">
 
 <div id="convocatoria" class="w-full flex flex-col gap-12 py-12
 md:py-24 px-10 md:px-24 lg:px-48 justify-center bg-pet-gray texture-gray">
-	<div class="flex flex-col xl:flex-row text-xl lg:text-2xl font-free font-bold">
+	<div class="flex flex-col xl:flex-row text-xl lg:text-2xl
+	font-free font-bold">
 		<p>
 			¿Trabajás con datos?
 		</p>
@@ -104,7 +112,8 @@ md:py-24 px-10 md:px-24 lg:px-48 justify-center bg-pet-gray texture-gray">
 		xl:text-6xl text-pet-blue font-bowlby font-bold uppercase leading-10">
 			¡Queremos tu<br> colaboración!
 		</h1>
-		<img class="w-auto h-12 max-h-24 lg:h-24" src="images/emoji/write.png" alt=":write:">
+		<img src="images/emoji/write.png" alt=":write:"
+		class="w-auto h-12 max-h-24 lg:h-24">
 	</div>
 	<div class="flex flex-col gap-8">
 		<p class="text-xl md:text-2xl font-free">
@@ -112,11 +121,13 @@ md:py-24 px-10 md:px-24 lg:px-48 justify-center bg-pet-gray texture-gray">
 			<span class="text-pet-blue font-bold uppercase">
 				convocatoria <u>#digamostodo</u>.
 			</span><br>
-			Nos interesa medir la relación entre nuestrxs políticos y la desinformación.
+			Nos interesa medir la relación
+			entre nuestrxs políticos y la desinformación.
 		</p>
 		<p class="text-xl md:text-2xl font-free">
 			<u>
-				Presentá tu propuesta para trabajar con el repositorio de Políticxs en Twitter
+				Presentá tu propuesta para trabajar
+				con el repositorio de Políticxs en Twitter
 			</u>
 		</p>
 		<p class="text-xl md:text-2xl font-free font-bold">
@@ -124,16 +135,20 @@ md:py-24 px-10 md:px-24 lg:px-48 justify-center bg-pet-gray texture-gray">
 			pesos para financiar tu proyecto de investigación.
 		</p>
 	</div>
-	<div class="flex flex-col lg:flex-row gap-8">
-		<button class="h-16 lg:h-14 p-2 rounded-3xl border-2 border-pet-blue bg-pet-blue text-pet-blue uppercase">
-			<a href="https://preguntarparaacordar.typeform.com/to/gVqxiRR6" target="_blank"
-			class="px-4 flex gap-2 items-center text-pet-gray font-free font-bold uppercase">
+	<div class="flex flex-col sm:flex-row gap-8 items-center">
+		<button class="w-72 sm:w-auto h-16 lg:h-14 p-2 rounded-3xl border-2
+		uppercase border-pet-blue bg-pet-blue text-pet-blue">
+			<a href="https://preguntarparaacordar.typeform.com/to/gVqxiRR6"
+			target="_blank" class="px-4 flex gap-2 items-center justify-center
+			text-pet-gray font-free font-bold uppercase">
 				<img class="w-auto h-8" src="images/emoji/here.png" alt=":here:">
 				¡Quiero participar!
 			</a>
 		</button>
-		<button class="h-16 lg:h-14 p-2 rounded-3xl border-2 border-pet-blue text-pet-blue uppercase">
-			<a href="bases" class="px-4 flex gap-2 items-center font-bold">
+		<button class="w-72 sm:w-auto h-16 lg:h-14 p-2 rounded-3xl border-2
+		border-pet-blue text-pet-blue uppercase">
+			<a href="bases" class="px-4 flex gap-2 items-center justify-center
+			font-bold">
 				<img class="w-auto h-8" src="images/emoji/tos.png" alt=":tos:">
 				Bases y condiciones
 			</a>
@@ -145,33 +160,40 @@ md:py-24 px-10 md:px-24 lg:px-48 justify-center bg-pet-gray texture-gray">
 py-12 lg:py-24 px-6 md:px-24 lg:px-48 items-center sm:items-stretch
 bg-pet-blue texture-blue">
 	<div class="flex justify-between items-center">
-		<h1 class="leading-tight text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-white
-		font-bowlby font-bold uppercase">¿Cómo funciona?</h1>
-		<img class="w-auto h-12 max-h-24 lg:h-24" src="images/emoji/how.png" alt=":how:">
+		<h1 class="leading-tight text-2xl md:text-4xl lg:text-5xl xl:text-6xl
+		text-white font-bowlby font-bold uppercase">
+			¿Cómo funciona?
+		</h1>
+		<img class="w-auto h-12 max-h-24 lg:h-24" src="images/emoji/how.png"
+		alt=":how:">
 	</div>
-	<div class="h-full flex gap-8 flex-col md:flex-row justify-between items-center
-	flex-wrap-reverse 2xl:flex-wrap">
+	<div class="h-full flex gap-8 flex-col md:flex-row justify-between
+	items-center flex-wrap-reverse 2xl:flex-wrap">
 		<div class="flex flex-col gap-4 xl:gap-8 2xl:gap-16 text-white
 		font-free text-lg md:text-xl 2xl:text-2xl">
 			<div class="flex gap-3 items-center">
-				<img class="w-auto max-h-16 h-10 md:h-16" src="images/misc/uno.png" alt="Primer paso">
+				<img src="images/misc/uno.png" alt="Primer paso"
+				class="w-auto max-h-16 h-10 md:h-16">
 				<p>
 					Seleccioná la categoría que quieras analizar
 				</p>
 			</div>
 			<div class="flex flex-col">
 				<div class="flex gap-3 items-center">
-					<img class="w-auto max-h-16 h-10 md:h-16" src="images/misc/dos.png" alt="Segundo paso">
+					<img src="images/misc/dos.png" alt="Segundo paso"
+					class="w-auto max-h-16 h-10 md:h-16">
 					<p>
 						Elegí el usuario/a.
 					</p>
 				</div>
 				<p class="pl-20">
-					También podés seleccionar para <br> descargar una categoría completa
+					También podés seleccionar para <br>
+					descargar una categoría completa
 				</p>
 			</div>
 			<div class="flex gap-3 items-center">
-				<img class="w-auto max-h-16 h-10 md:h-16" src="images/misc/tres.png" alt="Tercero paso">
+				<img src="images/misc/tres.png" alt="Tercero paso"
+				class="w-auto max-h-16 h-10 md:h-16">
 				<p>
 					Descargá la data en formato CSV o XLSX
 				</p>
@@ -182,17 +204,19 @@ bg-pet-blue texture-blue">
 	</div>
 </div>
 
-<div id="quienes" class="w-full flex flex-col gap-12 py-12 lg:py-24 px-24
-lg:px-48 bg-pet-black texture-black">
+<div id="quienes" class="w-full flex flex-col gap-12 py-12
+lg:py-24 px-24 lg:px-48 bg-pet-black texture-black">
 	<div class="flex justify-between items-center">
-		<h1 class="leading-tight text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-pet-blue
-		font-bowlby font-bold uppercase">¿Quiénes somos?</h1>
-		<img class="w-auto h-12 max-h-24 lg:h-24" src="images/emoji/aha.png" alt=":how:">
+		<h1 class="leading-tight text-2xl md:text-4xl lg:text-5xl xl:text-6xl
+	text-pet-blue	font-bowlby font-bold uppercase">¿Quiénes somos?</h1>
+		<img src="images/emoji/aha.png" alt=":how:"
+		class="w-auto h-12 max-h-24 lg:h-24" >
 	</div>
 	<div class="flex flex-col xl:flex-row gap-16 justify-around text-white">
 		<div class="text-lg md:text-xl">
 			<div class="h-36 pt-5">
-				<img class="w-64 h-auto" src="images/logo/der.png" alt="Democracia en Red">
+				<img src="images/logo/der.png" alt="Democracia en Red"
+				class="w-64 h-auto">
 			</div>
 			<p class="max-w-md">
 				Democracia en Red diseña e implementa innovaciones que transparentan,
@@ -201,7 +225,7 @@ lg:px-48 bg-pet-black texture-black">
 			</p>
 			<br>
 			<p class="max-w-md">
-				En ese camino, crearion la tecnología DemocracyOS: un espacio online 
+				En ese camino, crearion la tecnología DemocracyOS: un espacio online
 				verstátil diseñado para que el derecho a participar sea puesto en
 				práctica masivamente, en distintas escalas de gobierno.
 			</p>
@@ -236,8 +260,8 @@ lg:px-48 bg-pet-black texture-black">
 			<p class="max-w-md">
 				El Observatorio de Redes es una iniciativa multidisciplinaria
 				de investigación aplicada, con el fin de experimentar y desarrollar
-				metodologías innovadoras para la comprensión y el estudio de los fenómenos
-				públicos a través del análisis de redes.
+				metodologías innovadoras para la comprensión y el estudio de los
+				fenómenos públicos a través del análisis de redes.
 			</p>
 			<div class="pt-6 flex gap-8">
 				<img src="images/misc/social/twitter.png"
@@ -253,7 +277,8 @@ gap-12 2xl:gap-12 items-center bg-pet-blue texture-blue">
 	<h3 class="w-56 text-xl text-pet-gray font-bowlby font-bold uppercase">
 		Nos apoyan:
 	</h3>
-	<div class="w-full flex flex-col md:flex-row gap-12 items-center justify-center">
+	<div class="w-full flex flex-col md:flex-row gap-12 items-center
+	justify-center">
 		<img src="images/logo/uba.png" alt="Universidad Buenos Aires"
 		class="w-48 xl:w-auto h-auto xl:h-16" >
 		<img src="images/logo/ndi.png" alt="Instituto Nacional Demócrata"
@@ -264,9 +289,12 @@ gap-12 2xl:gap-12 items-center bg-pet-blue texture-blue">
 <div class="w-full flex flex-col gap-12 py-12 lg:py-24 px-24 lg:px-48
 bg-pet-black texture-black">
 	<div class="flex justify-between">
-		<h1 class="leading-tight text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-pet-blue
-		font-bowlby font-bold uppercase">¿Por qué<br> nos interesa?</h1>
-		<img class="w-auto h-12 max-h-24 lg:h-24" src="images/emoji/nerd.png" alt=":nerd:">
+		<h1 class="leading-tight text-2xl md:text-4xl lg:text-5xl xl:text-6xl
+		text-pet-blue font-bowlby font-bold uppercase">
+			¿Por qué<br> nos interesa?
+		</h1>
+		<img src="images/emoji/nerd.png" alt=":nerd:"
+		class="w-auto h-12 max-h-24 lg:h-24">
 	</div>
 	<div class="text-lg md:text-xl text-white">
 		<p class="max-w-4xl">
@@ -315,8 +343,10 @@ bg-pet-gray texture-gray">
 			</li>
 		</div>
 		<li>
-			<button class="p-2 rounded-3xl border-2 border-pet-blue bg-pet-blue text-white uppercase">
-				<a href="https://oderedes.shinyapps.io/politicosentwitter/" target="_blank">
+			<button class="p-2 rounded-3xl border-2 border-pet-blue bg-pet-blue
+			text-white uppercase">
+				<a href="https://oderedes.shinyapps.io/politicosentwitter/"
+				target="_blank">
 					Repositorio
 				</a>
 			</button>
