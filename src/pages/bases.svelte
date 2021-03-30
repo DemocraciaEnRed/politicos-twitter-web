@@ -477,7 +477,7 @@ bg-pet-gray texture-gray">
 </div>
 
 <style>
-  a {
+  p > a {
     @apply text-pet-blue underline;
   }
 
