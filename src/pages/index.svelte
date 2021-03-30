@@ -53,8 +53,8 @@ bg-pet-gray texture-gray">
   -->
 </div>
 
-<div id="que" class="w-full h-screen flex justify-center align-center
-py-24 xl:py-48 px-12 md:px-24 xl:px-36 bg-pet-blue texture-blue">
+<div id="que" class="w-full h-screen 2xl:h-auto flex justify-center align-center
+py-24 xl:py-48 2xl:py-80 2xl:pt-96 px-12 md:px-24 xl:px-36 bg-pet-blue texture-blue">
 	<div class="flex flex-col justify-center gap-12">
 		<h1 class="title max-w-5xl lg:max-w-full w-full text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl
 		text-bold text-white font-free font-bold">
