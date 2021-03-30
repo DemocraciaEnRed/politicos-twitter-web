@@ -48,18 +48,18 @@ bg-pet-gray texture-gray">
 <div id="que" class="w-full h-screen flex justify-center align-center
 py-24 xl:py-48 px-12 md:px-24 xl:px-36 bg-pet-blue texture-blue">
 	<div class="flex flex-col justify-center gap-12">
-		<h1 class="max-w-5xl  w-full text-2xl sm:text-4xl md:text-5xl lg:text-6xl
-		text-bold text-white font-free font-bold text-justify">
+		<h1 class="max-w-5xl lg:max-w-full w-full text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl
+		text-bold text-white font-free font-bold">
 			<span class="text-pet-black">Políticxs en Twitter</span> es un
 			repositorio con interacciones de más de 500 usuarios relacionados
 			con la política en Argentina.
 		</h1>
 		<h2 class="text-xl sm:text-3xl text-white font-free">
 			Ponemos a disposición de la comunidad este ATLAS con datos libres
-			<br> y reutilizables, para facilitar la producción de conocimiento.
+			y reutilizables, para facilitar la producción de conocimiento.
 			<br><br>
 			Porque es ese conocimiento el que nos permitirá observar e interpelar
-			<br> a la clase política a partir de evidencia, una que convierta
+			a la clase política a partir de evidencia, una que convierta
 			sus dichos en hechos.
 		</h2>
 	</div>
@@ -104,7 +104,7 @@ md:py-24 px-10 md:px-24 lg:px-48 justify-center bg-pet-gray texture-gray">
 			¿Trabajás con datos?
 		</p>
 		<p>
-			¿Te gusta la investigación aplicada?
+			 ¿Te gusta la investigación aplicada?
 		</p>
 	</div>
 	<div class="flex justify-between">
