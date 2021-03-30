@@ -23,7 +23,7 @@ bg-pet-gray texture-gray">
 				<a href="#quienes">¿Quiénes somos?</a>
 			</li>
 			<li>
-				<a href="#contacto">Contacto</a>
+				<a href="mailto:hola@politicosentwitter.com">Contacto</a>
 			</li>
 			<li class="lg:ml-auto">
 				<button class="p-2 rounded-3xl border-2 border-pet-blue bg-pet-blue
@@ -56,7 +56,7 @@ bg-pet-gray texture-gray">
 <div id="que" class="w-full h-screen flex justify-center align-center
 py-24 xl:py-48 px-12 md:px-24 xl:px-36 bg-pet-blue texture-blue">
 	<div class="flex flex-col justify-center gap-12">
-		<h1 class="max-w-5xl lg:max-w-full w-full text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl
+		<h1 class="title max-w-5xl lg:max-w-full w-full text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl
 		text-bold text-white font-free font-bold">
 			<span class="text-pet-black">Políticxs en Twitter</span> es un
 			repositorio con interacciones de más de 500 usuarios relacionados
@@ -272,21 +272,23 @@ lg:py-24 px-24 lg:px-48 bg-pet-black texture-black">
 				fenómenos públicos a través del análisis de redes.
 			</p>
 			<div class="pt-6 flex gap-8">
-				<img src="images/misc/social/twitter.png"
-				alt="Twitter del Observatorio de redes"
-				class="w-auto h-12">
+        <a href="https://twitter.com/O_de_R/" target="_blank">
+          <img src="images/misc/social/twitter.png"
+          alt="Twitter del Observatorio de redes"
+          class="w-auto h-12">
+        </a>
 			</div>
 		</div>
 	</div>
 </div>
 
 <div class="w-full py-12 2xl:py-24 px-36 lg:px-48 flex flex-col lg:flex-row
-gap-12 2xl:gap-12 items-center bg-pet-blue texture-blue">
+gap-6 items-center bg-pet-blue texture-blue">
 	<h3 class="w-56 text-xl text-pet-gray font-bowlby font-bold uppercase">
 		Nos apoyan:
 	</h3>
 	<div class="w-full flex flex-col md:flex-row gap-12 items-center
-	justify-center">
+	justify-center lg:justify-start">
 		<img src="images/logo/uba.png" alt="Universidad Buenos Aires"
 		class="w-48 xl:w-auto h-auto xl:h-16" >
 		<img src="images/logo/ndi.png" alt="Instituto Nacional Demócrata"
@@ -316,7 +318,7 @@ bg-pet-black texture-black">
 		<p class="max-w-4xl">
 			Queremos observar las relaciones entre los actores políticos en distintos
 			ambientes de interacción institucional (el congreso; una elección;
-			dentro de una coalición) y mediática (Facebook, Twitte, Youtube)
+			dentro de una coalición) y mediatica (Facebook, Twitte, Youtube)
 			para evaluar cómo actúan: qué hacen, qué dicen, con quiénes se vinculan,
 			a quíenes se acercan, con quiénes se enfrentan, cómo votan y cómo reaccionan
 		</p>
@@ -347,7 +349,7 @@ bg-pet-gray texture-gray">
 				<a href="#convocatoria" class="text-pet-blue">Convocatoria</a>
 			</li>
 			<li>
-				<a href="#contacto">Contacto</a>
+				<a href="mailto:hola@politicosentwitter.com">Contacto</a>
 			</li>
 		</div>
 		<li>
@@ -412,4 +414,30 @@ bg-pet-gray texture-gray">
 	li > button {
 		@apply border-4;
 	}
+
+  .title {
+    position: relative;
+  }
+  
+  @media only screen and (min-width: 1035px) and (max-width : 1063px) {
+    .title:after {
+      content: "";
+      position: absolute;
+      border-bottom: 8px solid #15202B;
+      width: 6em;
+      bottom: 15px;
+      margin-left: 15px;
+    }
+  }
+
+  @media only screen and (min-width: 1065px) and (max-width : 1169px) {
+    .title:after {
+      content: "";
+      position: absolute;
+      border-bottom: 8px solid #15202B;
+      width: 9em;
+      bottom: 15px;
+      margin-left: 15px;
+    }
+  }
 </style>

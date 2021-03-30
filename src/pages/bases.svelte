@@ -17,7 +17,7 @@ bg-pet-gray texture-gray">
 				<a href="/#quienes">¿Quiénes somos?</a>
 			</li>
 			<li>
-				<a href="/#contacto">Contacto</a>
+				<a href="mailto:hola@politicosentwitter.com">Contacto</a>
 			</li>
 			<li class="lg:ml-auto">
 				<button class="p-2 rounded-3xl border-2 uppercase
@@ -142,10 +142,14 @@ bg-pet-gray text-base texture-gray">
 					<br>
 					<br>
 					<p>
-						Se abrirá un formulario en línea en el que deberán presentarse
-						las propuestas en idioma español. En ese formato, se deberán
-						incluir los siguientes elementos listados a continuación
-						de forma obligatoria:
+            Se abrirá un
+            <a href="https://preguntarparaacordar.typeform.com/to/gVqxiRR6"
+            target="_blank">
+              formulario en línea
+            </a>
+            en el que deberán presentarse las propuestas en idioma español.
+            En ese formato, se deberán incluir los siguientes elementos
+            listados a continuación de forma obligatoria:
 					</p>
 					<br>
 					<ul>
@@ -321,9 +325,7 @@ bg-pet-gray text-base texture-gray">
 				No se aceptarán trabajos enviados luego de esta fecha.
 				El mismo deberá ser presentado y enviado únicamente a través del
 				<a href="https://preguntarparaacordar.typeform.com/to/gVqxiRR6"
-				target="_blank">
-				siguiente formulario
-			</a>,
+				target="_blank">siguiente formulario</a>,
 				con indicaciones claras sobre los campos requeridos. 
 			</p>
 		</div>
@@ -426,7 +428,10 @@ bg-pet-gray text-base texture-gray">
 		</h1>
 		<div class="py-8 max-w-3xl text-lg font-free">
 			<p>
-				En caso de consultas escribir a XX, con copia a XX.
+        En caso de consultas escribir a
+        <a href="mailto:hola@politicosentwitter.com">
+          hola@politicosentwitter.com
+        </a>.
 			</p>
 		</div>
 	</div>
@@ -456,7 +461,7 @@ bg-pet-gray texture-gray">
 				<a href="/#convocatoria" class="text-pet-blue">Convocatoria</a>
 			</li>
 			<li>
-				<a href="/#contacto">Contacto</a>
+				<a href="mailto:hola@politicosentwitter.com">Contacto</a>
 			</li>
 		</div>
 		<li>
@@ -472,6 +477,10 @@ bg-pet-gray texture-gray">
 </div>
 
 <style>
+  a {
+    @apply text-pet-blue underline;
+  }
+
 	li {
 		list-style: none;
 	}
