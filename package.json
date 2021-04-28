@@ -16,6 +16,7 @@
   "scripts": {
     "dev": "run-p routify nollup",
     "dev:ssr": "run-p routify rollup",
+    "deploy": "node ./gh-pages.js",
     "build": "run-s build:*",
     "build:app": "routify -b && rollup -c",
     "build:static": "spank",
@@ -58,5 +59,8 @@
     "blacklist": [
       "/example/modal/basic/4"
     ]
+  },
+  "dependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
