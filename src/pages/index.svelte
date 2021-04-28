@@ -72,7 +72,14 @@ py-24 xl:py-48 2xl:py-80 2xl:pt-96 px-12 md:px-24 xl:px-36 bg-pet-blue texture-b
 		</h2>
 	</div>
 </div>
-
+<a href="https://www.youtube.com/watch?v=z258VDvsQD4&t=6s&ab_channel=DemocraciaEnRed" target="_blank" class="w-full bg-pet-gray p-5 flex items-center flex justify-center align-center hover:underline pr-10 pl-10">
+	<h2 class=" text-pet-black font-bowlby uppercase text-xl"> 
+		¡Para conocer más, mirá el video del lanzamiento!
+	</h2>
+	<img src="images/misc/social/youtube.png"
+		alt="Livestream de lanzamiento de politicos en twitter"
+		class="w-auto h-10 ml-10">
+</a>
 <div class="w-full flex flex-col xl:flex-row gap-12 py-12 lg:py-24 px-12
 md:px-24 lg:px-48 justify-between items-center bg-pet-black texture-black">
 <div class="max-w-lg flex flex-col gap-10 md:gap-12 justify-center">
