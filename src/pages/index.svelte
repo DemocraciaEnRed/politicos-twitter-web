@@ -125,44 +125,32 @@ md:py-24 px-10 md:px-24 lg:px-48 justify-center bg-pet-gray texture-gray">
 	<div class="flex justify-between">
 		<h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl
 		xl:text-6xl text-pet-blue font-bowlby font-bold uppercase leading-10">
-			¡Queremos tu<br> colaboración!
+			¡MUCHAS GRACIAS POR PARTICIPAR!
 		</h1>
 		<img src="images/emoji/write.png" alt=":write:"
 		class="w-auto h-12 max-h-24 lg:h-24">
 	</div>
 	<div class="flex flex-col gap-8">
 		<p class="text-xl md:text-2xl font-free">
-			Está abierta la
 			<span class="text-pet-blue font-bold uppercase">
 				convocatoria <u>#digamostodo</u>.
 			</span><br>
-			Nos interesa medir la relación
-			entre nuestrxs políticos y la desinformación.
+			Muchas gracias a todas las personas y grupos que participaron. 
+			Estamos evaluando las propuestas de investigación. 
 		</p>
 		<p class="text-xl md:text-2xl font-free">
 			<u>
-				Presentá tu propuesta para trabajar
-				con el repositorio de Políticxs en Twitter
+				Pronto estaremos anunciando cuáles serán las seleccionadas que pasarán a una segunda instancia. 
 			</u>
 		</p>
 		<p class="text-xl md:text-2xl font-free font-bold">
-			La propuesta más original e innovadora tendrá un PREMIO DE 140 mil<br>
-			pesos para financiar tu proyecto de investigación.
+			Para más información sobre la Convocatoria ingresá a nuestras bases y condiciones.
 		</p>
 	</div>
 	<div class="flex flex-col sm:flex-row gap-8 items-center">
 		<button class="w-72 sm:w-auto h-16 lg:h-14 p-2 rounded-3xl border-2
-		uppercase border-pet-blue bg-pet-blue text-pet-blue">
-			<a href="https://preguntarparaacordar.typeform.com/to/gVqxiRR6"
-			target="_blank" class="px-4 flex gap-2 items-center justify-center
-			text-pet-gray font-free font-bold uppercase">
-				<img class="w-auto h-8" src="images/emoji/here.png" alt=":here:">
-				¡Quiero participar!
-			</a>
-		</button>
-		<button class="w-72 sm:w-auto h-16 lg:h-14 p-2 rounded-3xl border-2
 		border-pet-blue text-pet-blue uppercase">
-			<a href="bases" class="px-4 flex gap-2 items-center justify-center
+			<a href="/bases" class="px-4 flex gap-2 items-center justify-center
 			font-bold">
 				<img class="w-auto h-8" src="images/emoji/tos.png" alt=":tos:">
 				Bases y condiciones

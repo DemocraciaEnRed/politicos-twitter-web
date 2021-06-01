@@ -32,7 +32,7 @@ bg-pet-gray texture-gray">
 		</ul>
 	</nav>
 	<div class="h-full flex flex-col lg:flex-row justify-center items-center gap-12">
-		<img src="images/logo/pet.png" alt="Logo de Políticos en Twitter"
+		<img src="/images/logo/pet.png" alt="Logo de Políticos en Twitter"
 		class="w-7/12 sm:w-4/12 md:w-6/12 lg:w-4/12">
 		<h1 class="lg:pl-12 text-xl md:text-3xl 2xl:text-7xl lg:text-5xl font-bowlby
 		text-pet-black uppercase md:border-t-0 border-l-0
