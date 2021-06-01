@@ -29,7 +29,9 @@ body {
 	-ms-overflow-style: none;  /* IE and Edge */
 	scrollbar-width: none;  /* Firefox */
 }
-
+html {
+  scroll-behavior: smooth;
+}
 html, body {
 	position: relative;
 	width: 100%;
