@@ -1,5 +1,6 @@
 <script>
     import { metatags } from '@roxi/routify'
+	import { url} from '@roxi/routify'
     metatags.title = 'Políticos en Twitter'
     metatags.description = 'Observatorio de redes sociales'
 </script>
@@ -150,7 +151,7 @@ md:py-24 px-10 md:px-24 lg:px-48 justify-center bg-pet-gray texture-gray">
 	<div class="flex flex-col sm:flex-row gap-8 items-center">
 		<button class="w-72 sm:w-auto h-16 lg:h-14 p-2 rounded-3xl border-2
 		border-pet-blue text-pet-blue uppercase">
-			<a href="/bases" class="px-4 flex gap-2 items-center justify-center
+			<a href={$url('./bases')} class="px-4 flex gap-2 items-center justify-center
 			font-bold">
 				<img class="w-auto h-8" src="images/emoji/tos.png" alt=":tos:">
 				Bases y condiciones
