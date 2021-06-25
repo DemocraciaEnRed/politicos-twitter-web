@@ -22,7 +22,8 @@ bg-pet-gray texture-gray">
 		lg:justify-around flex-wrap lg:flex-nowrap text-base 2xl:text-xl lg:text-lg
 		font-bowlby text-pet-black uppercase">
 			<li>
-				<button on:click={ scrollInto(que)}>¿Qué es?</button>
+				<a href="#que">¿Qué es?</a>
+				<!-- <button on:click={ scrollInto(que)}>¿Qué es?</button> -->
 			</li>
 			<li>
 				<a href="#como">¿Cómo funciona?</a>
