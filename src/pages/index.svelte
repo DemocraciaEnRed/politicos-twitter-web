@@ -3,7 +3,27 @@
 	import { url} from '@roxi/routify'
     metatags.title = 'Políticos en Twitter'
     metatags.description = 'Observatorio de redes sociales'
+
+	//scroll
+
+	window.addEventListener("DOMContentLoaded", function(e) {
+	var links = document.getElementsByTagName("A");
+	for(var i=0; i < links.length; i++) {
+		if(!links[i].hash) continue;
+		if(links[i].origin + links[i].pathname != self.location.href) continue;
+		(function(anchorPoint) {
+		links[i].addEventListener("click", function(e) {
+			anchorPoint.scrollIntoView(true);
+			e.preventDefault();
+		}, false);
+		})(document.getElementById(links[i].hash.replace(/#/, "")));
+	}
+	}, false);
+
+	
 </script>
+
+
 
 <div class="w-full h-screen flex flex-col lg:flex-col
 bg-pet-gray texture-gray">
@@ -134,14 +154,13 @@ md:py-24 px-10 md:px-24 lg:px-48 justify-center bg-pet-gray texture-gray">
 	<div class="flex flex-col gap-8">
 		<p class="text-xl md:text-2xl font-free">
 			<span class="text-pet-blue font-bold uppercase">
-				convocatoria <u>#digamostodo</u>.
+				convocatoria <u>#digamostodo</u> cerrada.
 			</span><br>
-			Muchas gracias a todas las personas y grupos que participaron. 
-			Estamos evaluando las propuestas de investigación. 
+			Muchas gracias a todas las personas y grupos que participaron. Luego de dos instancias de evaluación, tenemos a la propuesta ganadora! 
 		</p>
 		<p class="text-xl md:text-2xl font-free">
 			<u>
-				Pronto estaremos anunciando cuáles serán las seleccionadas que pasarán a una segunda instancia. 
+				El equipo de Franco y Lucas Bellomo desarrollará su propuesta "Amplificando la desinformación" en el plazo de los próximos meses.
 			</u>
 		</p>
 		<p class="text-xl md:text-2xl font-free font-bold">
@@ -151,7 +170,7 @@ md:py-24 px-10 md:px-24 lg:px-48 justify-center bg-pet-gray texture-gray">
 	<div class="flex flex-col sm:flex-row gap-8 items-center">
 		<button class="w-72 sm:w-auto h-16 lg:h-14 p-2 rounded-3xl border-2
 		border-pet-blue text-pet-blue uppercase">
-			<a href={$url('./bases')} class="px-4 flex gap-2 items-center justify-center
+			<a href='/bases/' target='_blank' class="px-4 flex gap-2 items-center justify-center
 			font-bold">
 				<img class="w-auto h-8" src="images/emoji/tos.png" alt=":tos:">
 				Bases y condiciones
@@ -334,10 +353,13 @@ bg-pet-gray texture-gray">
 				<a href="#que">¿Qué es?</a>
 			</li>
 			<li>
-				<a href="#como">¿Cómo funciona?</a>
+				<a href={ `#${document.getElementById('como')}`
+				
+					
+					}>¿Cómo funciona?</a>
 			</li>
 			<li>
-				<a href="#quienes">¿Quiénes somos?</a>
+				<a href={ `#${document.getElementById('quienes')}`}>¿Quiénes somos?</a>
 			</li>
 		</div>
 		<div class="flex flex-col gap-4 self-start">

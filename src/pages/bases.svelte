@@ -1,3 +1,8 @@
+<script>
+    import { metatags } from '@roxi/routify'
+    metatags.title = 'Políticos en Twitter'
+</script>
+
 <div class="w-full h-screen flex flex-col-reverse lg:flex-col
 bg-pet-gray texture-gray">
 	<nav>
@@ -5,7 +10,13 @@ bg-pet-gray texture-gray">
 		lg:justify-around flex-wrap lg:flex-nowrap text-base 2xl:text-xl lg:text-lg
 		font-bowlby text-pet-black uppercase">
 			<li>
-				<a href="/#que">¿Qué es?</a>
+				
+				<button onClick={ ()=> {
+					function Scrolldown(section) { 
+							window.location.hash = `#${section}`; 
+					} 
+					return Scrolldown('que')}
+				}>¿Qué es?</button>
 			</li>
 			<li>
 				<a href="/#como">¿Cómo funciona?</a>
