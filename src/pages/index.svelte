@@ -1,29 +1,19 @@
 <script>
     import { metatags } from '@roxi/routify'
-	import { url} from '@roxi/routify'
     metatags.title = 'Políticos en Twitter'
     metatags.description = 'Observatorio de redes sociales'
 
-	//scroll
-
-	window.addEventListener("DOMContentLoaded", function(e) {
-	var links = document.getElementsByTagName("A");
-	for(var i=0; i < links.length; i++) {
-		if(!links[i].hash) continue;
-		if(links[i].origin + links[i].pathname != self.location.href) continue;
-		(function(anchorPoint) {
-		links[i].addEventListener("click", function(e) {
-			anchorPoint.scrollIntoView(true);
-			e.preventDefault();
-		}, false);
-		})(document.getElementById(links[i].hash.replace(/#/, "")));
-	}
-	}, false);
-
+	//Pruebas para el scroll
+	let que;
+	function scrollInto(elmnt) {
 	
+	elmnt.scrollIntoView({
+		behavior: "smooth", 
+		block: "start",
+		inline: "nearest"
+	});
+	}
 </script>
-
-
 
 <div class="w-full h-screen flex flex-col lg:flex-col
 bg-pet-gray texture-gray">
@@ -32,7 +22,7 @@ bg-pet-gray texture-gray">
 		lg:justify-around flex-wrap lg:flex-nowrap text-base 2xl:text-xl lg:text-lg
 		font-bowlby text-pet-black uppercase">
 			<li>
-				<a href="#que">¿Qué es?</a>
+				<button on:click={ scrollInto(que)}>¿Qué es?</button>
 			</li>
 			<li>
 				<a href="#como">¿Cómo funciona?</a>
@@ -74,7 +64,7 @@ bg-pet-gray texture-gray">
   </div>
 </div>
 
-<div id="que" class="w-full h-screen 2xl:h-auto flex justify-center align-center
+<div bind:this={que} id="que" class="w-full h-screen 2xl:h-auto flex justify-center align-center
 py-24 xl:py-48 2xl:py-80 2xl:pt-96 px-12 md:px-24 xl:px-36 bg-pet-blue texture-blue">
 	<div class="flex flex-col justify-center gap-12">
 		<h1 class="title max-w-5xl lg:max-w-full w-full text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl
@@ -353,13 +343,10 @@ bg-pet-gray texture-gray">
 				<a href="#que">¿Qué es?</a>
 			</li>
 			<li>
-				<a href={ `#${document.getElementById('como')}`
-				
-					
-					}>¿Cómo funciona?</a>
+				<a href="#como">¿Cómo funciona?</a>
 			</li>
 			<li>
-				<a href={ `#${document.getElementById('quienes')}`}>¿Quiénes somos?</a>
+				<a href="#quienes">¿Quiénes somos?</a>
 			</li>
 		</div>
 		<div class="flex flex-col gap-4 self-start">
