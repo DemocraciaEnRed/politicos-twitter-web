@@ -15,10 +15,10 @@
 	}
 </script>
 
-<div class="w-full h-screen flex flex-col lg:flex-col
+<div class="w-full h-screen  flex flex-col lg:flex-col
 bg-pet-gray texture-gray">
-	<nav>
-		<ul class="header w-full p-8 lg:pl-12 flex gap-12 xl:gap-24 justify-center
+	<nav class="container">
+		<ul class="header w-full p-8 lg:p-4 flex gap-12 xl:gap-24 justify-center
 		lg:justify-around flex-wrap lg:flex-nowrap text-base 2xl:text-xl lg:text-lg
 		font-bowlby text-pet-black uppercase">
 			<li>
@@ -59,22 +59,25 @@ bg-pet-gray texture-gray">
   </div>
   <img src="images/gif/pet.gif" alt="GIF de Políticos en Twitter">
 -->
-  <div class="h-full flex justify-center items-center">
+  <div class="container h-full flex justify-center items-center">
     <img src="images/logo/pet.png" alt="Logo de Políticos en Twitter"
     class="m-auto w-7/12 md:w-6/12 lg:w-4/12">
   </div>
 </div>
 
-<div bind:this={que} id="que" class="w-full h-screen 2xl:h-auto flex justify-center align-center
-py-24 xl:py-48 2xl:py-80 2xl:pt-96 px-12 md:px-24 xl:px-36 bg-pet-blue texture-blue">
-	<div class="flex flex-col justify-center gap-12">
-		<h1 class="title max-w-5xl lg:max-w-full w-full text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl
+<div bind:this={que} id="que" class="w-full flex flex-col gap-14 py-12
+md:py-24 px-6 md:px-12 lg:px-24 justify-center bg-pet-blue texture-blue">
+	<div class="container  justify-center gap-12">
+		<h1 class=" tile max-w-5xl lg:max-w-full w-full text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl
 		text-bold text-white font-free font-bold">
 			<span class="text-pet-black">Políticxs en Twitter</span> es un
 			repositorio con interacciones de más de 500 usuarios relacionados
 			con la política en Argentina.
 		</h1>
-		<h2 class="text-xl sm:text-3xl text-white font-free">
+		<!-- <h1 class="title max-w-5xl lg:max-w-full w-full text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl
+		text-bold text-white font-free font-bold"> </h1> -->
+		<!-- <hr class="title"> -->
+		<h2 class="text-xl sm:text-3xl text-white font-free pt-10">
 			Ponemos a disposición de la comunidad este ATLAS con datos libres
 			y reutilizables, para facilitar la producción de conocimiento.
 			<br><br>
@@ -84,17 +87,19 @@ py-24 xl:py-48 2xl:py-80 2xl:pt-96 px-12 md:px-24 xl:px-36 bg-pet-blue texture-b
 		</h2>
 	</div>
 </div>
-<a href="https://www.youtube.com/watch?v=z258VDvsQD4&t=6s&ab_channel=DemocraciaEnRed" target="_blank" class="w-full bg-pet-gray p-5 flex items-center flex justify-center align-center hover:underline pr-10 pl-10">
-	<h2 class=" text-pet-black font-bowlby uppercase text-xl"> 
-		¡Para conocer más, mirá el video del lanzamiento!
-	</h2>
-	<img src="images/misc/social/youtube.png"
-		alt="Livestream de lanzamiento de politicos en twitter"
-		class="w-auto h-10 ml-10">
-</a>
-<div class="w-full flex flex-col xl:flex-row gap-12 py-12 lg:py-24 px-12
+<div class=" flex mx-0">
+	<a href="https://www.youtube.com/watch?v=z258VDvsQD4&t=6s&ab_channel=DemocraciaEnRed" target="_blank" class="w-full bg-pet-gray p-5  items-center  justify-center align-center hover:underline pr-10 pl-10">
+		<h2 class=" text-pet-black font-bowlby uppercase text-xl"> 
+			¡Para conocer más, mirá el video del lanzamiento!
+		</h2>
+		<img src="images/misc/social/youtube.png"
+			alt="Livestream de lanzamiento de politicos en twitter"
+			class="w-auto h-10 ml-10">
+	</a>
+</div>
+<div class="w-full  flex flex-col xl:flex-row gap-12 py-12 lg:py-24 px-12
 md:px-24 lg:px-48 justify-between items-center bg-pet-black texture-black">
-<div class="max-w-lg flex flex-col gap-10 md:gap-12 justify-center">
+	<div class="max-w-lg flex flex-col gap-10 md:gap-12 justify-center">
 		<div class="flex -ml-8 md:-ml-16">
 			<img class="w-auto h-12 lg:h-16"
 			src="images/emoji/hand.png" alt=":hand:">
@@ -331,7 +336,7 @@ bg-pet-black texture-black">
 	</div>
 </div>
 
-<div class="w-full flex flex-col md:flex-row gap-12 py-16 px-24 xl:px-48
+<div class="w-full flex flex-wrap md:flex-row gap-12 py-16 px-24 xl:px-48
 bg-pet-gray texture-gray">
 	<img src="images/logo/pet.png" alt="Logo de Políticos en Twitter"
 	class="m-auto w-auto h-24 2xl:h-36 xl:h-28">
