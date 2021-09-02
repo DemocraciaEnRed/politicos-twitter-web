@@ -13,11 +13,11 @@
       __defProp(target, name, {get: all[name], enumerable: true});
   };
 
-  // dist/build/_fallback-da416545.js
-  var require_fallback_da416545 = __commonJS((exports) => {
+  // dist/build/_fallback-8d96f76e.js
+  var require_fallback_8d96f76e = __commonJS((exports) => {
     __markAsModule(exports);
     __export(exports, {
-      default: () => fallback_da416545_default2
+      default: () => fallback_8d96f76e_default2
     });
     function v2(s2) {
       let a2, e2, d2, f2, v3, x3, g2, h2;
@@ -35,19 +35,19 @@
       let t2;
       return l(s2, Nt, (s3) => e2(0, t2 = s3)), [t2];
     }
-    var fallback_da416545_default = class extends X {
+    var fallback_8d96f76e_default = class extends X {
       constructor(s2) {
-        super(), Z(this, s2, x2, v2, i, {});
+        super(), Z(this, s2, x2, v2, s, {});
       }
     };
-    var fallback_da416545_default2 = fallback_da416545_default;
+    var fallback_8d96f76e_default2 = fallback_8d96f76e_default;
   });
 
-  // dist/build/bases-b06de692.js
-  var require_bases_b06de692 = __commonJS((exports) => {
+  // dist/build/bases-9ba7781b.js
+  var require_bases_9ba7781b = __commonJS((exports) => {
     __markAsModule(exports);
     __export(exports, {
-      default: () => bases_b06de692_default2
+      default: () => bases_9ba7781b_default2
     });
     function u2(t2) {
       let e2, a2, p2, u3, b3, m2, v2, g2, x2, f2, h2, q2, y2, k2, w2, E2, C2, L2, A2, T2, j2, z2;
@@ -60,30 +60,30 @@
       }};
     }
     function b2(t2) {
-      Rt.title = "Pol\xEDticos en Twitter";
+      Mt.title = "Pol\xEDticos en Twitter";
       return [() => {
         return t3 = "que", void (window.location.hash = `#${t3}`);
         var t3;
       }];
     }
-    var bases_b06de692_default = class extends X {
+    var bases_9ba7781b_default = class extends X {
       constructor(t2) {
-        super(), Z(this, t2, b2, u2, i, {});
+        super(), Z(this, t2, b2, u2, s, {});
       }
     };
-    var bases_b06de692_default2 = bases_b06de692_default;
+    var bases_9ba7781b_default2 = bases_9ba7781b_default;
   });
 
-  // dist/build/index-fda29494.js
-  var require_index_fda29494 = __commonJS((exports) => {
+  // dist/build/index-36314bc6.js
+  var require_index_36314bc6 = __commonJS((exports) => {
     __markAsModule(exports);
     __export(exports, {
-      default: () => index_fda29494_default2
+      default: () => index_36314bc6_default2
     });
     function d2(t2) {
       let e2, a2, r2, d3, x3, p2, m2, u2, g2, f2, b2, h2, v2, w2, y2, j2, q2, k2, T2;
       return {c() {
-        e2 = g("div"), e2.innerHTML = '<nav class="container m-auto "><ul class="header w-50 p-8  flex gap-8 xl:gap-24 justify-center\n		lg:justify-around flex-col md:flex-col lg:flex-row xl:flex-row zxl:flex-row text-base 2xl:text-xl lg:text-lg\n		font-bowlby text-pet-black uppercase svelte-jd5qb1"><li class="svelte-jd5qb1"><a href="#que" class="svelte-jd5qb1">\xBFQu\xE9 es?</a></li> \n			<li class="svelte-jd5qb1"><a href="#como" class="svelte-jd5qb1">\xBFC\xF3mo funciona?</a></li> \n			<li class="svelte-jd5qb1"><a href="#convocatoria" class=" svelte-jd5qb1">Convocatoria</a></li> \n			<li class="svelte-jd5qb1"><a href="#quienes" class="svelte-jd5qb1">\xBFQui\xE9nes somos?</a></li> \n			<li class="svelte-jd5qb1"><a href="mailto:hola@politicosentwitter.com" class="svelte-jd5qb1">Contacto</a></li> \n			<li class="lg:ml-auto svelte-jd5qb1"><button class="p-2 rounded-3xl border-2 border-pet-blue bg-pet-blue\n				text-white uppercase svelte-jd5qb1"><a href="https://oderedes.shinyapps.io/politicosentwitter/" target="_blank">Repositorio</a></button></li></ul></nav> \n  \n<div class="w-full my-14 flex justify-center  items-center "><img src="images/logo/pet.png" alt="Logo de Pol\xEDticos en Twitter" class="m-auto w-7/12 md:w-6/12 lg:w-4/12"/></div>', a2 = $(), r2 = g("div"), r2.innerHTML = '<div class="container  justify-center gap-12"><h1 class=" tile max-w-5xl lg:max-w-full w-full text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl\n		text-bold text-white font-free font-bold"><span class="text-pet-black">Pol\xEDticxs en Twitter</span> es un\n			repositorio con interacciones de m\xE1s de 500 usuarios relacionados\n			con la pol\xEDtica en Argentina.</h1> \n		\n		\n		<h2 class="text-xl sm:text-3xl text-white font-free pt-10">Ponemos a disposici\xF3n de la comunidad este ATLAS con datos libres\n			y reutilizables, para facilitar la producci\xF3n de conocimiento.\n			<br/><br/>\n			Porque es ese conocimiento el que nos permitir\xE1 observar e interpelar\n			a la clase pol\xEDtica a partir de evidencia, una que convierta\n			sus dichos en hechos.</h2></div>', d3 = $(), x3 = g("div"), x3.innerHTML = '<a href="https://www.youtube.com/watch?v=z258VDvsQD4&amp;t=6s&amp;ab_channel=DemocraciaEnRed" target="_blank" class="w-full p-5   hover:underline pr-10 pl-10"><h2 class="   inline-block text-pet-black font-bowlby uppercase ">\xA1Para conocer m\xE1s, mir\xE1 el video del lanzamiento!</h2> \n		<img src="images/misc/social/youtube.png" alt="Livestream de lanzamiento de politicos en twitter" class="w-auto inline-block h-10 ml-10 text-4xl"/></a>', p2 = $(), m2 = g("div"), m2.innerHTML = '<div class="max-w-lg flex flex-col gap-10 md:gap-12 justify-center"><div class="flex -ml-8 md:-ml-16"><img class="w-auto h-12 lg:h-16" src="images/emoji/hand.png" alt=":hand:"/> \n			<h2 class="max-w-md flex text-2xl md:text-5xl\n			text-pet-blue font-free font-bold">Te invitamos a sumergirte en el mundo del an\xE1lisis de redes.</h2></div> \n		<h2 class="text-2xl md:text-5xl text-white font-free font-bold">\xBFQu\xE9 dicen lxs pol\xEDticxs en Twitter?\n			<br/><br/>\n			\xBFQu\xE9 hacen?</h2> \n		<div class="flex justify-center xl:justify-start"><button class="h-20 md:h-14 p-2 rounded-xl border-2\n			border-pet-blue bg-pet-blue text-pet-blue uppercase"><a href="https://oderedes.shinyapps.io/politicosentwitter/" target="_blank" class="px-2 text-pet-gray font-free font-bold uppercase">Acceder al repositorio</a></button></div></div> \n	<img src="images/gif/circle.gif" alt="Fuciones del repositorio" class="w-auto h-auto max-h-96"/>', u2 = $(), g2 = g("div"), g2.innerHTML = '<div class="flex flex-col xl:flex-row text-xl lg:text-2xl\n	font-free font-bold"><p>\xBFTrabaj\xE1s con datos?</p> \n		<p>\xBFTe gusta la investigaci\xF3n aplicada?</p></div> \n	<div class="flex justify-between"><h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl\n		xl:text-6xl text-pet-blue font-bowlby font-bold uppercase leading-10">\xA1MUCHAS GRACIAS POR PARTICIPAR!</h1> \n		<img src="images/emoji/write.png" alt=":write:" class="w-auto h-12 max-h-24 lg:h-24"/></div> \n	<div class="flex flex-col gap-8"><p class="text-xl md:text-2xl font-free"><span class="text-pet-blue font-bold uppercase">convocatoria <u>#digamostodo</u> cerrada.\n			</span><br/>\n			Muchas gracias a todas las personas y grupos que participaron.\xA0Luego de dos instancias de evaluaci\xF3n, tenemos a la propuesta ganadora!</p> \n		<p class="text-xl md:text-2xl font-free font-bold">El equipo de Franco y Lucas Bellomo desarrollar\xE1 su propuesta &quot;Amplificando la desinformaci\xF3n&quot; en el plazo de los pr\xF3ximos meses.</p> \n		<p class="text-xl md:text-2xl font-free font-bold">Para m\xE1s informaci\xF3n sobre la Convocatoria ingres\xE1 a nuestras bases y condiciones.</p></div> \n	<div class="flex flex-col sm:flex-row gap-8 items-center"><button class="w-72 sm:w-auto h-16 lg:h-14 p-2 rounded-3xl border-2\n		border-pet-blue text-pet-blue uppercase"><a href="/bases/" target="_blank" class="px-4 flex gap-2 items-center justify-center\n			font-bold"><img class="w-auto h-8" src="images/emoji/tos.png" alt=":tos:"/>\n				Bases y condiciones</a></button></div>', f2 = $(), b2 = g("div"), b2.innerHTML = '<div class="flex justify-between items-center"><h1 class="leading-tight text-2xl md:text-4xl lg:text-5xl xl:text-6xl\n		text-white font-bowlby font-bold uppercase">\xBFC\xF3mo funciona?</h1> \n		<img class="w-auto h-12 max-h-24 lg:h-24" src="images/emoji/how.png" alt=":how:"/></div> \n	<div class="h-full flex gap-8 flex-col md:flex-row justify-between\n	items-center flex-wrap-reverse 2xl:flex-wrap"><div class="flex flex-col gap-4 xl:gap-8 2xl:gap-16 text-white\n		font-free text-lg md:text-xl 2xl:text-2xl"><div class="flex gap-3 items-center"><img src="images/misc/uno.png" alt="Primer paso" class="w-auto max-h-16 h-10 md:h-16"/> \n				<p>Seleccion\xE1 la categor\xEDa que quieras analizar</p></div> \n			<div class="flex flex-col"><div class="flex gap-3 items-center"><img src="images/misc/dos.png" alt="Segundo paso" class="w-auto max-h-16 h-10 md:h-16"/> \n					<p>Eleg\xED el usuario/a.</p></div> \n				<p class="pl-20">Tambi\xE9n pod\xE9s seleccionar para <br/>\n					descargar una categor\xEDa completa</p></div> \n			<div class="flex gap-3 items-center"><img src="images/misc/tres.png" alt="Tercero paso" class="w-auto max-h-16 h-10 md:h-16"/> \n				<p>Descarg\xE1 la data en formato CSV o XLSX</p></div></div> \n		<img src="images/gif/how.gif" alt="\xBFC\xF3mo funciona?" class="w-auto max-h-96 h-auto 2xl:h-96 m-auto md:m-0"/></div>', h2 = $(), v2 = g("div"), v2.innerHTML = '<div class="flex justify-between items-center"><h1 class="leading-tight text-2xl md:text-4xl lg:text-5xl xl:text-6xl\n	text-pet-blue	font-bowlby font-bold uppercase">\xBFQui\xE9nes somos?</h1> \n		<img src="images/emoji/aha.png" alt=":how:" class="w-auto h-12 max-h-24 lg:h-24"/></div> \n	<div class="flex flex-col xl:flex-row gap-16 justify-around text-white"><div class="text-lg md:text-xl"><div class="h-36 pt-5"><img src="images/logo/der.png" alt="Democracia en Red" class="w-64 h-auto"/></div> \n			<p class="max-w-md">Democracia en Red dise\xF1a e implementa innovaciones que transparentan,\n				facilitan y fortalecen la participaci\xF3n de la ciudadan\xEDa en la toma\n				de decisiones.</p> \n			<br/> \n			<p class="max-w-md">En ese camino, crearion la tecnolog\xEDa DemocracyOS: un espacio online\n				verst\xE1til dise\xF1ado para que el derecho a participar sea puesto en\n				pr\xE1ctica masivamente, en distintas escalas de gobierno.</p> \n			<br/> \n			<p class="max-w-md">Democracia en Red desarrolla tecnolog\xEDa al servicio de la ciudadan\xEDa\n				para acercar las pol\xEDticas p\xFAblicas a la factibilidad y hacer posible\n				la cooperaci\xF3n entre distintos segmentos sociales, estimulando el\n				pensamiento colectivo.</p> \n			<div class="pt-6 flex gap-8"><a href="https://www.facebook.com/democraciaenred" target="_blank"><img src="images/misc/social/facebook.png" alt="Facebook de Democracia en Red" class="w-auto h-10"/></a> \n				<a href="https://twitter.com/fundacionder" target="_blank"><img class="w-auto h-10" src="images/misc/social/twitter.png" alt="Twitter de Democracia en Red"/></a> \n				<a href="https://www.instagram.com/democraciaenred/" target="_blank"><img class="w-auto h-10" src="images/misc/social/instagram.png" alt="Instagram de Democracia en Red"/></a></div></div> \n		<div class="text-lg md:text-xl"><div class="h-36"><img src="images/logo/odr.png" alt="Observatorio de redes" class="w-64 h-auto"/></div> \n			<p class="max-w-md">El Observatorio de Redes es una iniciativa multidisciplinaria\n				de investigaci\xF3n aplicada, con el fin de experimentar y desarrollar\n				metodolog\xEDas innovadoras para la comprensi\xF3n y el estudio de los\n				fen\xF3menos p\xFAblicos a trav\xE9s del an\xE1lisis de redes.</p> \n			<div class="pt-6 flex gap-8"><a href="https://twitter.com/O_de_R/" target="_blank"><img src="images/misc/social/twitter.png" alt="Twitter del Observatorio de redes" class="w-auto h-12"/></a></div></div></div>', w2 = $(), y2 = g("div"), y2.innerHTML = '<h3 class="w-56  text-center text-2xl text-pet-gray flex-row font-bowlby font-bold uppercase">Nos apoyan:</h3> \n	<div class="w-full flex  flex-row md:flex-row gap-12 items-center\n	justify-center lg:justify-start"><img src="images/logo/uba.png" alt="Universidad Buenos Aires" class="w-48 xl:w-auto h-auto xl:h-16"/> \n		<img src="images/logo/ndi.png" alt="Instituto Nacional Dem\xF3crata" class="w-48 xl:w-auto h-auto xl:h-16"/></div>', j2 = $(), q2 = g("div"), q2.innerHTML = '<div class="flex justify-between"><h1 class="leading-tight text-2xl md:text-4xl lg:text-5xl xl:text-6xl\n		text-pet-blue font-bowlby font-bold uppercase">\xBFPor qu\xE9<br/> nos interesa?</h1> \n		<img src="images/emoji/nerd.png" alt=":nerd:" class="w-auto h-12 max-h-24 lg:h-24"/></div> \n	<div class="text-lg md:text-xl text-white"><p class="max-w-4xl">La pol\xEDtica es compleja. Es un c\xFAmulo de actores, interacciones, procesos,\n			sinegias, causas y consecuencias que producen distintos resultados y\n			generan acciones y reacciones. El an\xE1lisis de redes ayuda a simplificar\n			esa complejidad: identifica los actores, los convierte en elementos\n			y establece relaciones entre ellos.</p> \n		<br/> \n		<p class="max-w-4xl">Queremos observar las relaciones entre los actores pol\xEDticos en distintos\n			ambientes de interacci\xF3n institucional (el congreso; una elecci\xF3n;\n			dentro de una coalici\xF3n) y mediatica (Facebook, Twitte, Youtube)\n			para evaluar c\xF3mo act\xFAan: qu\xE9 hacen, qu\xE9 dicen, con qui\xE9nes se vinculan,\n			a qu\xEDenes se acercan, con qui\xE9nes se enfrentan, c\xF3mo votan y c\xF3mo reaccionan</p></div>', k2 = $(), T2 = g("div"), T2.innerHTML = '<img src="images/logo/pet.png" alt="Logo de Pol\xEDticos en Twitter" class="m-auto w-auto h-24 2xl:h-36 xl:h-28"/> \n	<div class="w-full p-8 lg:pl-12 flex flex-col lg:flex-row gap-16 sm:gap-20\n	md:gap-24	content-center lg:content-start lg:justify-around flex-wrap\n	lg:flex-nowrap text-base 2xl:text-xl xl:text-lg md:text-base font-bowlby\n	text-pet-black uppercase"><div class="flex flex-col gap-8 self-start"><li class="svelte-jd5qb1"><a href="#que" class="svelte-jd5qb1">\xBFQu\xE9 es?</a></li> \n			<li class="svelte-jd5qb1"><a href="#como" class="svelte-jd5qb1">\xBFC\xF3mo funciona?</a></li> \n			<li class="svelte-jd5qb1"><a href="#quienes" class="svelte-jd5qb1">\xBFQui\xE9nes somos?</a></li></div> \n		<div class="flex flex-col gap-4 self-start"><li class="svelte-jd5qb1"><a href="#convocatoria" class="text-pet-blue svelte-jd5qb1">Convocatoria</a></li> \n			<li class="svelte-jd5qb1"><a href="mailto:hola@politicosentwitter.com" class="svelte-jd5qb1">Contacto</a></li></div> \n		<li class="svelte-jd5qb1"><button class="p-2 rounded-3xl border-2 border-pet-blue bg-pet-blue\n			text-white uppercase svelte-jd5qb1"><a href="https://oderedes.shinyapps.io/politicosentwitter/" target="_blank">Repositorio</a></button></li></div>', w(e2, "class", "w-full   flex flex-col lg:flex-col\nbg-pet-gray texture-gray"), w(r2, "id", "que"), w(r2, "class", "w-full flex flex-col gap-14 py-12\nmd:py-24 px-6 md:px-12 lg:px-24 m-auto justify-center bg-pet-blue texture-blue"), w(x3, "class", "h-screen flex mx-auto text-center   justify-center items-center align-center bg-pet-gray  text-4xl lg:text-6xl"), w(m2, "class", "w-full  flex flex-col xl:flex-row gap-12 py-12 lg:py-24 px-12\nmd:px-24 lg:px-48 justify-between items-center bg-pet-black texture-black"), w(g2, "id", "convocatoria"), w(g2, "class", "w-full flex flex-col gap-12 py-12\nmd:py-24 px-10 md:px-24 lg:px-48 justify-center bg-pet-gray texture-gray"), w(b2, "id", "como"), w(b2, "class", "w-full sm:h-auto flex flex-col gap-8 md:gap-12\npy-12 lg:py-24 px-6 md:px-24 lg:px-48 items-center sm:items-stretch\nbg-pet-blue texture-blue"), w(v2, "id", "quienes"), w(v2, "class", "w-full flex flex-col gap-12 py-12\nlg:py-24 px-24 lg:px-48 bg-pet-black texture-black"), w(y2, "class", "w-full py-12 2xl:py-24 px-36 lg:px-48 flex  flex-col lg:flex-row\ngap-6 items-center bg-pet-blue texture-blue"), w(q2, "class", "w-full flex flex-col gap-12 py-12 lg:py-24 px-24 lg:px-48\nbg-pet-black texture-black"), w(T2, "class", "w-full flex flex-wrap md:flex-row gap-12 py-16 px-24 xl:px-48\nbg-pet-gray texture-gray");
+        e2 = g("div"), e2.innerHTML = '<nav class="container m-auto "><ul class="header w-50 p-8  flex gap-8 xl:gap-24 justify-center\n		lg:justify-around flex-col md:flex-col lg:flex-row xl:flex-row zxl:flex-row text-base 2xl:text-xl lg:text-lg\n		font-bowlby text-pet-black uppercase svelte-jd5qb1"><li class="svelte-jd5qb1"><a href="#que" target="_self" alt="link" class="svelte-jd5qb1">\xBFQu\xE9 es?</a></li> \n			<li class="svelte-jd5qb1"><a href="#como" class="svelte-jd5qb1">\xBFC\xF3mo funciona?</a></li> \n			<li class="svelte-jd5qb1"><a href="#convocatoria" class=" svelte-jd5qb1">Convocatoria</a></li> \n			<li class="svelte-jd5qb1"><a href="#quienes" class="svelte-jd5qb1">\xBFQui\xE9nes somos?</a></li> \n			<li class="svelte-jd5qb1"><a href="mailto:hola@politicosentwitter.com" class="svelte-jd5qb1">Contacto</a></li> \n			<li class="lg:ml-auto svelte-jd5qb1"><button class="p-2 rounded-3xl border-2 border-pet-blue bg-pet-blue\n				text-white uppercase svelte-jd5qb1"><a href="https://oderedes.shinyapps.io/politicosentwitter/" target="_blank">Repositorio</a></button></li></ul></nav> \n  \n<div class="w-full my-14 flex justify-center  items-center "><img src="images/logo/pet.png" alt="Logo de Pol\xEDticos en Twitter" class="m-auto w-7/12 md:w-6/12 lg:w-4/12"/></div>', a2 = $(), r2 = g("div"), r2.innerHTML = '<div class="container  justify-center gap-12"><h1 class=" tile max-w-5xl lg:max-w-full w-full text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl\n		text-bold text-white font-free font-bold"><span class="text-pet-black">Pol\xEDticxs en Twitter</span> es un\n			repositorio con interacciones de m\xE1s de 500 usuarios relacionados\n			con la pol\xEDtica en Argentina.</h1> \n		\n		\n		<h2 class="text-xl sm:text-3xl text-white font-free pt-10">Ponemos a disposici\xF3n de la comunidad este ATLAS con datos libres\n			y reutilizables, para facilitar la producci\xF3n de conocimiento.\n			<br/><br/>\n			Porque es ese conocimiento el que nos permitir\xE1 observar e interpelar\n			a la clase pol\xEDtica a partir de evidencia, una que convierta\n			sus dichos en hechos.</h2></div>', d3 = $(), x3 = g("div"), x3.innerHTML = '<a href="https://www.youtube.com/watch?v=z258VDvsQD4&amp;t=6s&amp;ab_channel=DemocraciaEnRed" target="_blank" class="w-full p-5   hover:underline pr-10 pl-10"><h2 class="   inline-block text-pet-black font-bowlby uppercase ">\xA1Para conocer m\xE1s, mir\xE1 el video del lanzamiento!</h2> \n		<img src="images/misc/social/youtube.png" alt="Livestream de lanzamiento de politicos en twitter" class="w-auto inline-block h-10 ml-10 text-4xl"/></a>', p2 = $(), m2 = g("div"), m2.innerHTML = '<div class="max-w-lg flex flex-col gap-10 md:gap-12 justify-center"><div class="flex -ml-8 md:-ml-16"><img class="w-auto h-12 lg:h-16" src="images/emoji/hand.png" alt=":hand:"/> \n			<h2 class="max-w-md flex text-2xl md:text-5xl\n			text-pet-blue font-free font-bold">Te invitamos a sumergirte en el mundo del an\xE1lisis de redes.</h2></div> \n		<h2 class="text-2xl md:text-5xl text-white font-free font-bold">\xBFQu\xE9 dicen lxs pol\xEDticxs en Twitter?\n			<br/><br/>\n			\xBFQu\xE9 hacen?</h2> \n		<div class="flex justify-center xl:justify-start"><button class="h-20 md:h-14 p-2 rounded-xl border-2\n			border-pet-blue bg-pet-blue text-pet-blue uppercase"><a href="https://oderedes.shinyapps.io/politicosentwitter/" target="_blank" class="px-2 text-pet-gray font-free font-bold uppercase">Acceder al repositorio</a></button></div></div> \n	<img src="images/gif/circle.gif" alt="Fuciones del repositorio" class="w-auto h-auto max-h-96"/>', u2 = $(), g2 = g("div"), g2.innerHTML = '<div class="flex flex-col xl:flex-row text-xl lg:text-2xl\n	font-free font-bold"><p>\xBFTrabaj\xE1s con datos?</p> \n		<p>\xBFTe gusta la investigaci\xF3n aplicada?</p></div> \n	<div class="flex justify-between"><h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl\n		xl:text-6xl text-pet-blue font-bowlby font-bold uppercase leading-10">\xA1MUCHAS GRACIAS POR PARTICIPAR!</h1> \n		<img src="images/emoji/write.png" alt=":write:" class="w-auto h-12 max-h-24 lg:h-24"/></div> \n	<div class="flex flex-col gap-8"><p class="text-xl md:text-2xl font-free"><span class="text-pet-blue font-bold uppercase">convocatoria <u>#digamostodo</u> cerrada.\n			</span><br/>\n			Muchas gracias a todas las personas y grupos que participaron.\xA0Luego de dos instancias de evaluaci\xF3n, tenemos a la propuesta ganadora!</p> \n		<p class="text-xl md:text-2xl font-free font-bold">El equipo de Franco y Lucas Bellomo desarrollar\xE1 su propuesta &quot;Amplificando la desinformaci\xF3n&quot; en el plazo de los pr\xF3ximos meses.</p> \n		<p class="text-xl md:text-2xl font-free font-bold">Para m\xE1s informaci\xF3n sobre la Convocatoria ingres\xE1 a nuestras bases y condiciones.</p></div> \n	<div class="flex flex-col sm:flex-row gap-8 items-center"><button class="w-72 sm:w-auto h-16 lg:h-14 p-2 rounded-3xl border-2\n		border-pet-blue text-pet-blue uppercase"><a href="/bases/" target="_blank" class="px-4 flex gap-2 items-center justify-center\n			font-bold"><img class="w-auto h-8" src="images/emoji/tos.png" alt=":tos:"/>\n				Bases y condiciones</a></button></div>', f2 = $(), b2 = g("div"), b2.innerHTML = '<div class="flex justify-between items-center"><h1 class="leading-tight text-2xl md:text-4xl lg:text-5xl xl:text-6xl\n		text-white font-bowlby font-bold uppercase">\xBFC\xF3mo funciona?</h1> \n		<img class="w-auto h-12 max-h-24 lg:h-24" src="images/emoji/how.png" alt=":how:"/></div> \n	<div class="h-full flex gap-8 flex-col md:flex-row justify-between\n	items-center flex-wrap-reverse 2xl:flex-wrap"><div class="flex flex-col gap-4 xl:gap-8 2xl:gap-16 text-white\n		font-free text-lg md:text-xl 2xl:text-2xl"><div class="flex gap-3 items-center"><img src="images/misc/uno.png" alt="Primer paso" class="w-auto max-h-16 h-10 md:h-16"/> \n				<p>Seleccion\xE1 la categor\xEDa que quieras analizar</p></div> \n			<div class="flex flex-col"><div class="flex gap-3 items-center"><img src="images/misc/dos.png" alt="Segundo paso" class="w-auto max-h-16 h-10 md:h-16"/> \n					<p>Eleg\xED el usuario/a.</p></div> \n				<p class="pl-20">Tambi\xE9n pod\xE9s seleccionar para <br/>\n					descargar una categor\xEDa completa</p></div> \n			<div class="flex gap-3 items-center"><img src="images/misc/tres.png" alt="Tercero paso" class="w-auto max-h-16 h-10 md:h-16"/> \n				<p>Descarg\xE1 la data en formato CSV o XLSX</p></div></div> \n		<img src="images/gif/how.gif" alt="\xBFC\xF3mo funciona?" class="w-auto max-h-96 h-auto 2xl:h-96 m-auto md:m-0"/></div>', h2 = $(), v2 = g("div"), v2.innerHTML = '<div class="flex justify-between items-center"><h1 class="leading-tight text-2xl md:text-4xl lg:text-5xl xl:text-6xl\n	text-pet-blue	font-bowlby font-bold uppercase">\xBFQui\xE9nes somos?</h1> \n		<img src="images/emoji/aha.png" alt=":how:" class="w-auto h-12 max-h-24 lg:h-24"/></div> \n	<div class="flex flex-col xl:flex-row gap-16 justify-around text-white"><div class="text-lg md:text-xl"><div class="h-36 pt-5"><img src="images/logo/der.png" alt="Democracia en Red" class="w-64 h-auto"/></div> \n			<p class="max-w-md">Democracia en Red dise\xF1a e implementa innovaciones que transparentan,\n				facilitan y fortalecen la participaci\xF3n de la ciudadan\xEDa en la toma\n				de decisiones.</p> \n			<br/> \n			<p class="max-w-md">En ese camino, crearion la tecnolog\xEDa DemocracyOS: un espacio online\n				verst\xE1til dise\xF1ado para que el derecho a participar sea puesto en\n				pr\xE1ctica masivamente, en distintas escalas de gobierno.</p> \n			<br/> \n			<p class="max-w-md">Democracia en Red desarrolla tecnolog\xEDa al servicio de la ciudadan\xEDa\n				para acercar las pol\xEDticas p\xFAblicas a la factibilidad y hacer posible\n				la cooperaci\xF3n entre distintos segmentos sociales, estimulando el\n				pensamiento colectivo.</p> \n			<div class="pt-6 flex gap-8"><a href="https://www.facebook.com/democraciaenred" target="_blank"><img src="images/misc/social/facebook.png" alt="Facebook de Democracia en Red" class="w-auto h-10"/></a> \n				<a href="https://twitter.com/fundacionder" target="_blank"><img class="w-auto h-10" src="images/misc/social/twitter.png" alt="Twitter de Democracia en Red"/></a> \n				<a href="https://www.instagram.com/democraciaenred/" target="_blank"><img class="w-auto h-10" src="images/misc/social/instagram.png" alt="Instagram de Democracia en Red"/></a></div></div> \n		<div class="text-lg md:text-xl"><div class="h-36"><img src="images/logo/odr.png" alt="Observatorio de redes" class="w-64 h-auto"/></div> \n			<p class="max-w-md">El Observatorio de Redes es una iniciativa multidisciplinaria\n				de investigaci\xF3n aplicada, con el fin de experimentar y desarrollar\n				metodolog\xEDas innovadoras para la comprensi\xF3n y el estudio de los\n				fen\xF3menos p\xFAblicos a trav\xE9s del an\xE1lisis de redes.</p> \n			<div class="pt-6 flex gap-8"><a href="https://twitter.com/O_de_R/" target="_blank"><img src="images/misc/social/twitter.png" alt="Twitter del Observatorio de redes" class="w-auto h-12"/></a></div></div></div>', w2 = $(), y2 = g("div"), y2.innerHTML = '<h3 class="w-56  text-center text-2xl text-pet-gray flex-row font-bowlby font-bold uppercase">Nos apoyan:</h3> \n	<div class="w-full flex  flex-row md:flex-row gap-12 items-center\n	justify-center lg:justify-start"><img src="images/logo/uba.png" alt="Universidad Buenos Aires" class="w-48 xl:w-auto h-auto xl:h-16"/> \n		<img src="images/logo/ndi.png" alt="Instituto Nacional Dem\xF3crata" class="w-48 xl:w-auto h-auto xl:h-16"/></div>', j2 = $(), q2 = g("div"), q2.innerHTML = '<div class="flex justify-between"><h1 class="leading-tight text-2xl md:text-4xl lg:text-5xl xl:text-6xl\n		text-pet-blue font-bowlby font-bold uppercase">\xBFPor qu\xE9<br/> nos interesa?</h1> \n		<img src="images/emoji/nerd.png" alt=":nerd:" class="w-auto h-12 max-h-24 lg:h-24"/></div> \n	<div class="text-lg md:text-xl text-white"><p class="max-w-4xl">La pol\xEDtica es compleja. Es un c\xFAmulo de actores, interacciones, procesos,\n			sinegias, causas y consecuencias que producen distintos resultados y\n			generan acciones y reacciones. El an\xE1lisis de redes ayuda a simplificar\n			esa complejidad: identifica los actores, los convierte en elementos\n			y establece relaciones entre ellos.</p> \n		<br/> \n		<p class="max-w-4xl">Queremos observar las relaciones entre los actores pol\xEDticos en distintos\n			ambientes de interacci\xF3n institucional (el congreso; una elecci\xF3n;\n			dentro de una coalici\xF3n) y mediatica (Facebook, Twitte, Youtube)\n			para evaluar c\xF3mo act\xFAan: qu\xE9 hacen, qu\xE9 dicen, con qui\xE9nes se vinculan,\n			a qu\xEDenes se acercan, con qui\xE9nes se enfrentan, c\xF3mo votan y c\xF3mo reaccionan</p></div>', k2 = $(), T2 = g("div"), T2.innerHTML = '<img src="images/logo/pet.png" alt="Logo de Pol\xEDticos en Twitter" class="m-auto w-auto h-24 2xl:h-36 xl:h-28"/> \n	<div class="w-full p-8 lg:pl-12 flex flex-col lg:flex-row gap-16 sm:gap-20\n	md:gap-24	content-center lg:content-start lg:justify-around flex-wrap\n	lg:flex-nowrap text-base 2xl:text-xl xl:text-lg md:text-base font-bowlby\n	text-pet-black uppercase"><div class="flex flex-col gap-8 self-start"><li class="svelte-jd5qb1"><a href="#que" class="svelte-jd5qb1">\xBFQu\xE9 es?</a></li> \n			<li class="svelte-jd5qb1"><a href="#como" class="svelte-jd5qb1">\xBFC\xF3mo funciona?</a></li> \n			<li class="svelte-jd5qb1"><a href="#quienes" class="svelte-jd5qb1">\xBFQui\xE9nes somos?</a></li></div> \n		<div class="flex flex-col gap-4 self-start"><li class="svelte-jd5qb1"><a href="#convocatoria" class="text-pet-blue svelte-jd5qb1">Convocatoria</a></li> \n			<li class="svelte-jd5qb1"><a href="mailto:hola@politicosentwitter.com" class="svelte-jd5qb1">Contacto</a></li></div> \n		<li class="svelte-jd5qb1"><button class="p-2 rounded-3xl border-2 border-pet-blue bg-pet-blue\n			text-white uppercase svelte-jd5qb1"><a href="https://oderedes.shinyapps.io/politicosentwitter/" target="_blank">Repositorio</a></button></li></div>', w(e2, "class", "w-full   flex flex-col lg:flex-col\nbg-pet-gray texture-gray"), w(r2, "id", "que"), w(r2, "class", "w-full flex flex-col gap-14 py-12\nmd:py-24 px-6 md:px-12 lg:px-24 m-auto justify-center bg-pet-blue texture-blue"), w(x3, "class", "h-screen flex mx-auto text-center   justify-center items-center align-center bg-pet-gray  text-4xl lg:text-6xl"), w(m2, "class", "w-full  flex flex-col xl:flex-row gap-12 py-12 lg:py-24 px-12\nmd:px-24 lg:px-48 justify-between items-center bg-pet-black texture-black"), w(g2, "id", "convocatoria"), w(g2, "class", "w-full flex flex-col gap-12 py-12\nmd:py-24 px-10 md:px-24 lg:px-48 justify-center bg-pet-gray texture-gray"), w(b2, "id", "como"), w(b2, "class", "w-full sm:h-auto flex flex-col gap-8 md:gap-12\npy-12 lg:py-24 px-6 md:px-24 lg:px-48 items-center sm:items-stretch\nbg-pet-blue texture-blue"), w(v2, "id", "quienes"), w(v2, "class", "w-full flex flex-col gap-12 py-12\nlg:py-24 px-24 lg:px-48 bg-pet-black texture-black"), w(y2, "class", "w-full py-12 2xl:py-24 px-36 lg:px-48 flex  flex-col lg:flex-row\ngap-6 items-center bg-pet-blue texture-blue"), w(q2, "class", "w-full flex flex-col gap-12 py-12 lg:py-24 px-24 lg:px-48\nbg-pet-black texture-black"), w(T2, "class", "w-full flex flex-wrap md:flex-row gap-12 py-16 px-24 xl:px-48\nbg-pet-gray texture-gray");
       }, m(t3, l2) {
         h(t3, e2, l2), h(t3, a2, l2), h(t3, r2, l2), h(t3, d3, l2), h(t3, x3, l2), h(t3, p2, l2), h(t3, m2, l2), h(t3, u2, l2), h(t3, g2, l2), h(t3, f2, l2), h(t3, b2, l2), h(t3, h2, l2), h(t3, v2, l2), h(t3, w2, l2), h(t3, y2, l2), h(t3, j2, l2), h(t3, q2, l2), h(t3, k2, l2), h(t3, T2, l2);
       }, p: t, i: t, o: t, d(t3) {
@@ -91,21 +91,21 @@
       }};
     }
     function x2(t2) {
-      return Rt.title = "Pol\xEDticos en Twitter", Rt.description = "Observatorio de redes sociales", [];
+      return Mt.title = "Pol\xEDticos en Twitter", Mt.description = "Observatorio de redes sociales", [];
     }
-    var index_fda29494_default = class extends X {
+    var index_36314bc6_default = class extends X {
       constructor(t2) {
-        super(), Z(this, t2, x2, d2, i, {});
+        super(), Z(this, t2, x2, d2, s, {});
       }
     };
-    var index_fda29494_default2 = index_fda29494_default;
+    var index_36314bc6_default2 = index_36314bc6_default;
   });
 
-  // dist/build/_layout-5fa9e58b.js
-  var require_layout_5fa9e58b = __commonJS((exports) => {
+  // dist/build/_layout-1b2c8208.js
+  var require_layout_1b2c8208 = __commonJS((exports) => {
     __markAsModule(exports);
     __export(exports, {
-      default: () => layout_5fa9e58b_default2
+      default: () => layout_1b2c8208_default2
     });
     function c2(s2) {
       let t2;
@@ -130,12 +130,12 @@
         "$$scope" in s3 && e2(0, l2 = s3.$$scope);
       }, [l2, n2];
     }
-    var layout_5fa9e58b_default = class extends X {
+    var layout_1b2c8208_default = class extends X {
       constructor(s2) {
-        super(), Z(this, s2, u2, c2, i, {});
+        super(), Z(this, s2, u2, c2, s, {});
       }
     };
-    var layout_5fa9e58b_default2 = layout_5fa9e58b_default;
+    var layout_1b2c8208_default2 = layout_1b2c8208_default;
   });
 
   // dist/build/main.js
@@ -155,10 +155,10 @@
   function r(t2) {
     t2.forEach(n);
   }
-  function s(t2) {
+  function i(t2) {
     return typeof t2 == "function";
   }
-  function i(t2, e2) {
+  function s(t2, e2) {
     return t2 != t2 ? e2 == e2 : t2 !== e2 || t2 && typeof t2 == "object" || typeof t2 == "function";
   }
   function a(e2, ...n2) {
@@ -183,7 +183,7 @@
   function p(t2, n2, o2, r2) {
     return t2[1] && r2 ? e(o2.ctx.slice(), t2[1](r2(n2))) : o2.ctx;
   }
-  function f(t2, e2, n2, o2, r2, s2, i2) {
+  function f(t2, e2, n2, o2, r2, i2, s2) {
     const a2 = function(t3, e3, n3, o3) {
       if (t3[2] && o3) {
         const r3 = t3[2](o3(n3));
@@ -198,9 +198,9 @@
         return e3.dirty | r3;
       }
       return e3.dirty;
-    }(e2, o2, r2, s2);
+    }(e2, o2, r2, i2);
     if (a2) {
-      const r3 = p(e2, n2, o2, i2);
+      const r3 = p(e2, n2, o2, s2);
       t2.p(r3, a2);
     }
   }
@@ -250,7 +250,7 @@
   var I = Promise.resolve();
   var L = false;
   function F() {
-    L || (L = true, I.then(M));
+    L || (L = true, I.then(A));
   }
   function N() {
     return F(), I;
@@ -258,11 +258,11 @@
   function T(t2) {
     E.push(t2);
   }
-  var R = false;
-  var A = new Set();
-  function M() {
-    if (!R) {
-      R = true;
+  var M = false;
+  var R = new Set();
+  function A() {
+    if (!M) {
+      M = true;
       do {
         for (let t2 = 0; t2 < O.length; t2 += 1) {
           const e2 = O[t2];
@@ -272,13 +272,13 @@
           j.pop()();
         for (let t2 = 0; t2 < E.length; t2 += 1) {
           const e2 = E[t2];
-          A.has(e2) || (A.add(e2), e2());
+          R.has(e2) || (R.add(e2), e2());
         }
         E.length = 0;
       } while (O.length);
       for (; S.length; )
         S.pop()();
-      L = false, R = false, A.clear();
+      L = false, M = false, R.clear();
     }
   }
   function C(t2) {
@@ -316,28 +316,28 @@
       e2.delete(t2.key);
     });
   }
-  function W(t2, e2, n2, o2, r2, s2, i2, a2, c2, l2, u2, p2) {
-    let f2 = t2.length, d2 = s2.length, h2 = f2;
+  function W(t2, e2, n2, o2, r2, i2, s2, a2, c2, l2, u2, p2) {
+    let f2 = t2.length, d2 = i2.length, h2 = f2;
     const m2 = {};
     for (; h2--; )
       m2[t2[h2].key] = h2;
     const g2 = [], y2 = new Map(), $2 = new Map();
     for (h2 = d2; h2--; ) {
-      const t3 = p2(r2, s2, h2), a3 = n2(t3);
-      let c3 = i2.get(a3);
+      const t3 = p2(r2, i2, h2), a3 = n2(t3);
+      let c3 = s2.get(a3);
       c3 ? o2 && c3.p(t3, e2) : (c3 = l2(a3, t3), c3.c()), y2.set(a3, g2[h2] = c3), a3 in m2 && $2.set(a3, Math.abs(h2 - m2[a3]));
     }
     const b2 = new Set(), w2 = new Set();
     function _2(t3) {
-      K(t3, 1), t3.m(a2, u2), i2.set(t3.key, t3), u2 = t3.first, d2--;
+      K(t3, 1), t3.m(a2, u2), s2.set(t3.key, t3), u2 = t3.first, d2--;
     }
     for (; f2 && d2; ) {
       const e3 = g2[d2 - 1], n3 = t2[f2 - 1], o3 = e3.key, r3 = n3.key;
-      e3 === n3 ? (u2 = e3.first, f2--, d2--) : y2.has(r3) ? !i2.has(o3) || b2.has(o3) ? _2(e3) : w2.has(r3) ? f2-- : $2.get(o3) > $2.get(r3) ? (w2.add(o3), _2(e3)) : (b2.add(r3), f2--) : (c2(n3, i2), f2--);
+      e3 === n3 ? (u2 = e3.first, f2--, d2--) : y2.has(r3) ? !s2.has(o3) || b2.has(o3) ? _2(e3) : w2.has(r3) ? f2-- : $2.get(o3) > $2.get(r3) ? (w2.add(o3), _2(e3)) : (b2.add(r3), f2--) : (c2(n3, s2), f2--);
     }
     for (; f2--; ) {
       const e3 = t2[f2];
-      y2.has(e3.key) || c2(e3, i2);
+      y2.has(e3.key) || c2(e3, s2);
     }
     for (; d2; )
       _2(g2[d2 - 1]);
@@ -346,10 +346,10 @@
   function G(t2) {
     t2 && t2.c();
   }
-  function Q(t2, e2, o2, i2) {
+  function Q(t2, e2, o2, s2) {
     const {fragment: a2, on_mount: c2, on_destroy: l2, after_update: u2} = t2.$$;
-    a2 && a2.m(e2, o2), i2 || T(() => {
-      const e3 = c2.map(n).filter(s);
+    a2 && a2.m(e2, o2), s2 || T(() => {
+      const e3 = c2.map(n).filter(i);
       l2 ? l2.push(...e3) : r(e3), t2.$$.on_mount = [];
     }), u2.forEach(T);
   }
@@ -357,17 +357,17 @@
     const n2 = t2.$$;
     n2.fragment !== null && (r(n2.on_destroy), n2.fragment && n2.fragment.d(e2), n2.on_destroy = n2.fragment = null, n2.ctx = []);
   }
-  function Z(e2, n2, s2, i2, a2, c2, l2 = [-1]) {
+  function Z(e2, n2, i2, s2, a2, c2, l2 = [-1]) {
     const u2 = _;
     x(e2);
     const p2 = e2.$$ = {fragment: null, ctx: null, props: c2, update: t, not_equal: a2, bound: o(), on_mount: [], on_destroy: [], on_disconnect: [], before_update: [], after_update: [], context: new Map(u2 ? u2.$$.context : []), callbacks: o(), dirty: l2, skip_bound: false};
     let f2 = false;
-    if (p2.ctx = s2 ? s2(e2, n2.props || {}, (t2, n3, ...o2) => {
+    if (p2.ctx = i2 ? i2(e2, n2.props || {}, (t2, n3, ...o2) => {
       const r2 = o2.length ? o2[0] : n3;
       return p2.ctx && a2(p2.ctx[t2], p2.ctx[t2] = r2) && (!p2.skip_bound && p2.bound[t2] && p2.bound[t2](r2), f2 && function(t3, e3) {
         t3.$$.dirty[0] === -1 && (O.push(t3), F(), t3.$$.dirty.fill(0)), t3.$$.dirty[e3 / 31 | 0] |= 1 << e3 % 31;
       }(e2, t2)), n3;
-    }) : [], p2.update(), f2 = true, r(p2.before_update), p2.fragment = !!i2 && i2(p2.ctx), n2.target) {
+    }) : [], p2.update(), f2 = true, r(p2.before_update), p2.fragment = !!s2 && s2(p2.ctx), n2.target) {
       if (n2.hydrate) {
         const t2 = function(t3) {
           return Array.from(t3.childNodes);
@@ -375,7 +375,7 @@
         p2.fragment && p2.fragment.l(t2), t2.forEach(m);
       } else
         p2.fragment && p2.fragment.c();
-      n2.intro && K(e2.$$.fragment), Q(e2, n2.target, n2.anchor, n2.customElement), M();
+      n2.intro && K(e2.$$.fragment), Q(e2, n2.target, n2.anchor, n2.customElement), A();
     }
     x(u2);
   }
@@ -435,15 +435,15 @@
         console[t3] = n2[t3];
       });
   }
-  function st() {
+  function it() {
     let t2 = window.location.pathname + window.location.search + window.location.hash;
     const {url: e2, options: n2} = function(t3) {
       const [e3, n3] = t3.split("__[[routify_url_options]]__"), o2 = JSON.parse(decodeURIComponent(n3 || "") || "{}");
       return window.routify = window.routify || {}, window.routify.prefetched = o2.prefetch, {url: e3, options: o2};
     }(t2);
-    return {...it(e2), options: n2};
+    return {...st(e2), options: n2};
   }
-  function it(t2) {
+  function st(t2) {
     Y.useHash && (t2 = t2.replace(/.*#(.+)/, "$1"));
     const e2 = t2.startsWith("/") ? window.location.origin : void 0, n2 = new URL(t2, e2);
     return {url: n2, fullpath: n2.pathname + n2.search + n2.hash};
@@ -484,22 +484,22 @@
     }};
   }
   function lt(t2, e2, n2) {
-    let {$$slots: o2 = {}, $$scope: r2} = e2, {scoped: s2 = {}} = e2;
+    let {$$slots: o2 = {}, $$scope: r2} = e2, {scoped: i2 = {}} = e2;
     return t2.$$set = (t3) => {
-      "scoped" in t3 && n2(0, s2 = t3.scoped), "$$scope" in t3 && n2(1, r2 = t3.$$scope);
-    }, [s2, r2, o2];
+      "scoped" in t3 && n2(0, i2 = t3.scoped), "$$scope" in t3 && n2(1, r2 = t3.$$scope);
+    }, [i2, r2, o2];
   }
   var ut = class extends X {
     constructor(t2) {
-      super(), Z(this, t2, lt, ct, i, {scoped: 0});
+      super(), Z(this, t2, lt, ct, s, {scoped: 0});
     }
   };
   var pt = [];
   function ft(e2, n2 = t) {
     let o2;
     const r2 = [];
-    function s2(t2) {
-      if (i(e2, t2) && (e2 = t2, o2)) {
+    function i2(t2) {
+      if (s(e2, t2) && (e2 = t2, o2)) {
         const t3 = !pt.length;
         for (let t4 = 0; t4 < r2.length; t4 += 1) {
           const n3 = r2[t4];
@@ -512,18 +512,18 @@
         }
       }
     }
-    return {set: s2, update: function(t2) {
-      s2(t2(e2));
-    }, subscribe: function(i2, a2 = t) {
-      const c2 = [i2, a2];
-      return r2.push(c2), r2.length === 1 && (o2 = n2(s2) || t), i2(e2), () => {
+    return {set: i2, update: function(t2) {
+      i2(t2(e2));
+    }, subscribe: function(s2, a2 = t) {
+      const c2 = [s2, a2];
+      return r2.push(c2), r2.length === 1 && (o2 = n2(i2) || t), s2(e2), () => {
         const t2 = r2.indexOf(c2);
         t2 !== -1 && r2.splice(t2, 1), r2.length === 0 && (o2(), o2 = null);
       };
     }};
   }
   function dt(e2, n2, o2) {
-    const i2 = !Array.isArray(e2), c2 = i2 ? [e2] : e2, l2 = n2.length < 2;
+    const s2 = !Array.isArray(e2), c2 = s2 ? [e2] : e2, l2 = n2.length < 2;
     return {subscribe: ft(o2, (e3) => {
       let o3 = false;
       const u2 = [];
@@ -532,8 +532,8 @@
         if (p2)
           return;
         f2();
-        const o4 = n2(i2 ? u2[0] : u2, e3);
-        l2 ? e3(o4) : f2 = s(o4) ? o4 : t;
+        const o4 = n2(s2 ? u2[0] : u2, e3);
+        l2 ? e3(o4) : f2 = i(o4) ? o4 : t;
       }, h2 = c2.map((t2, e4) => a(t2, (t3) => {
         u2[e4] = t3, p2 &= ~(1 << e4), o3 && d2();
       }, () => {
@@ -553,12 +553,12 @@
   var $t = ft(true);
   function bt(t2, e2 = false) {
     t2 = Y.urlTransform.remove(t2);
-    let {pathname: n2, search: o2} = it(t2).url;
-    const r2 = c(mt), s2 = r2.find((t3) => n2 === t3.meta.name) || r2.find((t3) => n2.match(t3.regex));
-    if (!s2)
+    let {pathname: n2, search: o2} = st(t2).url;
+    const r2 = c(mt), i2 = r2.find((t3) => n2 === t3.meta.name) || r2.find((t3) => n2.match(t3.regex));
+    if (!i2)
       throw new Error(`Route could not be found for "${n2}".`);
-    const i2 = e2 ? Object.create(s2) : s2, {route: a2, redirectPath: l2, rewritePath: u2} = wt(i2, r2);
-    return u2 && ({pathname: n2, search: o2} = it(at(u2, a2.params)).url, l2 && (a2.redirectTo = at(l2, a2.params || {}))), Y.queryHandler && (a2.params = Object.assign({}, Y.queryHandler.parse(o2))), function(t3, e3) {
+    const s2 = e2 ? Object.create(i2) : i2, {route: a2, redirectPath: l2, rewritePath: u2} = wt(s2, r2);
+    return u2 && ({pathname: n2, search: o2} = st(at(u2, a2.params)).url, l2 && (a2.redirectTo = at(l2, a2.params || {}))), Y.queryHandler && (a2.params = Object.assign({}, Y.queryHandler.parse(o2))), function(t3, e3) {
       if (t3.paramKeys) {
         const n3 = function(t4) {
           const e4 = [];
@@ -575,11 +575,11 @@
     }(a2, n2), a2.leftover = t2.replace(new RegExp(a2.regex), ""), a2;
   }
   function wt(t2, e2, n2, o2) {
-    const {redirect: r2, rewrite: s2} = t2.meta;
-    if (r2 || s2) {
-      n2 = r2 ? r2.path || r2 : n2, o2 = s2 ? s2.path || s2 : n2;
-      const i2 = r2 && r2.params, a2 = s2 && s2.params, c2 = e2.find((t3) => t3.path === o2);
-      return c2 === t2 && console.error(`${o2} is redirecting to itself`), c2 || console.error(`${t2.path} is redirecting to non-existent path: ${o2}`), (i2 || a2) && (c2.params = Object.assign({}, c2.params, i2, a2)), wt(c2, e2, n2, o2);
+    const {redirect: r2, rewrite: i2} = t2.meta;
+    if (r2 || i2) {
+      n2 = r2 ? r2.path || r2 : n2, o2 = i2 ? i2.path || i2 : n2;
+      const s2 = r2 && r2.params, a2 = i2 && i2.params, c2 = e2.find((t3) => t3.path === o2);
+      return c2 === t2 && console.error(`${o2} is redirecting to itself`), c2 || console.error(`${t2.path} is redirecting to non-existent path: ${o2}`), (s2 || a2) && (c2.params = Object.assign({}, c2.params, s2, a2)), wt(c2, e2, n2, o2);
     }
     return {route: t2, redirectPath: n2, rewritePath: o2};
   }
@@ -600,10 +600,10 @@
     }};
   }
   function vt(e2) {
-    let n2, o2 = [], r2 = new Map(), s2 = e2[0];
-    const i2 = (t2) => t2[1].options.prefetch;
-    for (let t2 = 0; t2 < s2.length; t2 += 1) {
-      let n3 = _t(e2, s2, t2), a2 = i2(n3);
+    let n2, o2 = [], r2 = new Map(), i2 = e2[0];
+    const s2 = (t2) => t2[1].options.prefetch;
+    for (let t2 = 0; t2 < i2.length; t2 += 1) {
+      let n3 = _t(e2, i2, t2), a2 = s2(n3);
       r2.set(a2, o2[t2] = xt(a2, n3));
     }
     return {c() {
@@ -617,7 +617,7 @@
       for (let t3 = 0; t3 < o2.length; t3 += 1)
         o2[t3].m(n2, null);
     }, p(t2, [e3]) {
-      1 & e3 && (s2 = t2[0], o2 = W(o2, e3, i2, 1, t2, s2, r2, n2, J, xt, null, _t));
+      1 & e3 && (i2 = t2[0], o2 = W(o2, e3, s2, 1, t2, i2, r2, n2, J, xt, null, _t));
     }, i: t, o: t, d(t2) {
       t2 && m(n2);
       for (let t3 = 0; t3 < o2.length; t3 += 1)
@@ -649,7 +649,7 @@
   })), addEventListener("message", Ot, false);
   var Et = class extends X {
     constructor(t2) {
-      super(), Z(this, t2, jt, vt, i, {});
+      super(), Z(this, t2, jt, vt, s, {});
     }
   };
   function St() {
@@ -666,11 +666,11 @@
   var Nt = {subscribe(t2) {
     const e2 = St(), {route: n2, routes: o2} = c(e2);
     return dt(e2, (t3) => {
-      return e3 = t3, r2 = n2, s2 = o2, function(t4, n3 = {}, o3) {
-        const {component: i2} = e3, a2 = Object.assign({}, r2.params, i2.params);
+      return e3 = t3, r2 = n2, i2 = o2, function(t4, n3 = {}, o3) {
+        const {component: s2} = e3, a2 = Object.assign({}, r2.params, s2.params);
         let c2 = t4 && t4.nodeType && t4;
-        c2 && (t4 = t4.getAttribute("href")), t4 = t4 ? p2(t4) : i2.shortPath;
-        const l2 = s2.find((e4) => [e4.shortPath || "/", e4.path].includes(t4));
+        c2 && (t4 = t4.getAttribute("href")), t4 = t4 ? p2(t4) : s2.shortPath;
+        const l2 = i2.find((e4) => [e4.shortPath || "/", e4.path].includes(t4));
         if (l2 && l2.meta.preload === "proximity" && window.requestIdleCallback) {
           const t5 = routify.appLoaded ? 0 : 1500;
           setTimeout(() => {
@@ -684,19 +684,19 @@
         }}) : u2;
         function p2(t5) {
           if (t5.match(/^\.\.?\//)) {
-            let [, e4, n4] = t5.match(/^([\.\/]+)(.*)/), o4 = i2.path.replace(/\/$/, "");
+            let [, e4, n4] = t5.match(/^([\.\/]+)(.*)/), o4 = s2.path.replace(/\/$/, "");
             const r3 = e4.match(/\.\.\//g) || [];
-            i2.isPage && r3.push(null), r3.forEach(() => o4 = o4.replace(/\/[^\/]+\/?$/, "")), t5 = (t5 = `${o4}/${n4}`.replace(/\/$/, "")) || "/";
+            s2.isPage && r3.push(null), r3.forEach(() => o4 = o4.replace(/\/[^\/]+\/?$/, "")), t5 = (t5 = `${o4}/${n4}`.replace(/\/$/, "")) || "/";
           } else if (t5.match(/^\//))
             ;
           else {
-            const e4 = s2.find((e5) => e5.meta.name === t5);
+            const e4 = i2.find((e5) => e5.meta.name === t5);
             e4 && (t5 = e4.shortPath);
           }
           return t5;
         }
       };
-      var e3, r2, s2;
+      var e3, r2, i2;
     }).subscribe(t2);
   }};
   var Tt = {props: {}, templates: {}, services: {plain: {propField: "name", valueField: "content"}, twitter: {propField: "name", valueField: "content"}, og: {propField: "property", valueField: "content"}}, plugins: [{name: "applyTemplate", condition: () => true, action: (t2, e2) => [t2, (Tt.getLongest(Tt.templates, t2) || ((t3) => t3))(e2)]}, {name: "createMeta", condition: () => true, action(t2, e2) {
@@ -712,10 +712,10 @@
       return n2[Object.keys(t2[e2]).filter((t3) => o2.includes(t3)).sort((t3, e3) => e3.length - t3.length)[0]];
     }
   }, writeMeta(t2, e2) {
-    const n2 = document.getElementsByTagName("head")[0], o2 = t2.match(/(.+)\:/), r2 = o2 && o2[1] || "plain", {propField: s2, valueField: i2} = Rt.services[r2] || Rt.services.plain, a2 = document.querySelector(`meta[${s2}='${t2}']`);
+    const n2 = document.getElementsByTagName("head")[0], o2 = t2.match(/(.+)\:/), r2 = o2 && o2[1] || "plain", {propField: i2, valueField: s2} = Mt.services[r2] || Mt.services.plain, a2 = document.querySelector(`meta[${i2}='${t2}']`);
     a2 && a2.remove();
     const c2 = document.createElement("meta");
-    c2.setAttribute(s2, t2), c2.setAttribute(i2, e2), c2.setAttribute("data-origin", "routify"), n2.appendChild(c2);
+    c2.setAttribute(i2, t2), c2.setAttribute(s2, e2), c2.setAttribute("data-origin", "routify"), n2.appendChild(c2);
   }, set(t2, e2) {
     Tt.plugins.forEach((n2) => {
       n2.condition(t2, e2) && ([t2, e2] = n2.action(t2, e2) || [t2, e2]);
@@ -741,19 +741,19 @@
     const t2 = St();
     return t2 && c(t2).path || "/";
   }, _pendingUpdate: false};
-  var Rt = new Proxy(Tt, {set(t2, e2, n2, o2) {
-    const {props: r2, getOrigin: s2} = t2;
-    return Reflect.has(t2, e2) ? Reflect.set(t2, e2, n2, o2) : (r2[e2] = r2[e2] || {}, r2[e2][s2()] = n2), window.routify.appLoaded && t2.batchedUpdate(), true;
+  var Mt = new Proxy(Tt, {set(t2, e2, n2, o2) {
+    const {props: r2, getOrigin: i2} = t2;
+    return Reflect.has(t2, e2) ? Reflect.set(t2, e2, n2, o2) : (r2[e2] = r2[e2] || {}, r2[e2][i2()] = n2), window.routify.appLoaded && t2.batchedUpdate(), true;
   }});
-  function At(t2, e2, n2) {
+  function Rt(t2, e2, n2) {
     const o2 = t2.slice();
     return o2[21] = e2[n2].component, o2[22] = e2[n2].componentFile, o2[2] = e2[n2].decorator, o2[1] = e2[n2].nodes, o2;
   }
-  function Mt(t2) {
-    let e2, n2, o2 = [], r2 = new Map(), s2 = [t2[4]];
-    const i2 = (t3) => t3[6];
+  function At(t2) {
+    let e2, n2, o2 = [], r2 = new Map(), i2 = [t2[4]];
+    const s2 = (t3) => t3[6];
     for (let e3 = 0; e3 < 1; e3 += 1) {
-      let n3 = At(t2, s2, e3), a2 = i2(n3);
+      let n3 = Rt(t2, i2, e3), a2 = s2(n3);
       r2.set(a2, o2[e3] = Ut(a2, n3));
     }
     return {c() {
@@ -765,7 +765,7 @@
         o2[e3].m(t3, r3);
       h(t3, e2, r3), n2 = true;
     }, p(t3, n3) {
-      33554557 & n3 && (s2 = [t3[4]], U(), o2 = W(o2, n3, i2, 1, t3, s2, r2, e2.parentNode, z, Ut, e2, At), H());
+      33554557 & n3 && (i2 = [t3[4]], U(), o2 = W(o2, n3, s2, 1, t3, i2, r2, e2.parentNode, z, Ut, e2, Rt), H());
     }, i(t3) {
       if (!n2) {
         for (let t4 = 0; t4 < 1; t4 += 1)
@@ -819,40 +819,40 @@
   }
   function Bt(t2) {
     let n2, o2, r2;
-    const s2 = [{scoped: t2[0]}, {scopedSync: t2[5]}, t2[3].param || {}];
-    var i2 = t2[22];
+    const i2 = [{scoped: t2[0]}, {scopedSync: t2[5]}, t2[3].param || {}];
+    var s2 = t2[22];
     function a2(t3) {
       let n3 = {$$slots: {default: [qt, ({scoped: t4, decorator: e2}) => ({25: t4, 2: e2}), ({scoped: t4, decorator: e2}) => (t4 ? 33554432 : 0) | (e2 ? 4 : 0)]}, $$scope: {ctx: t3}};
-      for (let t4 = 0; t4 < s2.length; t4 += 1)
-        n3 = e(n3, s2[t4]);
+      for (let t4 = 0; t4 < i2.length; t4 += 1)
+        n3 = e(n3, i2[t4]);
       return {props: n3};
     }
-    return i2 && (n2 = new i2(a2(t2))), {c() {
+    return s2 && (n2 = new s2(a2(t2))), {c() {
       n2 && G(n2.$$.fragment), o2 = $();
     }, m(t3, e2) {
       n2 && Q(n2, t3, e2), h(t3, o2, e2), r2 = true;
     }, p(t3, e2) {
       const r3 = 41 & e2 ? function(t4, e3) {
         const n3 = {}, o3 = {}, r4 = {$$scope: 1};
-        let s3 = t4.length;
-        for (; s3--; ) {
-          const i3 = t4[s3], a3 = e3[s3];
+        let i3 = t4.length;
+        for (; i3--; ) {
+          const s3 = t4[i3], a3 = e3[i3];
           if (a3) {
-            for (const t5 in i3)
+            for (const t5 in s3)
               t5 in a3 || (o3[t5] = 1);
             for (const t5 in a3)
               r4[t5] || (n3[t5] = a3[t5], r4[t5] = 1);
-            t4[s3] = a3;
+            t4[i3] = a3;
           } else
-            for (const t5 in i3)
+            for (const t5 in s3)
               r4[t5] = 1;
         }
         for (const t5 in o3)
           t5 in n3 || (n3[t5] = void 0);
         return n3;
-      }(s2, [1 & e2 && {scoped: t3[0]}, 32 & e2 && {scopedSync: t3[5]}, 8 & e2 && (c2 = t3[3].param || {}, typeof c2 == "object" && c2 !== null ? c2 : {})]) : {};
+      }(i2, [1 & e2 && {scoped: t3[0]}, 32 & e2 && {scopedSync: t3[5]}, 8 & e2 && (c2 = t3[3].param || {}, typeof c2 == "object" && c2 !== null ? c2 : {})]) : {};
       var c2;
-      if (100663317 & e2 && (r3.$$scope = {dirty: e2, ctx: t3}), i2 !== (i2 = t3[22])) {
+      if (100663317 & e2 && (r3.$$scope = {dirty: e2, ctx: t3}), s2 !== (s2 = t3[22])) {
         if (n2) {
           U();
           const t4 = n2;
@@ -860,9 +860,9 @@
             V(t4, 1);
           }), H();
         }
-        i2 ? (n2 = new i2(a2(t3)), G(n2.$$.fragment), K(n2.$$.fragment, 1), Q(n2, o2.parentNode, o2)) : n2 = null;
+        s2 ? (n2 = new s2(a2(t3)), G(n2.$$.fragment), K(n2.$$.fragment, 1), Q(n2, o2.parentNode, o2)) : n2 = null;
       } else
-        i2 && n2.$set(r3);
+        s2 && n2.$set(r3);
     }, i(t3) {
       r2 || (n2 && K(n2.$$.fragment, t3), r2 = true);
     }, o(t3) {
@@ -872,19 +872,19 @@
     }};
   }
   function Ut(t2, e2) {
-    let n2, o2, r2, s2;
-    var i2 = e2[2];
+    let n2, o2, r2, i2;
+    var s2 = e2[2];
     function a2(t3) {
       return {props: {scoped: t3[0], $$slots: {default: [Bt]}, $$scope: {ctx: t3}}};
     }
-    return i2 && (o2 = new i2(a2(e2))), {key: t2, first: null, c() {
+    return s2 && (o2 = new s2(a2(e2))), {key: t2, first: null, c() {
       n2 = b(), o2 && G(o2.$$.fragment), r2 = b(), this.first = n2;
     }, m(t3, e3) {
-      h(t3, n2, e3), o2 && Q(o2, t3, e3), h(t3, r2, e3), s2 = true;
+      h(t3, n2, e3), o2 && Q(o2, t3, e3), h(t3, r2, e3), i2 = true;
     }, p(t3, n3) {
       e2 = t3;
-      const s3 = {};
-      if (1 & n3 && (s3.scoped = e2[0]), 67108925 & n3 && (s3.$$scope = {dirty: n3, ctx: e2}), i2 !== (i2 = e2[2])) {
+      const i3 = {};
+      if (1 & n3 && (i3.scoped = e2[0]), 67108925 & n3 && (i3.$$scope = {dirty: n3, ctx: e2}), s2 !== (s2 = e2[2])) {
         if (o2) {
           U();
           const t4 = o2;
@@ -892,26 +892,26 @@
             V(t4, 1);
           }), H();
         }
-        i2 ? (o2 = new i2(a2(e2)), G(o2.$$.fragment), K(o2.$$.fragment, 1), Q(o2, r2.parentNode, r2)) : o2 = null;
+        s2 ? (o2 = new s2(a2(e2)), G(o2.$$.fragment), K(o2.$$.fragment, 1), Q(o2, r2.parentNode, r2)) : o2 = null;
       } else
-        i2 && o2.$set(s3);
+        s2 && o2.$set(i3);
     }, i(t3) {
-      s2 || (o2 && K(o2.$$.fragment, t3), s2 = true);
+      i2 || (o2 && K(o2.$$.fragment, t3), i2 = true);
     }, o(t3) {
-      o2 && D(o2.$$.fragment, t3), s2 = false;
+      o2 && D(o2.$$.fragment, t3), i2 = false;
     }, d(t3) {
       t3 && m(n2), t3 && m(r2), o2 && V(o2, t3);
     }};
   }
   function Ht(e2) {
-    let n2, o2, r2, i2, a2, c2 = e2[4] && Mt(e2);
+    let n2, o2, r2, s2, a2, c2 = e2[4] && At(e2);
     return {c() {
       c2 && c2.c(), n2 = $(), o2 = g("span");
     }, m(l2, u2) {
       var p2;
-      c2 && c2.m(l2, u2), h(l2, n2, u2), h(l2, o2, u2), r2 = true, i2 || (p2 = e2[9].call(null, o2), a2 = p2 && s(p2.destroy) ? p2.destroy : t, i2 = true);
+      c2 && c2.m(l2, u2), h(l2, n2, u2), h(l2, o2, u2), r2 = true, s2 || (p2 = e2[9].call(null, o2), a2 = p2 && i(p2.destroy) ? p2.destroy : t, s2 = true);
     }, p(t2, [e3]) {
-      t2[4] ? c2 ? (c2.p(t2, e3), 16 & e3 && K(c2, 1)) : (c2 = Mt(t2), c2.c(), K(c2, 1), c2.m(n2.parentNode, n2)) : c2 && (U(), D(c2, 1, 1, () => {
+      t2[4] ? c2 ? (c2.p(t2, e3), 16 & e3 && K(c2, 1)) : (c2 = At(t2), c2.c(), K(c2, 1), c2.m(n2.parentNode, n2)) : c2 && (U(), D(c2, 1, 1, () => {
         c2 = null;
       }), H());
     }, i(t2) {
@@ -919,33 +919,33 @@
     }, o(t2) {
       D(c2), r2 = false;
     }, d(t2) {
-      c2 && c2.d(t2), t2 && m(n2), t2 && m(o2), i2 = false, a2();
+      c2 && c2.d(t2), t2 && m(n2), t2 && m(o2), s2 = false, a2();
     }};
   }
   function Kt(t2, e2, n2) {
-    let o2, r2, s2, i2, a2;
-    l(t2, ht, (t3) => n2(15, i2 = t3)), l(t2, mt, (t3) => n2(16, a2 = t3));
+    let o2, r2, i2, s2, a2;
+    l(t2, ht, (t3) => n2(15, s2 = t3)), l(t2, mt, (t3) => n2(16, a2 = t3));
     let c2, {nodes: u2 = []} = e2, {scoped: p2 = {}} = e2, {decorator: f2} = e2, d2 = null, h2 = null, m2 = {}, g2 = 1;
     const y2 = ft(null);
     l(t2, y2, (t3) => n2(4, r2 = t3));
     const $2 = k("routify") || gt;
-    l(t2, $2, (t3) => n2(14, s2 = t3));
+    l(t2, $2, (t3) => n2(14, i2 = t3));
     P("routify", y2);
     let b2 = [];
     function w2(t3) {
       n2(5, m2 = {...p2});
-      const e3 = {...r2, nodes: h2, decorator: f2 || ut, layout: d2.isLayout ? d2 : s2.layout, component: d2, route: i2, routes: a2, componentFile: t3, parentNode: c2 || s2.parentNode};
+      const e3 = {...r2, nodes: h2, decorator: f2 || ut, layout: d2.isLayout ? d2 : i2.layout, component: d2, route: s2, routes: a2, componentFile: t3, parentNode: c2 || i2.parentNode};
       y2.set(e3), function(t4, e4, n3 = e4) {
         t4.set(n3);
-      }($2, s2.child = d2, s2), h2.length === 0 && async function() {
+      }($2, i2.child = d2, i2), h2.length === 0 && async function() {
         N().then(() => et(c2)), await new Promise((t5) => setTimeout(t5));
-        const t4 = r2.component.path === i2.path;
+        const t4 = r2.component.path === s2.path;
         !window.routify.stopAutoReady && t4 && async function({page: t5, metatags: e4, afterPageLoad: n3}) {
-          const {path: o3} = t5, {options: r3} = st(), s3 = r3.prefetch;
+          const {path: o3} = t5, {options: r3} = it(), i3 = r3.prefetch;
           for (const e5 of n3._hooks)
             e5 && await e5(t5.api);
-          e4.update(), dispatchEvent(new CustomEvent("app-loaded")), parent.postMessage({msg: "app-loaded", prefetched: window.routify.prefetched, path: o3, prefetchId: s3}, "*"), window.routify.appLoaded = true, window.routify.stopAutoReady = false;
-        }({page: r2.component, metatags: Rt, afterPageLoad: It});
+          e4.update(), dispatchEvent(new CustomEvent("app-loaded")), parent.postMessage({msg: "app-loaded", prefetched: window.routify.prefetched, path: o3, prefetchId: i3}, "*"), window.routify.appLoaded = true, window.routify.stopAutoReady = false;
+        }({page: r2.component, metatags: Mt, afterPageLoad: It});
       }();
     }
     return t2.$$set = (t3) => {
@@ -961,17 +961,17 @@
   }
   var Dt = class extends X {
     constructor(t2) {
-      super(), Z(this, t2, Kt, Ht, i, {nodes: 1, scoped: 0, decorator: 2});
+      super(), Z(this, t2, Kt, Ht, s, {nodes: 1, scoped: 0, decorator: 2});
     }
   };
   function Jt(t2, e2) {
     let n2 = false;
     function o2(o3, r3) {
-      const s2 = bt(o3 || st().fullpath);
-      s2.redirectTo && (history.replaceStateNative({}, null, s2.redirectTo), delete s2.redirectTo);
-      const i2 = [...(r3 && bt(st().fullpath, t2) || s2).layouts, s2];
-      n2 && delete n2.last, s2.last = n2, n2 = s2, o3 || yt.set(s2), ht.set(s2), s2.api.preload().then(() => {
-        $t.set(true), e2(i2);
+      const i2 = bt(o3 || it().fullpath);
+      i2.redirectTo && (history.replaceStateNative({}, null, i2.redirectTo), delete i2.redirectTo);
+      const s2 = [...(r3 && bt(it().fullpath, t2) || i2).layouts, i2];
+      n2 && delete n2.last, i2.last = n2, n2 = i2, o3 || yt.set(i2), ht.set(i2), i2.api.preload().then(() => {
+        $t.set(true), e2(s2);
       });
     }
     const r2 = function(t3) {
@@ -979,8 +979,8 @@
         history[t4 + "Native"] = history[t4], history[t4] = async function(e4 = {}, n4, o3) {
           if (o3 === location.pathname + location.search + location.hash)
             return false;
-          const {id: r3, path: s2, params: i2} = c(ht);
-          e4 = {id: r3, path: s2, params: i2, ...e4};
+          const {id: r3, path: i2, params: s2} = c(ht);
+          e4 = {id: r3, path: i2, params: s2, ...e4};
           const a2 = new Event(t4.toLowerCase());
           Object.assign(a2, {state: e4, title: n4, url: o3});
           return await Wt(a2, o3) ? (history[t4 + "Native"].apply(this, [e4, n4, o3]), dispatchEvent(a2)) : void 0;
@@ -988,7 +988,7 @@
       });
       let e3 = false;
       const n3 = {click: zt, pushstate: () => t3(), replacestate: () => t3(), popstate: async (n4) => {
-        e3 ? e3 = false : await Wt(n4, st().fullpath) ? t3() : (e3 = true, n4.preventDefault(), history.go(1));
+        e3 ? e3 = false : await Wt(n4, it().fullpath) ? t3() : (e3 = true, n4.preventDefault(), history.go(1));
       }};
       Object.entries(n3).forEach((t4) => addEventListener(...t4));
       return () => {
@@ -1035,8 +1035,8 @@
     let e2, n2, o2, r2 = t2[0] && t2[1] !== null && Gt(t2);
     return n2 = new Et({}), {c() {
       r2 && r2.c(), e2 = $(), G(n2.$$.fragment);
-    }, m(t3, s2) {
-      r2 && r2.m(t3, s2), h(t3, e2, s2), Q(n2, t3, s2), o2 = true;
+    }, m(t3, i2) {
+      r2 && r2.m(t3, i2), h(t3, e2, i2), Q(n2, t3, i2), o2 = true;
     }, p(t3, [n3]) {
       t3[0] && t3[1] !== null ? r2 ? (r2.p(t3, n3), 3 & n3 && K(r2, 1)) : (r2 = Gt(t3), r2.c(), K(r2, 1), r2.m(e2.parentNode, e2)) : r2 && (U(), D(r2, 1, 1, () => {
         r2 = null;
@@ -1052,25 +1052,25 @@
   function Vt(t2, e2, n2) {
     let o2;
     l(t2, ht, (t3) => n2(1, o2 = t3));
-    let r2, s2, {routes: i2} = e2, {config: a2 = {}} = e2;
+    let r2, i2, {routes: s2} = e2, {config: a2 = {}} = e2;
     window.routify = window.routify || {}, window.routify.inBrowser = !window.navigator.userAgent.match("jsdom"), Object.assign(Y, a2);
-    P("routifyupdatepage", (...t3) => s2 && s2.updatePage(...t3));
+    P("routifyupdatepage", (...t3) => i2 && i2.updatePage(...t3));
     const c2 = (t3) => n2(0, r2 = t3), u2 = () => {
-      s2 && (s2.destroy(), s2 = null);
+      i2 && (i2.destroy(), i2 = null);
     };
     let p2 = null;
     var f2;
     return f2 = u2, v().$$.on_destroy.push(f2), t2.$$set = (t3) => {
-      "routes" in t3 && n2(2, i2 = t3.routes), "config" in t3 && n2(3, a2 = t3.config);
+      "routes" in t3 && n2(2, s2 = t3.routes), "config" in t3 && n2(3, a2 = t3.config);
     }, t2.$$.update = () => {
-      4 & t2.$$.dirty && i2 && (clearTimeout(p2), p2 = setTimeout(() => {
-        u2(), s2 = Jt(i2, c2), mt.set(i2), s2.updatePage();
+      4 & t2.$$.dirty && s2 && (clearTimeout(p2), p2 = setTimeout(() => {
+        u2(), i2 = Jt(s2, c2), mt.set(s2), i2.updatePage();
       }));
-    }, [r2, o2, i2, a2];
+    }, [r2, o2, s2, a2];
   }
   var Zt = class extends X {
     constructor(t2) {
-      super(), Z(this, t2, Vt, Qt, i, {routes: 2, config: 3});
+      super(), Z(this, t2, Vt, Qt, s, {routes: 2, config: 3});
     }
   };
   function Xt(t2) {
@@ -1118,16 +1118,16 @@
   var re = Xt(({file: t2}) => {
     t2.isFallback || t2.isIndex ? t2.shortPath = t2.path.replace(/\/[^/]+$/, "") : t2.shortPath = t2.path;
   });
-  var se = Xt(({file: t2}) => {
+  var ie = Xt(({file: t2}) => {
     t2.ranking = (({path: t3}) => t3.split("/").filter(Boolean).map((t4) => t4 === "_fallback" ? "A" : t4.startsWith(":") ? "B" : "C").join(""))(t2);
   });
-  var ie = Xt(({file: t2}) => {
+  var se = Xt(({file: t2}) => {
     const e2 = t2, n2 = t2.meta && t2.meta.children || [];
     n2.length && (e2.children = e2.children || [], e2.children.push(...n2.map((t3) => ({isMeta: true, ...t3, meta: t3}))));
   });
   var ae = Xt((t2) => {
-    const {file: e2} = t2, {isFallback: n2, meta: o2} = e2, r2 = e2.path.match("/:"), s2 = e2.path.endsWith("/index"), i2 = o2.index || o2.index === 0, a2 = o2.index === false;
-    e2.isIndexable = i2 || !n2 && !r2 && !s2 && !a2, e2.isNonIndexable = !e2.isIndexable;
+    const {file: e2} = t2, {isFallback: n2, meta: o2} = e2, r2 = e2.path.match("/:"), i2 = e2.path.endsWith("/index"), s2 = o2.index || o2.index === 0, a2 = o2.index === false;
+    e2.isIndexable = s2 || !n2 && !r2 && !i2 && !a2, e2.isNonIndexable = !e2.isIndexable;
   });
   var ce = Xt(({file: t2, parent: e2}) => {
     Object.defineProperty(t2, "parent", {get: () => e2}), Object.defineProperty(t2, "nextSibling", {get: () => ue(t2, 1)}), Object.defineProperty(t2, "prevSibling", {get: () => ue(t2, -1)}), Object.defineProperty(t2, "lineage", {get: () => le(e2)});
@@ -1146,8 +1146,8 @@
   });
   var fe = Xt(({file: t2, scope: e2}) => {
     function n2(t3) {
-      const {parent: e3} = t3, o2 = e3 && e3.component && e3, r2 = o2 && o2.isReset, s2 = e3 && !r2 && n2(e3) || [];
-      return o2 && s2.push(o2), s2;
+      const {parent: e3} = t3, o2 = e3 && e3.component && e3, r2 = o2 && o2.isReset, i2 = e3 && !r2 && n2(e3) || [];
+      return o2 && i2.push(o2), i2;
     }
     Object.defineProperty(t2, "layouts", {get: () => n2(t2)});
   });
@@ -1158,7 +1158,7 @@
     });
     Object.setPrototypeOf(t2, e2.prototype);
   });
-  var he = Object.freeze({__proto__: null, setRegex: ne, setParamKeys: oe, setShortPath: re, setRank: se, addMetaChildren: ie, setIsIndexable: ae, assignRelations: ce, assignIndex: pe, assignLayout: fe, createFlatList: (t2) => {
+  var he = Object.freeze({__proto__: null, setRegex: ne, setParamKeys: oe, setShortPath: re, setRank: ie, addMetaChildren: se, setIsIndexable: ae, assignRelations: ce, assignIndex: pe, assignLayout: fe, createFlatList: (t2) => {
     Xt((t3) => {
       (t3.file.isPage || t3.file.isFallback) && t3.state.treePayload.routes.push(t3.file);
     }).sync(t2), t2.routes.sort((t3, e2) => t3.ranking >= e2.ranking ? -1 : 1);
@@ -1205,7 +1205,7 @@
     }
   }
   var we = {...he, restoreDefaults: ({tree: t2}) => ge(t2), assignAPI: ye};
-  var _e = {root: true, children: [{isFallback: true, path: "/_fallback", component: () => Promise.resolve().then(() => require_fallback_da416545()).then((t2) => t2.default)}, {isPage: true, path: "/bases", id: "_bases", component: () => Promise.resolve().then(() => require_bases_b06de692()).then((t2) => t2.default)}, {isIndex: true, isPage: true, path: "/index", id: "_index", component: () => Promise.resolve().then(() => require_index_fda29494()).then((t2) => t2.default)}], isLayout: true, path: "/", id: "__layout", component: () => Promise.resolve().then(() => require_layout_5fa9e58b()).then((t2) => t2.default)};
+  var _e = {root: true, ownMeta: {preload: "proximity"}, children: [{isFallback: true, meta: {recursive: true, preload: "proximity", prerender: true}, path: "/_fallback", component: () => Promise.resolve().then(() => require_fallback_8d96f76e()).then((t2) => t2.default)}, {isPage: true, meta: {recursive: true, preload: "proximity", prerender: true}, path: "/bases", id: "_bases", component: () => Promise.resolve().then(() => require_bases_9ba7781b()).then((t2) => t2.default)}, {isIndex: true, isPage: true, meta: {recursive: true, preload: "proximity", prerender: true}, path: "/index", id: "_index", component: () => Promise.resolve().then(() => require_index_36314bc6()).then((t2) => t2.default)}], isLayout: true, meta: {preload: "proximity", recursive: true, prerender: true}, path: "/", id: "__layout", component: () => Promise.resolve().then(() => require_layout_1b2c8208()).then((t2) => t2.default)};
   var {tree: xe, routes: ve} = function(t2) {
     const e2 = ["restoreDefaults", "setParamKeys", "setRegex", "setShortPath", "setRank", "assignLayout", "setPrototype", "addMetaChildren", "assignRelations", "setIsIndexable", "assignIndex", "assignAPI", "createFlatList"], n2 = {tree: t2, routes: []};
     for (let t3 of e2) {
@@ -1228,14 +1228,14 @@
     }};
   }
   !function(t2, e2 = {target: document.body}, n2 = "hmr", o2 = "app-loaded") {
-    const r2 = document.getElementById(n2), s2 = document.createElement("div");
-    function i2() {
-      r2 && r2.remove(), s2.style.visibility = null, s2.setAttribute("id", n2);
+    const r2 = document.getElementById(n2), i2 = document.createElement("div");
+    function s2() {
+      r2 && r2.remove(), i2.style.visibility = null, i2.setAttribute("id", n2);
     }
-    s2.style.visibility = "hidden", e2.target.appendChild(s2), r2 ? addEventListener(o2, i2) : i2(), new t2({...e2, target: s2});
+    i2.style.visibility = "hidden", e2.target.appendChild(i2), r2 ? addEventListener(o2, s2) : s2(), new t2({...e2, target: i2});
   }(class extends X {
     constructor(t2) {
-      super(), Z(this, t2, null, Pe, i, {});
+      super(), Z(this, t2, null, Pe, s, {});
     }
   }, {target: document.body}, "routify-app");
 })();
