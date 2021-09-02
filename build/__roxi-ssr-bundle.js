@@ -13,11 +13,11 @@
       __defProp(target, name, {get: all[name], enumerable: true});
   };
 
-  // dist/build/_fallback-3622f256.js
-  var require_fallback_3622f256 = __commonJS((exports) => {
+  // dist/build/_fallback-da416545.js
+  var require_fallback_da416545 = __commonJS((exports) => {
     __markAsModule(exports);
     __export(exports, {
-      default: () => fallback_3622f256_default2
+      default: () => fallback_da416545_default2
     });
     function v2(s2) {
       let a2, e2, d2, f2, v3, x3, g2, h2;
@@ -35,19 +35,19 @@
       let t2;
       return l(s2, Nt, (s3) => e2(0, t2 = s3)), [t2];
     }
-    var fallback_3622f256_default = class extends X {
+    var fallback_da416545_default = class extends X {
       constructor(s2) {
         super(), Z(this, s2, x2, v2, i, {});
       }
     };
-    var fallback_3622f256_default2 = fallback_3622f256_default;
+    var fallback_da416545_default2 = fallback_da416545_default;
   });
 
-  // dist/build/bases-ad6a9fef.js
-  var require_bases_ad6a9fef = __commonJS((exports) => {
+  // dist/build/bases-b06de692.js
+  var require_bases_b06de692 = __commonJS((exports) => {
     __markAsModule(exports);
     __export(exports, {
-      default: () => bases_ad6a9fef_default2
+      default: () => bases_b06de692_default2
     });
     function u2(t2) {
       let e2, a2, p2, u3, b3, m2, v2, g2, x2, f2, h2, q2, y2, k2, w2, E2, C2, L2, A2, T2, j2, z2;
@@ -66,19 +66,19 @@
         var t3;
       }];
     }
-    var bases_ad6a9fef_default = class extends X {
+    var bases_b06de692_default = class extends X {
       constructor(t2) {
         super(), Z(this, t2, b2, u2, i, {});
       }
     };
-    var bases_ad6a9fef_default2 = bases_ad6a9fef_default;
+    var bases_b06de692_default2 = bases_b06de692_default;
   });
 
-  // dist/build/index-3fa14d03.js
-  var require_index_3fa14d03 = __commonJS((exports) => {
+  // dist/build/index-fda29494.js
+  var require_index_fda29494 = __commonJS((exports) => {
     __markAsModule(exports);
     __export(exports, {
-      default: () => index_3fa14d03_default2
+      default: () => index_fda29494_default2
     });
     function d2(t2) {
       let e2, a2, r2, d3, x3, p2, m2, u2, g2, f2, b2, h2, v2, w2, y2, j2, q2, k2, T2;
@@ -93,19 +93,19 @@
     function x2(t2) {
       return Rt.title = "Pol\xEDticos en Twitter", Rt.description = "Observatorio de redes sociales", [];
     }
-    var index_3fa14d03_default = class extends X {
+    var index_fda29494_default = class extends X {
       constructor(t2) {
         super(), Z(this, t2, x2, d2, i, {});
       }
     };
-    var index_3fa14d03_default2 = index_3fa14d03_default;
+    var index_fda29494_default2 = index_fda29494_default;
   });
 
-  // dist/build/_layout-ba855714.js
-  var require_layout_ba855714 = __commonJS((exports) => {
+  // dist/build/_layout-5fa9e58b.js
+  var require_layout_5fa9e58b = __commonJS((exports) => {
     __markAsModule(exports);
     __export(exports, {
-      default: () => layout_ba855714_default2
+      default: () => layout_5fa9e58b_default2
     });
     function c2(s2) {
       let t2;
@@ -130,12 +130,12 @@
         "$$scope" in s3 && e2(0, l2 = s3.$$scope);
       }, [l2, n2];
     }
-    var layout_ba855714_default = class extends X {
+    var layout_5fa9e58b_default = class extends X {
       constructor(s2) {
         super(), Z(this, s2, u2, c2, i, {});
       }
     };
-    var layout_ba855714_default2 = layout_ba855714_default;
+    var layout_5fa9e58b_default2 = layout_5fa9e58b_default;
   });
 
   // dist/build/main.js
@@ -1205,7 +1205,7 @@
     }
   }
   var we = {...he, restoreDefaults: ({tree: t2}) => ge(t2), assignAPI: ye};
-  var _e = {root: true, children: [{isFallback: true, path: "/_fallback", component: () => Promise.resolve().then(() => require_fallback_3622f256()).then((t2) => t2.default)}, {isPage: true, path: "/bases", id: "_bases", component: () => Promise.resolve().then(() => require_bases_ad6a9fef()).then((t2) => t2.default)}, {isIndex: true, isPage: true, path: "/index", id: "_index", component: () => Promise.resolve().then(() => require_index_3fa14d03()).then((t2) => t2.default)}], isLayout: true, path: "/", id: "__layout", component: () => Promise.resolve().then(() => require_layout_ba855714()).then((t2) => t2.default)};
+  var _e = {root: true, children: [{isFallback: true, path: "/_fallback", component: () => Promise.resolve().then(() => require_fallback_da416545()).then((t2) => t2.default)}, {isPage: true, path: "/bases", id: "_bases", component: () => Promise.resolve().then(() => require_bases_b06de692()).then((t2) => t2.default)}, {isIndex: true, isPage: true, path: "/index", id: "_index", component: () => Promise.resolve().then(() => require_index_fda29494()).then((t2) => t2.default)}], isLayout: true, path: "/", id: "__layout", component: () => Promise.resolve().then(() => require_layout_5fa9e58b()).then((t2) => t2.default)};
   var {tree: xe, routes: ve} = function(t2) {
     const e2 = ["restoreDefaults", "setParamKeys", "setRegex", "setShortPath", "setRank", "assignLayout", "setPrototype", "addMetaChildren", "assignRelations", "setIsIndexable", "assignIndex", "assignAPI", "createFlatList"], n2 = {tree: t2, routes: []};
     for (let t3 of e2) {
@@ -1215,7 +1215,7 @@
   }(_e);
   function Pe(e2) {
     let n2, o2;
-    return n2 = new Zt({props: {config: {useHash: true}, routes: ve}}), {c() {
+    return n2 = new Zt({props: {routes: ve}}), {c() {
       G(n2.$$.fragment);
     }, m(t2, e3) {
       Q(n2, t2, e3), o2 = true;
