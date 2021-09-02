@@ -13,11 +13,11 @@
       __defProp(target, name, {get: all[name], enumerable: true});
   };
 
-  // dist/build/_fallback-c4670e08.js
-  var require_fallback_c4670e08 = __commonJS((exports) => {
+  // dist/build/_fallback-f4e2fc2c.js
+  var require_fallback_f4e2fc2c = __commonJS((exports) => {
     __markAsModule(exports);
     __export(exports, {
-      default: () => fallback_c4670e08_default2
+      default: () => fallback_f4e2fc2c_default2
     });
     function v2(s2) {
       let a2, e2, d2, f2, v3, x3, g2, h2;
@@ -35,19 +35,19 @@
       let t2;
       return l(s2, Nt, (s3) => e2(0, t2 = s3)), [t2];
     }
-    var fallback_c4670e08_default = class extends X {
+    var fallback_f4e2fc2c_default = class extends X {
       constructor(s2) {
         super(), Z(this, s2, x2, v2, s, {});
       }
     };
-    var fallback_c4670e08_default2 = fallback_c4670e08_default;
+    var fallback_f4e2fc2c_default2 = fallback_f4e2fc2c_default;
   });
 
-  // dist/build/bases-f32a1ba0.js
-  var require_bases_f32a1ba0 = __commonJS((exports) => {
+  // dist/build/bases-0c858125.js
+  var require_bases_0c858125 = __commonJS((exports) => {
     __markAsModule(exports);
     __export(exports, {
-      default: () => bases_f32a1ba0_default2
+      default: () => bases_0c858125_default2
     });
     function u2(t2) {
       let e2, a2, p2, u3, b3, m2, v2, g2, x2, f2, h2, q2, y2, k2, w2, E2, C2, L2, A2, T2, j2, z2;
@@ -66,19 +66,19 @@
         var t3;
       }];
     }
-    var bases_f32a1ba0_default = class extends X {
+    var bases_0c858125_default = class extends X {
       constructor(t2) {
         super(), Z(this, t2, b2, u2, s, {});
       }
     };
-    var bases_f32a1ba0_default2 = bases_f32a1ba0_default;
+    var bases_0c858125_default2 = bases_0c858125_default;
   });
 
-  // dist/build/index-abd30dd2.js
-  var require_index_abd30dd2 = __commonJS((exports) => {
+  // dist/build/index-8b25d90f.js
+  var require_index_8b25d90f = __commonJS((exports) => {
     __markAsModule(exports);
     __export(exports, {
-      default: () => index_abd30dd2_default2
+      default: () => index_8b25d90f_default2
     });
     function u2(t2) {
       let e2, a2, x2, p2, m2, u3, g3, f2, b2, h2, v2, w2, y2, j2, q2, T2, k2, L2, R2, M2, C2, H2, P2, D2, _2, A2, Q2, S2, z2, E2, O2, I2, F2, B2, N2, U2, V2, X2, G2, Y2, J2, K2, W2, Z2, $2, tt2;
@@ -96,19 +96,19 @@
       let l2;
       return l(t2, Nt, (t3) => a2(0, l2 = t3)), Mt.title = "Pol\xEDticos en Twitter", Mt.description = "Observatorio de redes sociales", [l2];
     }
-    var index_abd30dd2_default = class extends X {
+    var index_8b25d90f_default = class extends X {
       constructor(t2) {
         super(), Z(this, t2, g2, u2, s, {});
       }
     };
-    var index_abd30dd2_default2 = index_abd30dd2_default;
+    var index_8b25d90f_default2 = index_8b25d90f_default;
   });
 
-  // dist/build/_layout-549f2cbb.js
-  var require_layout_549f2cbb = __commonJS((exports) => {
+  // dist/build/_layout-bc835516.js
+  var require_layout_bc835516 = __commonJS((exports) => {
     __markAsModule(exports);
     __export(exports, {
-      default: () => layout_549f2cbb_default2
+      default: () => layout_bc835516_default2
     });
     function c2(s2) {
       let t2;
@@ -133,12 +133,12 @@
         "$$scope" in s3 && e2(0, l2 = s3.$$scope);
       }, [l2, n2];
     }
-    var layout_549f2cbb_default = class extends X {
+    var layout_bc835516_default = class extends X {
       constructor(s2) {
         super(), Z(this, s2, u2, c2, s, {});
       }
     };
-    var layout_549f2cbb_default2 = layout_549f2cbb_default;
+    var layout_bc835516_default2 = layout_bc835516_default;
   });
 
   // dist/build/main.js
@@ -1208,7 +1208,7 @@
     }
   }
   var we = {...he, restoreDefaults: ({tree: t2}) => ge(t2), assignAPI: ye};
-  var _e = {root: true, ownMeta: {preload: "proximity"}, children: [{isFallback: true, meta: {recursive: true, preload: "proximity", prerender: true}, path: "/_fallback", component: () => Promise.resolve().then(() => require_fallback_c4670e08()).then((t2) => t2.default)}, {isPage: true, meta: {recursive: true, preload: "proximity", prerender: true}, path: "/bases", id: "_bases", component: () => Promise.resolve().then(() => require_bases_f32a1ba0()).then((t2) => t2.default)}, {isIndex: true, isPage: true, meta: {recursive: true, preload: "proximity", prerender: true}, path: "/index", id: "_index", component: () => Promise.resolve().then(() => require_index_abd30dd2()).then((t2) => t2.default)}], isLayout: true, meta: {preload: "proximity", recursive: true, prerender: true}, path: "/", id: "__layout", component: () => Promise.resolve().then(() => require_layout_549f2cbb()).then((t2) => t2.default)};
+  var _e = {root: true, ownMeta: {preload: "proximity"}, children: [{isFallback: true, meta: {recursive: true, preload: "proximity", prerender: true}, path: "/_fallback", component: () => Promise.resolve().then(() => require_fallback_f4e2fc2c()).then((t2) => t2.default)}, {isPage: true, meta: {recursive: true, preload: "proximity", prerender: true}, path: "/bases", id: "_bases", component: () => Promise.resolve().then(() => require_bases_0c858125()).then((t2) => t2.default)}, {isIndex: true, isPage: true, meta: {recursive: true, preload: "proximity", prerender: true}, path: "/index", id: "_index", component: () => Promise.resolve().then(() => require_index_8b25d90f()).then((t2) => t2.default)}], isLayout: true, meta: {preload: "proximity", recursive: true, prerender: true}, path: "/", id: "__layout", component: () => Promise.resolve().then(() => require_layout_bc835516()).then((t2) => t2.default)};
   var {tree: xe, routes: ve} = function(t2) {
     const e2 = ["restoreDefaults", "setParamKeys", "setRegex", "setShortPath", "setRank", "assignLayout", "setPrototype", "addMetaChildren", "assignRelations", "setIsIndexable", "assignIndex", "assignAPI", "createFlatList"], n2 = {tree: t2, routes: []};
     for (let t3 of e2) {
@@ -1218,7 +1218,7 @@
   }(_e);
   function Pe(e2) {
     let n2, o2;
-    return n2 = new Zt({props: {config: {useHash: true}, routes: ve}}), {c() {
+    return n2 = new Zt({props: {config: {useHash: false}, routes: ve}}), {c() {
       G(n2.$$.fragment);
     }, m(t2, e3) {
       Q(n2, t2, e3), o2 = true;
