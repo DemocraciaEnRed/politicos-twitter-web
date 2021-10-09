@@ -91,7 +91,24 @@ md:px-24 lg:px-48 justify-around items-center">
 <!-- fin: seccion1 -->
 
 <!-- inicio: seccion2 -->
-
+<div bind:this={que} id="que" class="w-full flex flex-col gap-14 py-12
+md:py-24 px-6 md:px-12 lg:px-24 justify-center bg-pet-blue texture-blue">
+	<div class="container  justify-center gap-12">
+		<h1 class=" tile max-w-5xl lg:max-w-full w-full text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl
+		text-bold text-white font-free font-bold">
+			<span class="text-pet-black">Políticxs en Twitter</span> es un repositorio con interacciones de usuarios 
+			relacionados con la política en Argentina, Uruguay, Colombia y Brasil.
+		</h1>
+		<h2 class="text-xl sm:text-3xl text-white font-free pt-10">
+			Ponemos a disposición de la comunidad este ATLAS con datos libres y reutilizables, 
+			para facilitar la producción de conocimiento.
+			<br><br>
+			Porque es ese conocimiento el que nos permitirá observar e interpelar 
+			a la clase política a partir de evidencia, una que convierta 
+			sus dichos en <span class="font-bold text-black">hechos..</span>
+		</h2>
+	</div>
+</div>
 <!-- fin: seccion2 -->
 
 
