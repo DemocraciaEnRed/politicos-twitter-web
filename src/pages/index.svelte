@@ -81,7 +81,7 @@ md:px-24 lg:px-48 justify-around items-center">
 	<div class="max-w-lg flex flex-col justify-center m-8 p-8">
 		<img src="images/logo/pet.png" alt="Logo de Políticos en Twitter" class="w-auto h-auto">
 			<h2 class="max-w-md flex text-lg md:text-3xl
-			text-pet-black font-Sans-Serif font-bold px-9">
+			text-pet-black font-sans font-bold px-9">
 				Qué dicen, con quién se vinculan, con quién se enfrentan y cómo reaccionan lxs políticxs de América Latina
 			</h2>
 	</div>
@@ -95,7 +95,7 @@ md:px-24 lg:px-48 justify-around items-center">
 md:py-24 px-6 md:px-12 lg:px-24 justify-center bg-pet-blue texture-blue">
 	<div class="container  justify-center gap-12">
 		<h1 class=" tile max-w-5xl lg:max-w-full w-full text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl
-		text-bold text-white font-free font-bold">
+		text-bold text-white font-sans font-bold">
 			<span class="text-pet-black">Políticxs en Twitter</span> es un repositorio con interacciones de usuarios 
 			relacionados con la política en Argentina, Uruguay, Colombia y Brasil.
 		</h1>
@@ -110,6 +110,36 @@ md:py-24 px-6 md:px-12 lg:px-24 justify-center bg-pet-blue texture-blue">
 	</div>
 </div>
 <!-- fin: seccion2 -->
+
+<!-- inicio: seccion3 -->
+<div class="w-screen h-screen flex-col xl:flex-row gap-12 py-12 lg:py-12 px-12
+md:px-24 lg:px-48 justify-between items-center bg-pet-black texture-black">
+	<div class="container justify-center gap-12 py-12 items-center">
+		<h1 class="tile max-w-5xl lg:max-w-full w-full text-lg sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl
+		text-bold text-white text-center font-bowlby uppercase py-12">Accedé a los repositorios
+		</h1>
+	</div>
+	<ul class="container flex flex-row flex-wrap justify-center
+	text-white text-center font-bowlby uppercase">
+		<li>
+			<img src="images/banderas/repoarg.png" alt="Bandera Argentina" class="px-12 py-6">
+			<a href='/argentina/'>Argentina</a>
+		</li>
+		<li>
+			<img src="images/banderas/repocol.png" alt="Bandera Colombia" class="px-12 py-6">
+			<a href='/colombia/'>Colombia</a>
+		</li>
+		<li>
+			<img src="images/banderas/repouru.png" alt="Bandera Uruguay" class="px-12 py-6">
+			<a href='/uruguay/'>Uruguay</a>
+		</li>
+		<li>
+			<img src="images/banderas/repobra.png" alt="Bandera Brasil" class="px-12 py-6">
+			<a href='/brasil/'>Brasil</a>
+		</li>
+	</ul>
+</div>
+<!-- fin: seccion3 -->
 
 
 <style>
