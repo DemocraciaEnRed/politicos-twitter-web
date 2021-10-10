@@ -16,7 +16,7 @@
 </script>
 
 <!-- inicio: seccion1 -->
-<div class="w-screen h-screen flex flex-col lg:flex-col
+<div class="w-screen h-screen flex flex-col lg:flex-col md:flex-col sm:flex-col
 bg-pet-gray texture-gray">
 	<nav class="container">
 		<ul class="header w-full p-8 lg:p-4 flex gap-12 xl:gap-24 justify-center
@@ -75,7 +75,7 @@ bg-pet-gray texture-gray">
 		</ul>
   </nav>
 
-<div class="w-full  flex flex-col xl:flex-row gap-12 py-8 lg:py-8 px-12
+<div class="w-full flex flex-col xl:flex-row gap-12 py-8 lg:py-8 px-12
 md:px-24 lg:px-48 justify-around items-center">
 	<img src="images/banderas/mapa.png" alt="Mapa de América del Sur" class="w-auto h-auto p-8">
 	<div class="max-w-lg flex flex-col justify-center m-8 p-8">
@@ -140,6 +140,26 @@ md:px-24 lg:px-48 justify-between items-center bg-pet-black texture-black">
 	</ul>
 </div>
 <!-- fin: seccion3 -->
+
+<!-- inicio: seccion4 -->
+<div class="w-full py-12 2xl:py-24 px-36 lg:px-48 flex flex-col lg:flex-row
+gap-6 justify-center items-center bg-pet-gray texture-gray">
+	<div>
+		<h3 class="w-56 text-xl text-center text-white font-bowlby font-bold uppercase">
+		Nos apoyan:
+		</h3>
+	</div>
+	<div class="px-6">
+		<img src="/images/logo/uba.png" alt="Universidad Buenos Aires"
+		class="w-48 xl:w-auto h-auto xl:h-16" >
+	</div>
+	<div class="px-6">
+		<img src="/images/logo/ndi.png" alt="Instituto Nacional Demócrata"
+		class="w-48 xl:w-auto h-auto xl:h-16">
+	</div>
+</div>
+<!-- fin: seccion4 -->
+
 
 
 <style>
