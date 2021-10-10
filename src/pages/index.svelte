@@ -16,7 +16,7 @@
 </script>
 
 <!-- inicio: seccion1 -->
-<div class="w-screen h-screen flex flex-col lg:flex-col md:flex-col sm:flex-col
+<div class="w-screen h-auto flex flex-col lg:flex-col
 bg-pet-gray texture-gray">
 	<nav class="container">
 		<ul class="header w-full p-8 lg:p-4 flex gap-12 xl:gap-24 justify-center
@@ -91,7 +91,7 @@ md:px-24 lg:px-48 justify-around items-center">
 <!-- fin: seccion1 -->
 
 <!-- inicio: seccion2 -->
-<div bind:this={que} id="que" class="w-full flex flex-col gap-14 py-12
+<div bind:this={que} id="que" class="w-full h-auto flex flex-col gap-14 py-12
 md:py-24 px-6 md:px-12 lg:px-24 justify-center bg-pet-blue texture-blue">
 	<div class="container  justify-center gap-12">
 		<h1 class=" tile max-w-5xl lg:max-w-full w-full text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl
@@ -112,7 +112,7 @@ md:py-24 px-6 md:px-12 lg:px-24 justify-center bg-pet-blue texture-blue">
 <!-- fin: seccion2 -->
 
 <!-- inicio: seccion3 -->
-<div class="w-screen h-screen flex-col xl:flex-row gap-12 py-12 lg:py-12 px-12
+<div class="w-screen h-auto flex-col xl:flex-row gap-12 py-12 lg:py-12 px-12
 md:px-24 lg:px-48 justify-between items-center bg-pet-black texture-black">
 	<div class="container justify-center gap-12 py-12 items-center">
 		<h1 class="tile max-w-5xl lg:max-w-full w-full text-lg sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl
@@ -142,7 +142,7 @@ md:px-24 lg:px-48 justify-between items-center bg-pet-black texture-black">
 <!-- fin: seccion3 -->
 
 <!-- inicio: seccion4 -->
-<div class="w-full py-12 2xl:py-24 px-36 lg:px-48 flex flex-col lg:flex-row
+<div class="w-full h-auto py-12 2xl:py-24 px-36 lg:px-48 flex flex-col lg:flex-row
 gap-6 justify-center items-center bg-pet-gray texture-gray">
 	<div>
 		<h3 class="w-56 text-xl text-center text-white font-bowlby font-bold uppercase">
@@ -160,6 +160,31 @@ gap-6 justify-center items-center bg-pet-gray texture-gray">
 </div>
 <!-- fin: seccion4 -->
 
+<!-- inicio: seccion5 -->
+<div class="w-screen h-auto flex-row xl:flex-row gap-12 py-12 lg:py-12 px-36
+md:px-24 lg:px-36 bg-pet-black texture-black">
+	<h3 class="w-56 py-6 text-xl text-white font-bowlby font-bold uppercase">
+	Colaboran:
+	</h3>
+	<div class="container flex flex-row flex-wrap items-center justify-center py-12">
+		<div class="px-12 py-6">
+			<img src="/images/logo/LogoObservatorio_low.png" alt="Observatorio de Redes">
+		</div>
+		<div class="px-12 py-6">
+			<img src="/images/logo/logoUpdate2.png" alt="Update">
+		</div>
+		<div class="px-12 py-6">
+			<img src="/images/logo/LogoDER_low.png" alt="Democracia en Red">
+		</div>
+		<div class="px-12 py-6">
+			<img src="/images/logo/DataUruguay.png" alt="Data Uruguay">
+		</div>
+		<div class="px-12 py-6">
+			<img src="/images/logo/logoExtituto.png" alt="Extituto Política Abierta">
+		</div>
+	</div>
+</div>
+<!-- fin: seccion5 -->
 
 
 <style>
