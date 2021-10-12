@@ -5,6 +5,7 @@
 
 	//Pruebas para el scroll
 	let que;
+	let repos;
 	function scrollInto(elmnt) {
 	
 	elmnt.scrollIntoView({
@@ -26,7 +27,7 @@ bg-pet-gray texture-gray">
 				<a href="#que">¿Qué es?</a>
 			</li>
 			<li>
-				<a href="https://oderedes.shinyapps.io/politicosentwitter/" target="_blank">Repositorios</a>
+				<a href="#repos">Repositorios</a>
 			</li>
 			<li>
 				<div>
@@ -91,9 +92,9 @@ md:px-24 lg:px-48 justify-around items-center">
 <!-- fin: seccion1 -->
 
 <!-- inicio: seccion2 -->
-<div bind:this={que} id="que" class="w-full h-auto flex flex-col gap-14 py-12
+<div bind:this={que} id="que" class="w-full h-auto flex flex-col gap-14
 md:py-24 px-6 md:px-12 lg:px-24 justify-center bg-pet-blue texture-blue">
-	<div class="container  justify-center gap-12">
+	<div class="container justify-center gap-12 py-12">
 		<h1 class=" tile max-w-5xl lg:max-w-full w-full text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl
 		text-bold text-white font-sans font-bold">
 			<span class="text-pet-black">Políticxs en Twitter</span> es un repositorio con interacciones de usuarios 
@@ -112,14 +113,14 @@ md:py-24 px-6 md:px-12 lg:px-24 justify-center bg-pet-blue texture-blue">
 <!-- fin: seccion2 -->
 
 <!-- inicio: seccion3 -->
-<div class="w-screen h-auto flex-col xl:flex-row gap-12 py-12 lg:py-12 px-12
+<div  bind:this={repos} id="repos" class="w-screen h-auto flex-col xl:flex-row gap-12py-12 lg:py-12 px-12
 md:px-24 lg:px-48 justify-between items-center bg-pet-black texture-black">
-	<div class="container justify-center gap-12 py-12 items-center">
+	<div class="container justify-center gap-12 py-16 items-center">
 		<h1 class="tile max-w-5xl lg:max-w-full w-full text-lg sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl
 		text-bold text-white text-center font-bowlby uppercase py-12">Accedé a los repositorios
 		</h1>
 	</div>
-	<ul class="container flex flex-row flex-wrap justify-center
+	<ul class="container flex flex-row flex-wrap justify-center pb-40
 	text-white text-center font-bowlby uppercase">
 		<li>
 			<img src="images/banderas/repoarg.png" alt="Bandera Argentina" class="px-12 py-6">
@@ -163,10 +164,10 @@ gap-6 justify-center items-center bg-pet-gray texture-gray">
 <!-- inicio: seccion5 -->
 <div class="w-screen h-auto flex-row xl:flex-row gap-12 py-12 lg:py-12 px-36
 md:px-24 lg:px-36 bg-pet-black texture-black">
-	<h3 class="w-56 py-6 text-xl text-white font-bowlby font-bold uppercase">
+	<h3 class="w-56 py-14 text-xl text-white font-bowlby font-bold uppercase">
 	Colaboran:
 	</h3>
-	<div class="container flex flex-row flex-wrap items-center justify-center py-12">
+	<div class="container flex flex-row flex-wrap items-center justify-center py-16">
 		<div class="px-12 py-6">
 			<img src="/images/logo/LogoObservatorio_low.png" alt="Observatorio de Redes">
 		</div>
@@ -185,6 +186,57 @@ md:px-24 lg:px-36 bg-pet-black texture-black">
 	</div>
 </div>
 <!-- fin: seccion5 -->
+
+<!-- inicio: seccion6 -->
+<div class="w-full h-auto py-12 2xl:py-24 px-36 lg:px-48 flex flex-col lg:flex-row
+gap-6 justify-between items-center bg-pet-gray texture-gray">
+	<div>
+		<img src="images/logo/pet.png" alt="Logo de Políticos en Twitter" class="m-auto w-auto h-24 2xl:h-36 xl:h-28">
+	</div>
+	<div>
+		<ul class="header w-full p-8 lg:p-4 flex flex-col gap-6 justify-start
+		lg:justify-start flex-wrap lg:flex-nowrap text-base 2xl:text-xl lg:text-lg
+		font-bowlby text-pet-black uppercase">
+			<li>
+				<a href="#que">¿Qué es?</a>
+			</li>
+			<li>
+				<a href="mailto:hola@politicosentwitter.com">Contacto</a>
+			</li>
+		</ul>
+	</div>
+	<div>
+		<a href="#repos">
+			<h2  class="mr-40 ml-8 text-left 2xl:text-xl lg:text-lg font-bowlby text-pet-black uppercase">
+				Repositorios
+			</h2>
+		</a>
+		<ul class="header w-full flex gap-12 py-4 justify-center items-center
+		lg:justify-center flex-wrap lg:flex-nowrap text-base 2xl:text-xl lg:text-lg
+		font-bowlby text-pet-black uppercase">
+			<li>
+				<a href='/argentina/'>
+					<img src="images/banderas/argentina.png" alt="Bandera Argentina">
+				</a>
+			</li>
+			<li>
+				<a href='/colombia/'>
+					<img src="images/banderas/colombia.png" alt="Bandera Colombia">
+				</a>
+			</li>
+			<li>
+				<a href='/uruguay/'>
+					<img src="images/banderas/uruguay.png" alt="Bandera Uruguay">
+				</a>
+			</li>
+			<li>
+				<a href='/brasil/'>
+					<img src="images/banderas/brasil.png" alt="Bandera Brasil">
+				</a>
+		</ul>
+	</div>
+</div>
+<!-- fin: seccion6 -->
 
 
 <style>
@@ -233,7 +285,7 @@ md:px-24 lg:px-36 bg-pet-black texture-black">
 	  li > a:hover {
 		  @apply text-pet-blue border-pet-blue border-b-4;
 	  }
-  
+
 	  li > button {
 		  @apply border-4;
 	  }
@@ -245,6 +297,10 @@ md:px-24 lg:px-36 bg-pet-black texture-black">
 	  li > a > img:hover {
 		box-shadow: 0 0 0 3px #0C4FEC;
 		border-radius: 100%;
+	  }
+
+	  a > h2:hover {
+		@apply text-pet-blue border-pet-blue border-b-4;
 	  }
 
 	.title {
