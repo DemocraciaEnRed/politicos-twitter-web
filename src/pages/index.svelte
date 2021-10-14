@@ -18,7 +18,7 @@
 </script>
 
 <!-- inicio: seccion1 -->
-<div class="w-screen h-auto flex flex-col lg:flex-col
+<div class="w-full h-auto flex flex-col lg:flex-col
 bg-pet-gray texture-gray">
 	<nav class="container">
 		<ul class="header w-full p-8 lg:p-4 flex gap-12 xl:gap-24 justify-center
@@ -114,7 +114,7 @@ md:py-24 px-6 md:px-12 lg:px-24 justify-center bg-pet-blue texture-blue">
 <!-- fin: seccion2 -->
 
 <!-- inicio: seccion3 -->
-<div  bind:this={repos} id="repos" class="w-screen h-auto flex-col xl:flex-row gap-12py-12 lg:py-12 px-12
+<div  bind:this={repos} id="repos" class="w-full h-auto flex-col xl:flex-row gap-12py-12 lg:py-12 px-12
 md:px-24 lg:px-48 justify-between items-center bg-pet-black texture-black">
 	<div class="container justify-center gap-12 py-16 items-center">
 		<h1 class="tile max-w-5xl lg:max-w-full w-full text-lg sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl
@@ -163,7 +163,7 @@ gap-6 justify-center items-center bg-pet-gray texture-gray">
 <!-- fin: seccion4 -->
 
 <!-- inicio: seccion5 -->
-<div class="w-screen h-auto flex-row xl:flex-row gap-12 py-12 lg:py-12 px-36
+<div bind:this={colaboran} id="colaboran" class="w-full h-auto flex-row xl:flex-row gap-12 py-12 lg:py-12 px-36
 md:px-24 lg:px-36 bg-pet-black texture-black">
 	<h3 class="w-56 py-14 text-xl text-white font-bowlby font-bold uppercase">
 	Colaboran:
