@@ -18,7 +18,7 @@
 </script>
 
 <!-- inicio: seccion1 -->
-<div class="w-screen h-auto py-6 flex flex-col lg:flex-col
+<div class="w-full h-auto py-6 flex flex-wrap flex-col lg:flex-col
 bg-pet-gray texture-gray">
 
   <div>
@@ -26,7 +26,7 @@ bg-pet-gray texture-gray">
         Regresar
     </a>
   </div>
-  <div class="container w-full flex flex-row xl:flex-row gap-12 py-8 lg:py-8 px-12
+  <div class="container w-full flex flex-wrap flex-row xl:flex-row ms:flex-col sm:flex-col gap-12 py-8 lg:py-8 px-12
 md:px-24 lg:px-48 justify-center items-center">
     <div>
 	    <img src="../images/mapas/mapa_colombia.png" alt="Mapa de Colombia" class="w-auto h-auto p-8">
