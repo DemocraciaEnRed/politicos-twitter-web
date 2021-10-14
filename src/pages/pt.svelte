@@ -6,7 +6,7 @@
 	//Pruebas para el scroll
 	let que;
 	let repos;
-	let colaboran;
+    let colaboran;
 	function scrollInto(elmnt) {
 	
 	elmnt.scrollIntoView({
@@ -25,10 +25,10 @@ bg-pet-gray texture-gray">
 		lg:justify-around flex-wrap lg:flex-nowrap text-base 2xl:text-xl lg:text-lg
 		font-bowlby text-pet-black uppercase">
 			<li>
-				<a href="#que">¿Qué es?</a>
+				<a href="#que">O que é?</a>
 			</li>
 			<li>
-				<a href="#repos">Repositorios</a>
+				<a href="#repos">Repositórios</a>
 			</li>
 			<li>
 				<div>
@@ -37,28 +37,28 @@ bg-pet-gray texture-gray">
 					font-bowlby text-pet-black uppercase">
 					<li>
 						<a href='/argentina/'>
-							<img src="../images/banderas/argentina.png" alt="Bandera de Argentina">
+							<img src="../images/banderas/argentina.png" alt="Bandeira de Argentina">
 						</a>
 					</li>
 					<li>
 						<a href='/colombia/'>
-							<img src="../images/banderas/colombia.png" alt="Bandera de Colombia">
+							<img src="../images/banderas/colombia.png" alt="Bandeira de Colômbia">
 						</a>
 		 			</li>
 					<li>
 						<a href='/uruguay/'>
-							<img src="../images/banderas/uruguay.png" alt="Bandera de Uruguay">
+							<img src="../images/banderas/uruguay.png" alt="Bandeira de Uruguai">
 						</a>
 		 			</li>
 					<li>
 						<a href='/brasil/'>
-							<img src="../images/banderas/brasil.png" alt="Bandera de Brasil">
+							<img src="../images/banderas/brasil.png" alt="Bandeira de Brasil">
 						</a>
 					</ul>
 				</div>
  			</li>
 			<li>
- 				<a href= '#colaboran'>¿Quién nos apoya?</a>
+ 				<a href= '#colaboran'>Quem nos apóia?</a>
 			</li>
 			<li>
 					<div>
@@ -79,12 +79,12 @@ bg-pet-gray texture-gray">
 
 <div class="w-full flex flex-col xl:flex-row gap-12 py-8 lg:py-8 px-12
 md:px-24 lg:px-48 justify-around items-center">
-	<img src="../images/mapas/mapa_latam.png" alt="Mapa de América del Sur" class="w-auto h-auto p-8">
+	<img src="../images/mapas/mapa_latam.png" alt="Mapa da américa do sul" class="w-auto h-auto p-8">
 	<div class="max-w-lg flex flex-col justify-center m-8 p-8">
-		<img src="../images/logo/pet.png" alt="Logo de Políticos en Twitter" class="w-auto h-auto">
+		<img src="../images/logo/pet.png" alt="Logotipo Políticos en Twitter" class="w-auto h-auto">
 			<h2 class="max-w-md flex text-lg md:text-3xl
 			text-pet-black font-sans font-bold px-9">
-				Qué dicen, con quién se vinculan, con quién se enfrentan y cómo reaccionan lxs políticxs de América Latina
+            O que eles dizem, com quem se relacionam, com quem se confrontam e como reagem os políticos latino-americanos
 			</h2>
 	</div>
   </div>
@@ -98,16 +98,15 @@ md:py-24 px-6 md:px-12 lg:px-24 justify-center bg-pet-blue texture-blue">
 	<div class="container justify-center gap-12 py-12">
 		<h1 class=" tile max-w-5xl lg:max-w-full w-full text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl
 		text-bold text-white font-sans font-bold">
-			<span class="text-pet-black">Políticxs en Twitter</span> es un repositorio con interacciones de usuarios 
-			relacionados con la política en Argentina, Uruguay, Colombia y Brasil.
+			<span class="text-pet-black">Políticxs en Twitter</span> é um repositório com interações de usuários 
+            relacionadas à política na Argentina, Uruguai, Colômbia e Brasil.
 		</h1>
 		<h2 class="text-xl sm:text-3xl text-white font-free pt-10">
-			Ponemos a disposición de la comunidad este ATLAS con datos libres y reutilizables, 
-			para facilitar la producción de conocimiento.
+			Colocamos este ATLAS à disposição da comunidade com dados gratuitos e reutilizáveis, para facilitar a 
+            produção de conhecimento.
 			<br><br>
-			Porque es ese conocimiento el que nos permitirá observar e interpelar 
-			a la clase política a partir de evidencia, una que convierta 
-			sus dichos en <span class="font-bold text-black">hechos..</span>
+			Porque é esse conhecimento que nos permitirá observar e questionar a classe política a partir de evidências, 
+            que transformam seus ditos em <span class="font-bold text-black">fatos..</span>
 		</h2>
 	</div>
 </div>
@@ -118,26 +117,26 @@ md:py-24 px-6 md:px-12 lg:px-24 justify-center bg-pet-blue texture-blue">
 md:px-24 lg:px-48 justify-between items-center bg-pet-black texture-black">
 	<div class="container justify-center gap-12 py-16 items-center">
 		<h1 class="tile max-w-5xl lg:max-w-full w-full text-lg sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl
-		text-bold text-white text-center font-bowlby uppercase py-12">Accedé a los repositorios
+		text-bold text-white text-center font-bowlby uppercase py-12">Acesse os repositórios
 		</h1>
 	</div>
 	<ul class="container flex flex-row flex-wrap justify-center pb-40
 	text-white text-center font-bowlby uppercase">
 		<li>
-			<img src="../images/banderas/repoarg.png" alt="Bandera de Argentina" class="px-12 py-6">
+			<img src="../images/banderas/repoarg.png" alt="Bandeira de Argentina" class="px-12 py-6">
 			<a href='/argentina/'>Argentina</a>
 		</li>
 		<li>
-			<img src="../images/banderas/repocol.png" alt="Bandera de Colombia" class="px-12 py-6">
-			<a href='/colombia/'>Colombia</a>
+			<img src="../images/banderas/repocol.png" alt="Bandeira de Colômbia" class="px-12 py-6">
+			<a href='/colombia/'>Colômbia</a>
 		</li>
 		<li>
-			<img src="../images/banderas/repouru.png" alt="Bandera de Uruguay" class="px-12 py-6">
-			<a href='/uruguay/'>Uruguay</a>
+			<img src="../images/banderas/repouru.png" alt="Bandeira de Uruguai" class="px-12 py-6">
+			<a href='/uruguay/'>Uruguai</a>
 		</li>
 		<li>
-			<img src="../images/banderas/repobra.png" alt="Bandera de Brasil" class="px-12 py-6">
-			<a href='/brasil/'>Brazil</a>
+			<img src="../images/banderas/repobra.png" alt="Bandeira de Brasil" class="px-12 py-6">
+			<a href='/brasil/'>Brasil</a>
 		</li>
 	</ul>
 </div>
@@ -148,41 +147,41 @@ md:px-24 lg:px-48 justify-between items-center bg-pet-black texture-black">
 gap-6 justify-center items-center bg-pet-gray texture-gray">
 	<div>
 		<h3 class="w-56 text-xl text-center text-white font-bowlby font-bold uppercase">
-		Nos apoyan:
+        Eles nos apóiam:
 		</h3>
 	</div>
 	<div class="px-6">
-		<img src="../images/logo/uba.png" alt="Logo Universidad de Buenos Aires"
+		<img src="../images/logo/uba.png" alt="Logotipo Universidade de Buenos Aires"
 		class="w-48 xl:w-auto h-auto xl:h-16" >
 	</div>
 	<div class="px-6">
-		<img src="../images/logo/ndi.png" alt="Logo Instituto Nacional Demócrata"
+		<img src="../images/logo/ndi.png" alt="Logotipo Instituto Democrático Nacional"
 		class="w-48 xl:w-auto h-auto xl:h-16">
 	</div>
 </div>
 <!-- fin: seccion4 -->
 
 <!-- inicio: seccion5 -->
-<div bind:this={colaboran} id="colaboran" class="w-full h-auto flex-row xl:flex-row gap-12 py-12 lg:py-12 px-36
+<div class="w-full h-auto flex-row xl:flex-row gap-12 py-12 lg:py-12 px-36
 md:px-24 lg:px-36 bg-pet-black texture-black">
 	<h3 class="w-56 py-14 text-xl text-white font-bowlby font-bold uppercase">
-	Colaboran:
+    Eles colaboram:
 	</h3>
 	<div class="container flex flex-row flex-wrap items-center justify-center py-16">
 		<div class="px-12 py-6">
-			<img src="../images/logo/LogoObservatorio_low.png" alt="Logo Observatorio de Redes">
+			<img src="../images/logo/LogoObservatorio_low.png" alt="Logotipo Observatório de Redes">
 		</div>
 		<div class="px-12 py-6">
-			<img src="../images/logo/logoUpdate2.png" alt="Logo Update">
+			<img src="../images/logo/logoUpdate2.png" alt="Logotipo Update">
 		</div>
 		<div class="px-12 py-6">
-			<img src="../images/logo/LogoDER_low.png" alt="Logo Democracia en Red">
+			<img src="../images/logo/LogoDER_low.png" alt="Logotipo Democracia em rede">
 		</div>
 		<div class="px-12 py-6">
-			<img src="../images/logo/DataUruguay.png" alt="Logo Data Uruguay">
+			<img src="../images/logo/DataUruguay.png" alt="Logotipo Data Uruguai">
 		</div>
 		<div class="px-12 py-6">
-			<img src="../images/logo/logoExtituto.png" alt="Logo Extituto Política Abierta">
+			<img src="../images/logo/logoExtituto.png" alt="Logotipo Extensão política aberta">
 		</div>
 	</div>
 </div>
@@ -199,17 +198,17 @@ gap-6 justify-between items-center bg-pet-gray texture-gray">
 		lg:justify-start flex-wrap lg:flex-nowrap text-base 2xl:text-xl lg:text-lg
 		font-bowlby text-pet-black uppercase">
 			<li>
-				<a href="#que">¿Qué es?</a>
+				<a href="#que">O que é?</a>
 			</li>
 			<li>
-				<a href="mailto:hola@politicosentwitter.com">Contacto</a>
+				<a href="mailto:hola@politicosentwitter.com">Contato</a>
 			</li>
 		</ul>
 	</div>
 	<div>
 		<a href="#repos">
 			<h2  class="mr-40 ml-8 text-left 2xl:text-xl lg:text-lg font-bowlby text-pet-black uppercase">
-				Repositorios
+				Repositórios
 			</h2>
 		</a>
 		<ul class="header w-full flex gap-12 py-4 justify-center items-center
@@ -217,22 +216,22 @@ gap-6 justify-between items-center bg-pet-gray texture-gray">
 		font-bowlby text-pet-black uppercase">
 			<li>
 				<a href='/argentina/'>
-					<img src="../images/banderas/argentina.png" alt="Bandera de Argentina">
+					<img src="../images/banderas/argentina.png" alt="Bandeira de Argentina">
 				</a>
 			</li>
 			<li>
 				<a href='/colombia/'>
-					<img src="../images/banderas/colombia.png" alt="Bandera de Colombia">
+					<img src="../images/banderas/colombia.png" alt="Bandeira de Colômbia">
 				</a>
 			</li>
 			<li>
 				<a href='/uruguay/'>
-					<img src="../images/banderas/uruguay.png" alt="Bandera de Uruguay">
+					<img src="../images/banderas/uruguay.png" alt="Bandeira de Uruguai">
 				</a>
 			</li>
 			<li>
 				<a href='/brasil/'>
-					<img src="../images/banderas/brasil.png" alt="Bandera de Brasil">
+					<img src="../images/banderas/brasil.png" alt="Bandeira de Brasil">
 				</a>
 		</ul>
 	</div>
