@@ -18,7 +18,7 @@
 </script>
 
 <!-- inicio: seccion1 -->
-<div class="w-full h-auto flex flex-col lg:flex-col
+<div class="w-full xl:w-screen lg:w-screen md:w-screen sm:w-screen h-auto flex flex-col lg:flex-col
 bg-pet-gray texture-gray">
 	<nav class="container">
 		<ul class="header w-full p-8 lg:p-4 flex gap-12 xl:gap-24 justify-center

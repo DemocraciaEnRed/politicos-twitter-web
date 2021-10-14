@@ -18,7 +18,7 @@
 </script>
 
 <!-- inicio: seccion1 -->
-<div class="w-full h-auto py-6 flex flex-wrap flex-col lg:flex-col
+<div class="w-full xl:w-screen lg:w-screen md:w-screen sm:w-screen h-auto py-6 flex flex-wrap flex-col lg:flex-col
 bg-pet-gray texture-gray">
 
   <div>
